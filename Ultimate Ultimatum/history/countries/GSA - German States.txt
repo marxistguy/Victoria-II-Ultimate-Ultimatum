@@ -1,0 +1,49 @@
+﻿capital = 233
+primary_culture = north_german
+culture = south_german
+culture = yankee
+culture = dixie
+religion = protestant
+religion = catholic
+government = fascist_dictatorship
+plurality = 0.15
+nationalvalue = nv_order
+literacy = 0.87
+civilized = yes
+is_releasable_vassal = yes
+
+
+# Political reforms
+slavery = yes_slavery
+upper_house_composition = party_appointed
+vote_franschise = none_voting
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = state_controlled
+voting_system = first_past_the_post
+political_parties = underground_parties
+
+
+# Social Reforms
+wage_reform = low_minimum_wage
+work_hours = twelve_hours
+safety_regulations = good_safety
+health_care = good_health_care
+unemployment_subsidies = low_subsidies
+pensions = good_pensions 
+school_reforms = no_schools
+
+
+ruling_party = GER_fascist
+upper_house = {
+        fascist = 100
+        liberal = 0
+        conservative = 0
+        reactionary = 0
+        anarcho_liberal = 0
+        socialist = 0
+        communist = 0
+}
+
+
+schools = army_tech_school
