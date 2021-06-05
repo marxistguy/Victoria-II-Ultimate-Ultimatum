@@ -1,0 +1,41 @@
+#############################################;;;;;;;;;;;;;;x
+#Additional Decisions;;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x
+rgo_change_mining_title;Change Mining RGO;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+rgo_change_mining_desc;Allows the switching of a single RGO province of the following types: Coal, Iron, Sulphur, or Precious Metal into Coal, Iron, or Sulphur. Causes a cooldown of 25 years.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+rgo_change_agriculture_title;Change Agriculture RGO;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+rgo_change_agriculture_desc;Allows the switching of a single RGO province of the following types: Grain, Fruit, Fish, Cattle, Wool, Cotton, Timber, or Precious Goods into Grain, Fruit, Fish, Cattle, Wool, Cotton, or Timber. Causes a cool down of 12.5 years.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+infamy_for_growth_selector_title;Commence a Population Growth Campaign;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+infamy_for_growth_selector_desc;Start a campaign to trade infamy & tax-effiency reduction in-exchange for more overall pop-growth.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+infamy_for_growth_modifier_removal_title;Stop the ongoing Population Campaign;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+infamy_for_growth_modifier_removal_desc;Cancel the current ongoing growth campaign.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#############################################;;;;;;;;;;;;;;x
+#Pop Growth Campaigns;;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x
+birthrate_push_low;Basic Growth Incentives;;;;;;;;;;;;x,,,,,,,
+birthrate_push_low_desc;Basic Growth Incentives;;;;;;;;;;;;x,,,,,,,
+birthrate_push_medium;Aggressive Pop-growth Campaign;;;;;;;;;;;;x,,,,,,,
+birthrate_push_medium_desc;Aggressive Pop-growth Campaign;;;;;;;;;;;;x,,,,,,,
+birthrate_push_high;State Enforced Birthing Campaign;;;;;;;;;;;;x,,,,,,,
+birthrate_push_high_desc;State Enforced Birthing Campaign;;;;;;;;;;;;x,,,,,,,
+recently_selected_birthrate;Recently Selected a Growth Campaign;;;;;;;;;;;;x,,,,,,,
+recently_selected_birthrate_desc;Due to recently selecting a growth-campaign, you are unable to remove the ongoing campaign till this modifier expires.;;;;;;;;;;;;x;;;;;;
+create_league_nations_title;Create League of Nations;;;;;;;;;;;;;;;;;x;;;;;;;;
+create_league_nations_desc;The League of Nations. was the first worldwide intergovernmental organisation whose principal mission was to maintain world peace. It was founded on 10 January 1920 following the Paris Peace Conference that ended the First World War; in 1919 U.S. president Woodrow Wilson won the Nobel Peace Prize for his role as the leading architect of the League.;;;;;;;;;;;;;;;x;;;;;
+join_league_nations_title;Join League of Nations;;;;;;;x;;;;;;
+join_league_nations_desc;We have the opportunity to join the League of Nations;;;;;;;x;;;;;;
+leave_league_nations_title;Leave League of Nations;;;;;;;x;;;;;
+leave_league_nations_desc;The sweep change of our government allow us to leave the League of Nations;;;;;;;x;;;;;
+treaties_of_rome_title;Treaties of Rome;;;;;;;x;;;
+treaties_of_rome_desc;The Treaties of Rome were a set of three international treaties signed on 18 May 1941 by the Independent State of Croatia and Kingdom of Italy at the Palazzo Venezia in Rome. The most important provisions in the treaties referred to the borders between the two states, as they allowed the creation of the Italian Governorate of Dalmatia, carved out of the occupied Yugoslav territory following the April 1941 invasion of Yugoslavia.;;;;;;;;;;;x;;;
+the_april_war_title;Invasion of Yugoslavia;;;;;x;;
+the_april_war_desc;The Invasion of Yugoslavia, also known as the April War or Operation 25, was a German-led attack on the Kingdom of Yugoslavia by the Axis powers which began on 6 April 1941 during World War II. The order for the invasion was put forward in "Führer Directive No. 25", which Adolf Hitler issued on 27 March 1941, following the Yugoslav coup d'état.;;;;;;;;x;;;
+alliance_nato_title;NATO;;;;;;;;;;;;x
+alliance_nato_desc;North Atlantic Alliance, is an intergovernmental military alliance based on the North Atlantic Treaty which was signed 1949. The organization constitutes a system of collective defence whereby its member states agree to mutual defense in response to an attack by any external party.;;;;;;;;;;;;x
+leave_alliance_nato;Leave NATO;;;;;;;;;;;;x
+leave_alliance_nato_title;Leave NATO;;;;;;;;;;;;x
+leave_alliance_nato_desc;We shall foster an independent defence by removing our fleets from NATO command.All armed forces will be removed from NATO's integrated military command, and all NATO troops were asked to leave our country.;;;;;;;;;;;;x
+form_benelux_title;Form the Benelux;;;;;;;;;;;X
+form_benelux_desc;Due to our hegemonic nature over our Low Countries Neighbour, a union of The Netherlands, Belgium, and Luxembourg can be achieved, the name originating from a combination of the first letters of each nation's name. The Benelux central administrative will be located in $CAPITAL$..;;;;;;;;;;X
+form_yugoslavia_title;Form Yugoslavia;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+form_yugoslavia_desc;The Slavic peoples of the Balkans must be united under a single banner: ours. It is the only way to keep us free of rule from European powers.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,

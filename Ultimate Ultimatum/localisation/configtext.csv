@@ -1,0 +1,192 @@
+;;;;;;;;;;;;;;;;;x
+treaty_of_tarbagatai_title;Treaty of Tarbagatai;;;;;;;;;;;;;;;;;x
+treaty_of_tarbagatai_desc;Treaty of Tarbagatai was a border protocol between China and Russia that defined most of the western extent of their border in central Asia, between Outer Mongolia and the Khanate of Kokand.;;;;;;;;;;;;;;;;;x
+IGNORE_DECISION_ON;This decision is set to NOT notify the player when it is available to be taken. Click to change notification status.!;;;;;;;;;;;;;x
+IGNORE_DECISION_OFF;This decision is set to notify the player when it is available to be taken. Click to change notification status.!;;;;;;;;;;;;;x
+SM_WINDOW;Window mode;;;;;;;;;;;;;x
+SM_WINDOWED;Windowed;;;;;;;;;;;;;x
+SM_FULLSCREEN;Fullscreen;;;;;;;;;;;;;x
+SM_BORDERLESS;Borderless;;;;;;;;;;;;;x
+tribal_monarchy;Tribal Monarchy;;;;;;;;;x;;;;
+tribal_monarchy_ruler;King;;;;;;;;;x;;;;
+form_american_republics_title;Form the Union of Collective American States;;;;;;;;x;;;;
+form_american_republics_desc;As the sole country in North America who has immense power over all our neighbours as well the whole American continent, we can propose a superstate composed of the whole American continent countries in a collective union led by us.;;;;;;;;;;;;x
+mormon;Mormon;;;;;;;;;x;;;;
+mormon_rebels_title;Mormon Rebels;x;;
+mormon_rebels_name;Mormon Rebels;x;;
+mormon_rebels_desc;Mormons rebels are Mormons who, feeling oppressed by the Protestant and Catholic majority, have risen up to protect their religion.;x;;
+mormon_rebels_army;$COUNTRY_ADJ$ Mormon Rebels;x;;
+MIL_FROM_TROOPS;Soldiers & Army;Soldats et Armée;Soldaten & Armee;;;;;;;;;x;;;;
+establish_a_unified_communist_greece_title;Establish a unified communist Greece.;;;;;;;;;;;x;;;
+establish_a_unified_communist_greece_desc;Now that the proletariate of greece has won the civil war, we can establish complete rule in all of Greece.;;;;;;;x;;;;
+persecute_other_religion_title;Persecute other religion.;;;;;x;;;;
+persecute_other_religion_desc;We have won the war, we can get rid of any heretical cults that are contrary to our beliefs and was once oppress us.;;;;;;x;;;;;
+persecute_the_undesirables_title;Persecute the undesirables.;;;;;;x;;;;
+persecute_the_undesirables_desc;The undesirable ethnic and religious group in our glorious southern states intensified the needs of our populace to remove and persecute the undesirables.;;;x;;;;;
+reestablish_the_southern_states_title;Reestablish the Southern States.;;;;x;;;;
+reestablish_the_southern_states_desc;We as a dixies and now that we are victorious in our war of struggle against the yankees, have been obliged by the will of the people to reestablish the once great historical southern states of the CSA.;;;;;;;x;;;;;
+reorganize_alaska_title;Reorganize Alaska;;;x;;;;
+reorganize_alaska_desc;Tedious journey and effort has been made to colonize parts of northwest North America, now we can rearrange the region to better suit our needs.;;;;x;;;;
+form_the_kingdom_of_northern_italy_title;Form the Kingdom of Northern Italy;;;x;;;
+form_the_kingdom_of_northern_italy_desc;Kingdom of Northern Italy is a state in northern Italian peninsula composed of the Northern Italian states, now that we are sufficient enough, we can form it to unite our Northern Italian brethren;;;x;;;;
+EVTNAME6016807;Crisis;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC6016807;The system of Crisis sometimes end with weird scenarios in the game start or too early in the game, like crisis for the liberation of Greece and Egypt in 1640. To counter that, there is an option to remove unhistorical countries cores in the decision tab and crisis (non colonial crisis at least) are locked until someone researches revolution and counter-revolution in 1870. If you'd like, you can change that now and have the crisis be unlocked from now on, like it is in Vanilla.;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,
+EVT6016807PTA;Keep crisis locked until 1870.;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVT6016807PTB;Let crisis be unlocked from now on, like in Vanilla.;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+AGRESSION_;War of Aggression;;;;;;;;;;;x;;;;
+SPLITINHALF;Split in Half;;;;;;;;x;;;
+InvadePrussia_title;Invade Prussia;;;;;;;x;;;;
+InvadePrussia_desc;Our domination of Europe has complete, it is time to kick the Prussians out before they attack.;;;;;;;x;;;;
+remove_protector_title;Denounce our title as protector of eastern Christians;;;;;;;x;;;;
+remove_protector_desc;The current change of regime allow us to remove our title as the protector of Eastern Orthodox Christians.;;;;x;;;;;
+order_44_title;Order 44;;;x;;;;
+order_44_desc;Order 44 is an order by Nobusuke Kishi after taking the Japanese leadership to purge his opponents.;;;x;;;;
+EVTNAME97605;Kurofune;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME97606;Commodore Perry Successful;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97606;Commodore Perry has returned from his mission to Japan with a treaty in hand: we have gained numerous trade concessions, but more importantly we have cracked open the shield that is Japan's policy of isolation. This is a great coup for American diplomacy and influence in the Far East.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+EVTNAME97607;The Japanese Are Defiant!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97607;Commodore Perry has returned from his mission to Japan with unfortunate news: they have chosen to defy his ultimatum and thumb their collective noses at our government. Should we back down now, it will be a great blow to our prestige and our influence in the Far East.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+EVTNAME97608;Japanese Surrender?;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97608;We are being overwhelmed by the superior might of western armaments. Despite the loss of face, we must consider offering the hated foreigners terms of our surrender.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+EVTNAME97609;The Japanese Have Surrendered;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97609;We have formally concluded a treaty with the Japanese which will see our influence restored, and our demands for their ports to be opened to our ships to be met. Additionally, an indemnity will be placed upon their government to make up for the expense of the $COUNTRY_ADJ$ war effort.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME97610;The Japanese Have Refused!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97610;Despite the overwhelming odds against them, the Japanese have refused our generous offer of surrender.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+EVTNAME97615;Sonno Joi;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97615;'Revere the emperor and expel the barbarians!'\n\nThis is the slogan chanted by neo-confucian activists, reacting to the Tokugawa shogunate's opening of Japan to foreigners. There have been growing reports of violence all over the country, primarily against foreign visitors and statesmen but also against the shogunate itself. Each incident chips away at Tokugawa control over the daimyo and erodes relations with the western powers.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME97616;$PROVINCENAME$ Incident;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97616;There has been an incident in $PROVINCENAME$ where samurai, acting under the political slogan of 'Sonno Joi', have committed violence against foreigners conducting business in $STATENAME$. The incident has affected the Tokugawa shogunate's relations with foreign powers, as well as incited locals into riot.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,
+EVTNAME97617;Order to Expel the Barbarians;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97617;In an unprecedented move, the Imperial Court has issued an edict to expel the foreign barbarians present in Japan. This runs in contravention to the traditional role of the Emperor as a figurehead, is a challenge to the shogunate's power, and may serve to further incite rebellion.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,
+EVTDESC97618;In an unprecedented move, the Imperial Court has issued an edict to expel the foreign barbarians present in Japan. This runs in contravention to the traditional role of the Emperor as a figurehead, and is a challenge to the shogunate's power. The $COUNTRY_ADJ$ clan must decide whether it supports the Emperor's edict or quietly opposes it.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME97620;The Death of Iesada;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97620;Tokugawa Iesada, the 13th shogun of Japan, has died childless. This has begun a struggle within the bakufu to select a replacement. The Southern Tozama Daimyo wish to see Tokugawa Yoshinobu become shogun, while the fudai daimyo and shogunate officials are more in favor of Tokugawa Iemochi-- even though he is still but a child. It seems certain that, no matter which candidate is victorious, the disaffected daimyo will see this as a loss of power and make trouble.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,
+EVTNAME97621;Tokugawa Yoshinobu is Shogun;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97621;The shogunate has taken a step in the right direction and appointed Tokugawa Yoshinobu as the new leader of the bakufu following the death of Iesada. This was always the preferred choice of the tozama daimyo, and perhaps it is a sign that the bakufu is not only willing to do what it must to keep Japan strong but also a sign that the tozama will be permitted more influence within the shogunate.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97622;Even though the fudai daimyo, the relatives and close allies of the Tokugawa clan, supported the appointment of young Iemochi as the new shogun following Iesada's death, instead the leader of the bakufu will be Yoshinobu... a candidate favored by the outsider tozama daimyo. The fudai are growing increasingly alarmed at the insidious influence of the tozama, and there is a stirring sentiment that perhaps the time has come for a grander change.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,
+EVTNAME97623;Tokugawa Iemochi is Shogun;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97623;Pandering once again to the fudai daimyo, all relatives and close allies within the bakufu, the child Iemochi has been appointed shogun-- instead of the more sensible candidate chosen by the tozama. It is becoming increasingly clear that a larger change is necessary. Perhaps the time has come for the Emperor to rule Japan, a single leader to bring the nation into this new era?;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,
+EVTDESC97624;The shogunate has taken a step in the right direction and appointed Tokugawa Iemochi as the new leader of the bakufu following the death of Iesada. This was always the preferred choice of the fudai daimyo, and perhaps it is a sign that the bakufu is not only willing to do what it must to keep Japan strong but also a sign that the outsider tozama will have their influence in the bakufu kept to a minimum.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+EVTNAME97625;Sakuradamon Incident;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97625;The shogun's Chief Minister has been assassinated by ronin samurai outside the very gates of Edo castle! Though the ronin were either cut down or committed seppuku, a manifesto found on their bodies makes it clear their act was a reaction to the recent purge instigated by the Chief Minister against agitators within the shogunate. This is a clear sign that upheaval against the bakufu has reached an unacceptable point. Many are urging that a policy of Kobu Gattai-- a union of the bakufu and the imperial court-- may be required.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97626;The shogun's Chief Minister has been assassinated by ronin samurai outside the very gates of Edo castle! Though the ronin were either cut down or committed seppuku, a manifesto found on their bodies makes it clear their act was a reaction to the recent purge instigated by the Chief Minister against agitators within the shogunate. This is a clear sign that upheaval against the bakufu has reached an unacceptable point, and thus the bakufu has begun a compromise policy of Kobu Gattai-- a union of the bakufu and the imperial court. Some are seeing this as a sign of further weakness.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTDESC97627;The shogun's Chief Minister has been assassinated by ronin samurai outside the very gates of Edo castle! Though the ronin were either cut down or committed seppuku, a manifesto found on their bodies makes it clear their act was a reaction to the recent purge instigated by the Chief Minister against agitators within the shogunate. This is a clear sign that upheaval against the bakufu has reached an unacceptable point, yet the shogunate refuses to compromise with the imperial court. Many are certain this will only speed up the coming conflict.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME97630;The Death of Emperor Komei;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97630;There are some who believe that Emperor Komei was assassinated-- delivered a handkerchief laced with smallpox, perhaps by radicals who fear the possibility of compromise between the bakufu and the imperial court. No matter the truth, the death of the Emperor has placed the young Emperor Meiji upon the imperial throne and eliminated any chance of compromise.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTDESC97636;There is a growing restlessness among the daimyo, with some whispering that the Tokugawa shogunate has grown weak and is unable to deal with the encroachment of foreign powers. We have received word that the shogunate has consulted with the outsider tozama, perhaps seeking new allies. If so, this compounds injury with insult.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,
+EVTDESC97637;There is a growing restlessness among the daimyo, with some whispering that the Tokugawa shogunate has grown weak and is unable to deal with the encroachment of foreign powers. We have received word that the shogunate has consulted with the fudai daimyo, perhaps seeking new allies. This is hardly unexpected, though the tozama agree this makes it clear that the shogunate is not the future of Japan.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,
+EVTNAME97640;The Meiji Rebellion;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97640;The $FROMCOUNTRY_ADJ$ clan has made a bold move: they have declared they intend to see the emperor restored to rule over all of Japan. The $COUNTRY_ADJ$ must make a decision: do we throw in our support with the imperial court, or do we uphold our duty and support the shogun?;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97641;The $FROMCOUNTRY_ADJ$ clan has made a bold move: they have seized control of the palace at Kyoto and declared they intend to see the emperor restored to rule over Japan. Word has it they have recruited fellow daimyo to stand with them in this traitorous war. We must issue a call to our allies and move at once!\n\n§RNOTE: To win this war, you must occupy Kyoto and the rebellion leader's capital. You must not allow Edo to become occupied, and you cannot White Peace. If you White Peace, you lose.§W;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,
+EVTDESC97642;The $FROMCOUNTRY_ADJ$ clan has made a bold move: they have declared they intend to see the emperor restored to rule over all of Japan. We have little choice, as they have forced our hand. Either we rise up against the Shogun now, or the Shogun will assume we are behind the rebellion even if we are not. The time has come to fight!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME97645;We Are Defeated;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97645;The Edo palace has been occupied, and our loyal daimyo are on the retreat. Our advisors tell us that our only option is to lay down our arms and allow the Emperor his victory. There is a place for the Tokugawa within the new order.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+EVTNAME97646;The Meiji Restoration;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97646;$COUNTRY_ADJ$ clan forces have marched triumphantly into Edo, and the Tokugawa shogunate has agreed to a permanent peace. For the first time since before the Sengoku, the Imperial Court now rules Japan once again. Victory is ours!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTDESC97647;Emperor Meiji has been restored to rule over Japan. An imperial messenger has arrived at the $COUNTRY_ADJ$ palace in $CAPITAL$ to demand our willing allegiance to the Emperor.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME97648;A New Capital in the East?;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97648;While Kyoto has long been the capital of Japan, and home to the Imperial Court, the city of Edo has become the de facto capital-- for centuries it has been the center of shogunate power, as well as a cultural and administrative center. The Emperor will need to decide whether the court should move to Edo and create a new capital... or remain in Kyoto and revitalize it instead.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,
+EVTNAME97650;We Are Defeated;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97650;The Imperial palace at Kyoto has been occupied, and our daimyo allies are on the retreat. Our advisors tell us that our only option is to lay down our arms and allow the Shogun his victory. If we are fortunate, the $COUNTRY_ADJ$ clan will not be wiped out by this unfortunate turn of events.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME97651;Tokugawa Victory;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97651;Tokugawa clan forces have marched triumphantly into Kyoto, and the traitor daimyos have agreed to a permanent peace. The Bakumatsu has ended with the shogunate in control once again-- victory is ours!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97652;The Tokugawa shogunate has once again asserted control over Japan. A bakufu messenger has arrived at the $COUNTRY_ADJ$ palace in $CAPITAL$ to demand our submission to direct rule from Edo.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97605;More 'black ships' have appeared off our shores, these ones commanded by an American named Commodore Matthew Perry. The ill-tempered westerner is demanding an end to the Japanese policy of Sokoku-- specifically trading rights in several ports, extraterritoriality for American sailors and protection for their shipwrecks. At first he demanded to negotiate with the Emperor, but that is impossible. Thus it falls to the Shogun to either agree to his demands, risking the appearance of weakness, or refuse and bring the wrath of the Americans upon us.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,
+EVTNAME97660;The Taisho Era;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97660;With the ascension of Emperor Taisho, whose poor health has prompted a shift in political power from Japan's old guard to the Imperial Diet, democratic parties are beginning to see their influence spread throughout the country. Though democratic tradition is not deeply rooted, the idea of enfranchisement as a right of the individual Japanese citizen has become far more broadly accepted. Students, university professors and journalists inspired by Western schools of thought have organized public demonstrations to demand new reforms.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,
+EVTNAME97665;The Satsuma Rebellion;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97665;A growing dissatisfaction among the former samurai with the abolition of the han system and the resulting reduction in their personal prestige has crystallized in a rebellion. Led by one of the most prestigious samurai leaders of the former Satsuma Domain, Saigo Takamori, the rebellion has attracted a large number of followers and will be a severe challenge for the Japanese government to deal with.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME97670;The Northern Islands;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97670;The islands of Sakhalin and the Kurils are a natural extension of our holdings on Hokkaido, and we must seek to claim these places before the Russians do so first.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+EVTNAME97673;The Path of Progress;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97673;$COUNTRY$ has followed a militaristic path until now, determined to set ourselves against our neighbours in the interest of security-- while risking that security with dangerous wars. The new $COUNTRY_ADJ$ government has determined that this must change. We must follow a path of progress, and instead devote outselves to technology and westernization if we are to remain free and whole.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME97674;The Line of Advantage;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC97674;The $COUNTRY_ADJ$ government has followed a policy of progress and westernization until now, hoping that advancing $COUNTRY$ to match the Western powers would keep us safe. We now see this is in error, and that only by an aggressive expansion of our borders can we hope to maintain the security of $COUNTRY$ proper.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+EVTNAME66689;Lucky Nations;;;;;;;;;;;;;x
+EVTDESC66689;Sometimes in this world, nations seem to be blessed by God in certain periods. Their leaders are brilliant, their people are hardy, they excel in warfare, produce amazing works of culture, and their economies boom. Do we live in such a world? If Lucky Nations are turned on, ten random civilized nations who are not Great Powers and five random uncivilized nations will be given special bonuses that will enable them to shake up the status quo of the world by giving them significant bonuses.;;;;;;x
+EVTOPTA66689;Turn Lucky Nations On.;;;;;;x
+EVTOPTB66689;Keep Lucky Nations Off.;;;;;;x
+;;;;;;;;;;;;x,,,,,,,,,,,,,
+gtfo_on_title;Enable 'Release Vassal' decisions;;;;;;;;;;;;x,,
+gtfo_on_desc;The Release Vassal decisions allow you to release vassals, and are otherwise kept hidden from view to avoid having them clutter up your decision list.;;;;;;;;;;;;x
+gtfo_off_title;Disable 'Release Vassal' decisions;;;;;;;;;;;;x,,
+gtfo_off_desc;Your decision list will now be uncluttered!;;;;;;;;;;;;x,,
+gtfo_disabled_title;Deactivate 'Release Vassal' decisions;;;;;;;;;;;;x,,
+gtfo_disabled_desc;The 'Release Vassal' decisions will disappear from this game session and won't reappear again. You won't be able to use these decisions again for this game.;;;;;;;;;;;;x,,
+EVT6669900DESC;This is a test setup event. The purpose of this event will be revealed if you click OK. You can choose not to have the setups be made if you wish to. Its optional and i haven't quite testing it out througly. Certain start dates still has empty setup flags to it, considering its still work in progress. I have plans to keep updating it. If you accidentally clicked it please reload the campaign or choose the "no" option inside each start dates event.;;;;;;;;;;;;;;x,,
+EVT6669901DESC;Choose the start date you currently play. An idea occur to me when i find that the way the original devs of the Ultimate mod try to setup several things in the mod by using a decision, namely in the file Ultimate - Scenario Starters decision, which are frankly more prone to some undetected and horrendous bug mistakes caused by simple line issue, such as the bubbling pops bugs and cores related issues which i tiresomely find and fix in that decision file. So now in the meantime, this test setup event will at least fix the remaining bugs that occur in the mod. THIS IS STILL TEMPORARY. Give feedbacks on what to add next.;;;;;;;x
+EVT_8215000_NAME;The Western Allies;;;;;;;;;;X;;;;;;;
+EVT_8215000_DESC;The Allies of World War II were the countries that opposed the Axis powers during the Second World War. The Allies became involved in World War II either because they had already been invaded, were directly threatened with invasion by the Axis or because they were concerned that the Axis powers would come to control the world.;;;;;;;;;;X;;;;;;;
+EVT_8215000_A;OK;;;;;;;;;;X;;;;;;;
+EVT_8215000_B;No need to stay Allied;;;;;;;;;;X;;;;;;;
+establish_west_germany_title;Establish West Germany;;;;;;;;x
+establish_west_germany_desc;West Germany is the state that existed in 1949 short for the Federal Republic of Germany (German: Bundesrepublik Deutschland;), in the period between its formation on 23 May 1949 and German reunification on 3 October 1990. During this Cold War period, the western portion of Germany was part of the Western Bloc.;;;;;;;;;;X;;;;;;;
+establish_west_germany_uk_fra_title;Establish West Germany;;;;;;;;x
+establish_west_germany_uk_fra_desc;West Germany is the state that existed in 1949 short for the Federal Republic of Germany (German: Bundesrepublik Deutschland), in the period between its formation on 23 May 1949 and German reunification on 3 October 1990. During this Cold War period, the western portion of Germany was part of the Western Bloc.;;;;;;;;;;X;;;;;;;
+establish_west_germany_uk_fra_title;Establish West Germany;;;;;;;;x
+establish_ddr_title;Establish East Germany;;;;;;;;x
+establish_ddr_desc;East Germany, officially the German Democratic Republic (GDR; German: Deutsche Demokratische Republik), was a country that existed from 1949 to 1990, the period when the eastern portion of Germany was part of the Eastern Bloc during the Cold War which and part of the Soviet zone of influence;;;;;x
+form_asean_title;Form ASEAN;;;;;;;x
+form_asean_desc;The Association of Southeast Asian Nations is a regional intergovernmental organization comprising ten countries in Southeast Asia, which promotes intergovernmental cooperation and facilitates economic, political, security, military, educational, and sociocultural integration among its members and other countries in Asia.;;;;;;;x
+form_african_union_title;Form African Union;;;;;;x
+form_african_union_desc;The African Union (AU) is a continental union consisting of 55 member states located on the continent of Africa. The AU was announced in the Sirte Declaration in Sirte, Libya, on 9 September 1999, calling for the establishment of the African Union. The bloc was founded on 26 May 2001 in Addis Ababa, Ethiopia, and launched on 9 July 2002 in Durban, South Africa.;;;;;;x
+POLITICS_MATTERS_OF_STATE;Matters of State;;;;;;;;;;;;;;;;;;x;
+matters_of_state;Matters of State;;;;;;;;;;;;;;;;;;x;
+option_disable_bankruptcy_events_title;Option: Disable the Bankruptcy Events (From HPM);;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+option_disable_bankruptcy_events_desc;Disabling the Bankruptcy events will stop you from getting the CB and effects that happen when a country goes bankrupt on you. It won't stop the event for the AI nor will stop countries going bankrupt.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+option_disable_hpm_crisis_title;Option: Enable Crisis from the Start (From HPM);;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+option_disable_hpm_crisis_desc;In HPM, crisis only start after 1870 and after Revolution and Counter-revolution is researched and an event fires. This is to stop stuff like free Ireland in 1840 because of the militancy that the famine generates, among other weird crisis. Selecting this option will remove these restrictions and make crisis happen from the start of the game, like it happens in Vanilla Victoria 2.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+option_disable_workplace_events_title;Option: Disable Workplace Events (From HPM);;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+option_disable_workplace_events_desc;A few province events related to the workplace, such as "The Old Man and the Sea", "All the Tea in PROVINCENAME" and "Blood and Iron Mine" can get quite spammy. I increased the MTTH and tried to balance it out, adding more requirements, but if you still find it spammy, you can use this option to completely disable them. Keep in mind that I didn't test balance with these events disabled or anything like this, and this might help improve performance a little bit. A few events that only trigger because you have no or low workplace safety standards are still in though. Pass workplace reforms if you want to get rid of them.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+DisableCheatsForever_title;Disable Cheats Forever;;;;;;;;;;;;;x,,,,,,
+DisableCheatsForever_desc;Click this option just in case you want to disable cheats option. To be honest its functions is just to spice the campaign a little bit as a compensation for some of the unbalanced mechanics the mod offers. Click here and an option will pop up if you want to confirm it.;;;;;;;;;;;;;x,,,,,,
+always_has_been_title;Space Colonists Nerf;;;;;;;;;;x,,,,
+always_has_been_desc;This is a decision to nerf space colonists pops in earlier start dates, it will pop up whenever your country has a space colonists in any of the provinces. Made one for the ai too. Currently i haven't made tweaks to the pops so that it doesn't grow since its quite a hassle. so this is a decision to do the job;;;;;;;;;;x,,,,
+change_national_value_on_title;Change National Value (Active);;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+change_national_value_on_desc;Turn on the function to change the National Value.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+change_national_value_off_title;Change National Value (Inactive);;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+change_national_value_off_desc;Turn off the function to change the National Value.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+switch_to_enlightenment_title;Embrace the Ideal of Enlightenment;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_enlightenment_desc;The time has come for our people to stop clinging to ancient tradition. We must look to the nations of the west, and embrace their technology, if we are to retain our independence and our place in the world.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_tradition_title;Embrace the Ideal of Tradition;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_tradition_desc;For too long have we looked to the nations of the west. We reject their ways and their superiority, for our are now and always have been best for us.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_progress_title;Embrace the Ideal of Progress;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_progress_desc;Our march towards civilization and matching any imperial nation with our ingenuity continues. We shall not be left behind!;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_independence_title;Embrace the Ideal of Independence;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_independence_desc;We will not allow our nation to be overrun by the western imperialists. We are strong, united, and shall remain such. Against all odds, our nation shall endure.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_loyalty_title;Embrace the Ideal of Loyalty;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_loyalty_desc;Every citizen in our nation exists to serve, towards the greater good. It is only by acting in unison that we can hope to preserve our nation in the perilous times to come.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_unity_equality_title;Embrace the Ideal of Unity;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_unity_equality_desc;We move forward, but as a single people with a singular purpose. We shall not succumb to discord and revolution. Unity is our only hope of greatness.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_unity_order_title;Embrace the Ideal of Unity;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_unity_order_desc;We move forward, but as a single people with a singular purpose. We shall not succumb to discord and revolution. Unity is our only hope of greatness.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_prosperity_equality_title;Embrace the Ideal of Prosperity;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_prosperity_equality_desc;Our nation is wealthy and our people prosperous. This is and always shall be our greatest strength.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_prosperity_liberty_title;Embrace the Ideal of Prosperity;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_prosperity_liberty_desc;Our nation is wealthy and our people prosperous. This is and always shall be our greatest strength.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_glory_liberty_title;Embrace the Ideal of Glory;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_glory_liberty_desc;Ours is a great and powerful nation, possessing freedom and strength that other nations can only envy. We shall boldly stride into the future, where our greater destiny awaits.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_glory_might_title;Embrace the Ideal of Glory;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_glory_might_desc;Ours is a great and powerful nation, possessing freedom and strength that other nations can only envy. We shall boldly stride into the future, where our greater destiny awaits.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_dominion_might_title;Embrace the Ideal of Dominion;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_dominion_might_desc;Our nation is strong, our borders inviolate. We shall march into the future together, humbly accepting the knowledge that our nation is the envy of the entire world.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_dominion_order_title;Embrace the Ideal of Dominion;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_dominion_order_desc;Our nation is strong, our borders inviolate. We shall march into the future together, humbly accepting the knowledge that our nation is the envy of the entire world.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_fraternity_title;Embrace the ideal of Fraternity;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+switch_to_fraternity_desc;In our country, all men are created equal. It is time we fully embrace that maxim and throw off the shackles of iniquity.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+switch_to_freedom_title;Embrace the Ideal of Freedom;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_freedom_desc;Ours is a nation where all men are free to do as they wish, to advance their lot in life and achieve the greatness they were born to. This is our highest virtue, and the source of our nation's strength.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;
+switch_to_supremacy_title;Embrace the ideal of Supremacy;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+switch_to_supremacy_desc;Our culture is astounding. Our military might is unparalleled. Our industry is dazzling. Soon the rest of the world will know of our might, and shake as we step onto the wider stage.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+switch_to_productivity_title;Embrace the Ideal of Productivity;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+switch_to_productivity_desc;Ours is a wealthy nation filled with industrious, driven people. Each man pushes himself to do better, for the betterment of all.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+switch_to_order_title;Embrace the Ideal of Order;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+switch_to_order_desc;It is time for our nation to change the character of our people, to encourage them to embrace the values of law and order above all else.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+switch_to_might_title;Embrace the Ideal of Might;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+switch_to_might_desc;It is time for our nation to change the character of our people, to encourage them to embrace the values of force and military power above all else.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+switch_to_liberty_title;Embrace the Ideal of Liberty;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+switch_to_liberty_desc;It is time for our nation to change the character of our people, to encourage them to embrace the values of liberty and personal freedom above all else.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+switch_to_equality_title;Embrace the Ideal of Equality;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+switch_to_equality_desc;It is time for our nation to change the character of our people, to encourage them to embrace the values of equality and social fairness above all else.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+play_historical_countries_modern_title;Play Historical Countries;;;;;;;;;;;;;;;x,,,,
+play_historical_countries_modern_desc;Remove cores decision for modern start dates, those cores functions are simply just for dismantlement cb so that nations can still be dismantled. Click here if you want to remove those leftover cores..;;;;;;;;x,,,,,,
