@@ -1,0 +1,80 @@
+capital = 1612
+primary_culture = nanfaren
+culture = beifaren
+culture = min
+religion = mahayana
+government = absolute_monarchy
+plurality = 0.0
+nationalvalue = nv_order
+literacy = 0.04
+prestige = 12
+non_state_culture_literacy = 0.02
+
+ruling_party = "Zhu"
+upper_house = {
+	fascist = 0
+	liberal = 10
+	conservative = 75
+	reactionary = 15
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+# Starting Consciousness
+consciousness = 0
+nonstate_consciousness = 0
+
+oob = "/1604/MNG_oob.txt"
+
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = no_meeting
+press_rights = state_press
+trade_unions = no_trade_unions
+voting_system = jefferson_method
+political_parties = underground_parties
+
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = no_health_care
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
+school_reforms = no_schools
+
+1861.1.1 = {
+	oob = "/1861/CHI_oob.txt"
+	literacy = 0.07
+	non_state_culture_literacy = 0.04
+
+	#Military Reforms
+	foreign_training = yes_foreign_training
+}
+
+
+1914.1.1= {
+civilized = no
+
+}
+
+1935.1.1 = {
+	government = proletarian_dictatorship
+civilized = yes
+		}
+
+2000.1.1 = {
+	prestige = 150
+	oob = "/2000/CHI_oob.txt"
+		computerisation = 1
+		globalisation = 1
+		}
+
+1939.1.1 = { culture = beifaren
+culture = nanfaren
+culture = yue
+}
+2023.1.1 = {
+oob = "/2023/CHI_oob.txt" 
+}
