@@ -1,0 +1,63 @@
+#Austria surrenders
+country_event = {
+	id = 2000009
+	title = "Treaty of Prague"
+	desc = "EVTDESC402002"
+	picture = "napoleon"
+fire_only_once = yes
+         major = yes
+
+trigger = {
+    tag = FRA
+	
+	619 = {
+	controlled_by = THIS
+		}
+     has_global_flag = napoleon
+	AUS = {
+	war_exhaustion = 5 } 
+}
+		
+			
+	
+option = {
+name = "Establish puppets"
+
+
+	end_war = AUS
+	treasury = 200000
+	AUS = {
+	prestige = -22222
+	war_exhaustion = 20
+        release = KNI
+        release = POL
+}
+	end_war = AUS
+	military_access = AUS
+		
+FRA = {
+        create_vassal = AUS
+        create_vassal = KNI
+        create_vassal = POL
+
+        
+           
+	prestige = 1000
+}
+	
+	POL = {
+	treasury = -200000
+	prestige = -5000
+political_reform = party_appointed
+political_reform = none_voting
+public_meetings = no_meeting
+political_reform = state_press
+political_reform = state_controlled
+political_reform = first_past_the_post
+political_reform = underground_parties 
+	
+		}
+		ai_chance = {
+			factor = 25
+		}
+}

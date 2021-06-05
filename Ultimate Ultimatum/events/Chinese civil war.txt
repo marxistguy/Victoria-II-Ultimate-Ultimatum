@@ -1,0 +1,129 @@
+country_event = {
+	title = "EVTNAME90903"
+	desc = "EVTDESC90903"
+	picture = "NCN_end_of_instability"
+
+	id = 90903
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = NCN
+		exists = NCN
+		war = yes
+		war_with = CHI
+		NCN = {
+		war_exhaustion = 4
+		}
+			}
+		NOT = { year = 1952 }
+1485 = { NOT = { controlled_by = NCN } } # must not already have happned
+	}
+	
+	option = {
+		name = "EVTOPTA90903" # flee to Taiwan
+		ai_chance = { factor = 1 }
+		end_war = EST
+		any_owned = { 
+			limit = { controlled_by = CHI NOT = { province_id = 1485 } NOT = { province_id = 1499 } NOT = { province_id = 2576 } NOT = { province_id = 2562 } }
+			secede_province = CHI
+		}
+		any_owned = { 
+			limit = { NOT = { controlled_by = CHI } NOT = { province_id = 1485 } NOT = { province_id = 1499 } NOT = { province_id = 2576 } NOT = { province_id = 2562 } }
+			secede_province = CHI
+			change_controller = NCN
+		}
+		any_owned = { 
+			limit = { controlled_by = NCN province_id = 1485 }
+			owner = { capital = 1485 }
+		}
+		any_pop = { 
+			limit = { 
+				location = { 
+					OR = { 
+						province_id = 1545 
+						province_id = 1470 
+						province_id = 1604 
+						province_id = 1477 
+						province_id = 1538  
+						province_id = 1540 
+					} 
+				} 
+				OR = { type = officers type = soldiers } 
+			} 
+			move_pop = 1485 # Taibei
+		}
+		end_war = CHI
+		NCN = { inherit = TAI }
+		CHI = { country_event = 90904 }
+		country_event = 8200101
+	}
+	
+	option = {
+		name = "EVTOPTB90903" # continue the war
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 90904
+	title = "EVTNAME90904"
+	desc = "EVTDESC90904"
+	picture = "NCN_flees_to_taiwan"
+	is_triggered_only = yes # CHI
+
+	option = {
+		name = "EVTOPTA90904" # continue the war
+		# unsanctioned infamy
+		war = {
+			target = NCN
+			attacker_goal = {
+				   casus_belli = acquire_core_state
+				   state_province_id = 1485
+			}
+			defender_goal = {
+				casus_belli = civil_war
+			}
+		}
+		relation = { who = NCN value = -200 }
+		NCN = { capital = 1485 }
+		ai_chance = { factor = 1 }	
+	}
+
+	option = {				
+		name = "EVTOPTB90904" # accept NCN escaped
+
+		NCN = { capital = 1485 }
+
+		ai_chance = { factor = 0 }		
+	}
+
+}
+
+country_event = {
+  id = 8200101
+  title = "NCN"
+  desc = "NCN"
+  picture = "nwo2_chiang_crying"
+  is_triggered_only = yes #NCN
+
+
+  option = {
+    name = "EVT_8200101_A"
+	CHI = { country_event = 8200104 }
+  }
+}
+country_event = {
+  id = 8200104
+  title = "PRC"
+  desc = "PRC"
+  picture = "nwo2_mao_announces_prc"
+  is_triggered_only = yes # CHI
+
+  option = {
+    name = "EVT_8200104_A"
+	set_global_flag = CHI_won_civil_war 
+	any_pop = { militancy = -2.0 consciousness = 1 }
+  }
+
+}

@@ -1,0 +1,68 @@
+#Anschluss
+country_event = {
+	id = 4000046
+	title = "Cede Sudetenland to Germany?"
+	desc = "Adolf Hitler, the dictator of Germany is demanding us that we give Sudetenland to them because we have ethnic Germans living here, what shall we do?"
+	
+	is_triggered_only_once = yes
+major = yes
+
+trigger = {
+exist = GER
+GER = {
+government = facist_dictatorship }
+
+tag = CZH
+NOT = {
+exists = USA
+exists = GER
+exists = RUS
+exists = ENG
+exists = AUS
+exists = CZL
+}
+}
+
+
+
+option = {
+name = "We won't!"
+militancy = 2
+
+	war = {
+	target = GER
+	attacker_goal = {
+		casus_belli = status_quo
+	}
+	call_ally = yes
+	defender_goal = {
+		casus_belli = conquest
+	}
+defender_goal = {
+casus_belli = liberate_country
+country = SLV
+}
+}
+		
+		}
+	option = {
+	name = "Very well...."
+627 = {
+secede_province = GER }
+630  = {
+secede_province = GER }
+629 =  {
+secede_province = GER }
+628 = {
+secede_province = GER }
+}
+
+ai_chance = {
+			factor = 25
+		}
+
+}
+}
+}	
+			}
+}

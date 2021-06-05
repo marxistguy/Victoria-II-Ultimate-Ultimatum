@@ -1,0 +1,47 @@
+#Brazil declare independence
+country_event = {
+	id = 4000004
+	title = "Brazil declare independence"
+	desc = "On the 7th of September of 1821 D.Pedro IV  , son of the king of Portugal  declared the independence of Brazil which was only accepted by Portugal in 1825 , how should we respond?"
+	picture = "scream"
+	is_triggered_only_once = yes
+major = yes
+
+trigger = {
+tag = POR
+year = 1820
+militancy = 3
+
+NOT = {
+exist = BRZ
+year = 1836
+}
+}
+
+
+
+option = {
+name = "We shall get back what's ours!"
+release = BRZ 
+
+	war = {
+	target = BRZ
+	attacker_goal = {
+		casus_belli = conquest
+	}
+	call_ally = yes
+	defender_goal = {
+		casus_belli = become_independent
+	}
+}
+		ai_chance = {
+			factor = 25
+		}
+		}
+	option = {
+	name = "We accept their independence"
+release = BRZ
+	prestige = -25
+	
+			}
+}

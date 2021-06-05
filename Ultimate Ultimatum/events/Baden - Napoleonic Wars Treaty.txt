@@ -1,0 +1,53 @@
+#Baden surrenders
+country_event = {
+	id = 2000014
+	title = "Baden surrenders"
+	desc = " We have taken out one of the German states"
+	picture = "TreatyofVersailles"
+
+        fire_only_once = yes
+
+	trigger = {
+tag = FRA
+has_global_flag = napoleon
+OR = {
+AND = {
+586 = {
+	controlled_by = FRA
+		}
+}
+AND = {
+586 = {
+	controlled_by = SPA
+		}
+}
+AND = {
+586 = {
+	controlled_by = NET
+		}
+}
+AND = {
+586 = {
+	controlled_by = CIS
+		}
+}
+}
+	
+		
+	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	
+##Annex Baden##
+	option = {
+		name = "Annex Baden"
+		FRA = {
+        end_war = BAD
+	inherit = BAD
+	prestige = 25
+}
+	}
+}

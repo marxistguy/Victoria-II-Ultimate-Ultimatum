@@ -1,0 +1,43 @@
+#ILi rebbelion
+country_event = {
+	id = 400053	
+     title = "Ili rebbelion"
+	desc = " The people of our region of Xinjiang are rebbeling they've proclaimed a rebelion"
+	picture = "LI"
+
+        fire_only_once = yes
+
+	trigger = {
+tag = NCN
+militancy = 5
+NOT  = {
+has_global_flag = ILI_rebbelion 
+war = JAP
+}
+
+}
+option = {
+name = "We shall fight them!"
+set_global_flag = ILI_rebbelion
+1594 = {
+secede_province = TRK }
+1595 = {
+secede_province = TRK }
+1600 = {
+secede_province = TRK }
+1597 = {
+secede_province = TRK }
+1596 = {
+secede_province = TRK }
+war = {
+target = TRK
+attacker_goal = {
+civil_war
+}
+defender_goal = {
+casus_belli = status_quo
+}
+}
+}
+}
+}

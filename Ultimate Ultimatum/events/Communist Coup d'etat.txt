@@ -1,0 +1,36 @@
+#Communist Coup d'etat
+country_event = {
+       id = 10000029
+       title = "Communist Coup"
+       desc = "The Communists have thrown a revolt against us! We have no choice but to surrender!"
+      major = yes
+
+
+trigger = {
+ militancy = 2
+upper_house = {
+ ideology = communist
+value = 0.25
+
+
+}
+NOT = {
+government = proletarian_dictatorship
+}
+}
+mean_time_to_happen = {
+months = 4
+
+}
+
+option = {
+   name = "Fine..."
+
+government = proletarian_dictatorship
+ political_reform = party_appointed
+political_reform = none_voting
+public_meetings = no_meeting
+political_reform = state_press
+political_reform = state_controlled
+political_reform = first_past_the_post
+political_reform = underground_parties }

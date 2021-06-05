@@ -1,0 +1,189 @@
+#Japan surrenders
+country_event = {
+	id = 4000051
+	title = "Japan surrenders"
+	desc = "Japan has finnaly surrendered they will pay !"
+	picture = "japan_surrender"
+
+trigger = {
+	has_country_flag = WW2_Axis
+tag = JAP
+OR = {
+	AND = {
+	1649 = {
+	controlled_by = RUS
+		} }
+AND = {
+ 1649 = {
+	controlled_by = USA
+		}}
+AND = {
+1649 = {
+	controlled_by = ENG
+} }
+AND = {
+ 1649 = {
+	controlled_by = FRA } }
+AND = {
+1649 = {
+	controlled_by = NET
+	}
+	}
+AND = {
+1649 = {
+	controlled_by = LUX
+		} }
+AND = {
+1649 = {
+	controlled_by = BEL
+	}	} 
+	JAP = {
+	war_exhaustion = 10
+		}
+			}
+	has_global_flag = WW2inprogress
+	NOT = {
+		has_global_flag = WW2_Japan_Surrendered
+		}
+		}
+
+mean_time_to_happen = {
+		days = 1 }
+
+##annex##
+option = {
+name = "Punish them!"
+any_country = {
+end_war = JAP }
+any_country = {
+leave_alliance = JAP }
+
+JAP = 
+{
+release = NCN
+release = MAN 
+release = BUR
+release = PNG
+release = LAO
+release = CAM
+release = IDO	
+release = AST
+release = NZL
+release = NCN
+release = DAI
+release = HND
+release = PAN
+release = KAL
+release = LUA
+release = JOH
+}
+1397  = {
+secede_province = ENG }
+release = BRU
+NET = {
+inherit = IDO }
+AST = {
+inherit = PNG }
+FRA = {
+inherit = LAO 
+inherit = CAM
+inherit = DAI
+inherit = LUA }
+
+ENG = {
+inherit = HND
+inherit = JOH
+inherit = BRU
+inherit = BUR
+inherit = PAN
+inherit = KAL }
+1626 = {
+secede_province = RUS
+}
+1625 = {
+secede_province = RUS }
+1629 = {
+secede_province = RUS }
+1627 = {
+secede_province = RUS }
+1619 = {
+secede_province = RUS }
+1620 = {
+secede_province = RUS }
+1621 = {
+secede_province = RUS }
+1623 = {
+secede_province = RUS }
+1622 = {
+secede_province = RUS }
+1624 = {
+secede_province = USA }
+1628 = {
+secede_province = USA }
+1630 = {
+secede_province = USA }
+1636 = {
+secede_province = USA }
+1637 = {
+secede_province = USA }
+1631 = {
+secede_province = USA }
+1635 = {
+secede_province = USA }
+1633 = {
+secede_province = USA }
+1634 = {
+secede_province = USA }
+1632 = {
+secede_province = USA }
+USA = {
+
+create_vassal = JAP }
+MCK = {
+any_country = {
+
+end_war = MCK }
+change_tag = CHI
+inherit = SXI
+inherit = MNJ
+government = proletarian_dictatorship
+political_reform = party_appointed
+political_reform = none_voting
+public_meetings = no_meeting
+political_reform = state_press
+political_reform = state_controlled
+political_reform = first_past_the_post
+political_reform = underground_parties 
+war = { 
+target = NCN
+attacker_goal = {
+casus_belli = civil_war
+}
+defender_goal = {
+casus_belli = civil_war
+}
+
+
+} 
+
+
+
+}
+NCN = {
+country_event = 400053
+}
+
+
+	
+	prestige = 25
+	JAP = {
+	prestige = -100 }
+	set_global_flag = WW2_Japan_Surrendered
+	clr_global_flag = WW2_Japan_in_the_fight
+	any_pop = {
+	limit = {
+		ideology = fascist }
+	militancy = 6
+	consciousness = 6
+			}
+		}

@@ -1,0 +1,27 @@
+# Annex Finland
+country_event = {
+	id = 98989
+	title = "Annex Finland"
+	desc = "After war with Sweden, it is time to annex Finland"
+	picture = "TreatyofVersailles"
+	tag = RUS
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA98989"
+		prestige = 14
+		RUS = {
+			inherit = FIN
+		}
+		ai_chance = {
+			factor = 25
+		}
+		any_pop = {
+			limit = { 
+				culture = finnish
+				}
+			militancy = 2
+			consciousness = 1
+		}
+	}
+}

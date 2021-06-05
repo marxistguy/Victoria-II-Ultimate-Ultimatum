@@ -1,0 +1,26 @@
+# Event to Inherit
+country_event = {
+	id = 79094
+	title = "Formation of Sweden-Norway"
+	desc = "We are now forming a union with Norway"
+	picture = "FormSweden-Norway"
+	major = yes
+	tag = SWE
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA79094"
+		prestige = 20
+		FROM = {
+			inherit = THIS
+		}
+		ai_chance = {
+			factor = 25
+		}
+		any_pop = {
+			militancy = 1
+			consciousness = 1
+		}
+	}
+}

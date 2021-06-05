@@ -1,0 +1,18 @@
+#Disable Cheats
+country_event = {
+  id = 1010101
+  title = "Disable Cheats"
+  desc = "Choose your option"
+  picture = "colonydisputepic"
+
+  is_triggered_only = yes
+
+  option = {
+    name = "You sure you want to disable it?"
+	set_country_flag = cheat_disable_forever
+	}
+  option = {
+    name = "Nevermind, i'd rather like the cheat option intact"
+	set_global_flag = Cheats_on
+	}
+}

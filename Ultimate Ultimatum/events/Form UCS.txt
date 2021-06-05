@@ -1,0 +1,45 @@
+#Form UCS
+country_event = { 
+	id = 9999999
+	title = "Formation of the Union of Collective American States" 
+	desc = "Form the Union of the Collective American States" 
+	major = yes
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+		trigger = { 
+			tag = UCS
+			AND = {
+				NOT = {
+					has_country_modifier = ucs_done
+					}
+				is_culture_group = american_cultures
+				}
+			}
+
+		option = {
+			name = "American continent is now is in our hands to annex"
+			set_country_modifier = ucs_done
+			CAN = { all_core = { add_core = THIS } }
+			COL = { all_core = { add_core = THIS } }
+			ARG = { all_core = { add_core = THIS } }
+			BOL = { all_core = { add_core = THIS } }
+			BRZ = { all_core = { add_core = THIS } }
+			CHL = { all_core = { add_core = THIS } }
+			CLM = { all_core = { add_core = THIS } }
+			ECU = { all_core = { add_core = THIS } }
+			PEU = { all_core = { add_core = THIS } }
+			PRG = { all_core = { add_core = THIS } }
+			URU = { all_core = { add_core = THIS } }
+			VNZ = { all_core = { add_core = THIS } }
+			COS = { all_core = { add_core = THIS } }
+			DOM = { all_core = { add_core = THIS } }
+			ELS = { all_core = { add_core = THIS } }
+			GUA = { all_core = { add_core = THIS } }
+			HAI = { all_core = { add_core = THIS } }
+			HON = { all_core = { add_core = THIS } }
+			NIC = { all_core = { add_core = THIS } }
+			}
+		}
+	}

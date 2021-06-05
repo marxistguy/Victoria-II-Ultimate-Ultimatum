@@ -1,0 +1,43 @@
+#Socialist win civil war
+country_event = {
+
+	id = 9000029
+	title = "We win the war!"
+	desc = "We have defeated the capitalist government , now we can establish a communist government"
+	picture = emigration
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = PEG
+		owns = 834
+		NOT = {
+			exists = GRE
+			year = 1949
+		}
+	}
+
+	option = {
+		name = "We won the civil war, time to establish the proletariate government"
+		GRE = { all_core = { add_core = PEG } }	
+		war_exhaustion = 10
+		any_pop = {
+			limit = { 
+				pop_majority_ideology = conservative
+				pop_majority_ideology = reactionary
+			}
+			consciousness = 2
+			militancy = 3
+		}
+		834 = {
+			any_pop = {
+				limit = { 
+					has_pop_culture = greek
+				}
+				militancy = 5
+				conciousness = 5
+			}
+			add_core = PEG
+		}
+	}
+}

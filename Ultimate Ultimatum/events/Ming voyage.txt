@@ -1,0 +1,45 @@
+#Ming Voyage
+country_event = {
+	id = 432764
+	title = "EVTNAME432764"
+	desc = "EVTDESC432764"
+	picture = greatpowers
+	fire_only_once = yes
+	trigger = {
+		year = 1604
+		tag = MNG
+		NOT = {
+			year = 1682
+		}
+	}
+	mean_time_to_happen = {
+		months = 12
+	}
+	option = {
+		name = "I am grateful, hopefully the things we learn will benefit us."
+		relation = {
+			who = SPA
+			value = 40
+		}
+		relation = {
+			who = POR
+			value = 40
+		}
+		relation = {
+			who = ENG
+			value = 40
+		}
+		relation = {
+			who = NET
+			value = 40
+		}
+		relation = {
+			who = FRA
+			value = 40
+		}
+		research_points = 250000
+		years_of_research = 0.1
+		prestige = 5
+		treasury = 100000
+	}
+}

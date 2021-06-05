@@ -1,0 +1,78 @@
+#Final Solution of Europe
+country_event = {
+	id = 2000046
+	title = "Final Solution of Europe"
+	desc = "We have gained control on most of continental Europe, now it's our turn to organize and control the whole continent. Long live Napoleon!"
+	picture = "napoleon"
+fire_only_once = yes
+         major = yes
+
+trigger = {
+    tag = FRA
+	
+	has_global_flag = napoleon
+NOT = {
+exists = ENG
+}
+OR = {
+exists = PLC
+exists = BUF
+}
+}
+		
+			
+	
+option = {
+name = "Let us become the greatest empire ever!"
+
+
+	
+	treasury = 200000
+RUS = {
+
+release = CRI
+release = UBD }
+FRA = {
+inherit = AUS
+inherit = NET
+release = BOH
+release = CRO
+release = SLV
+inherit = POL
+release = HUN
+release = SLO
+release = PLC
+release = MOL
+}
+
+DEN = {
+inherit = SWE
+	
+}
+TUR = {
+release = GRE
+release = SER
+release = MON
+release = BUL
+release = ALB
+release = MOL
+release = WAL
+}
+		
+FEP = {
+inherit = SER
+inherit = BUL
+inherit = ALB
+inherit = WAL
+inherit = MOL
+
+        
+           
+	prestige = 1000
+}
+}	
+	
+		ai_chance = {
+			factor = 25
+		}
+}

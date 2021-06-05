@@ -1,0 +1,95 @@
+#Montenegro independence
+country_event = {
+	id = 4000054
+	title = "Montenegro declare independence"
+	desc = "The people of  Montenegro no longer want to be part of us, what to do?"
+	picture = "Montenegro"
+
+        fire_only_once = yes
+
+	trigger = {
+tag = SER
+year = 2002
+militancy = 3
+NOT  = {
+exists = MON 
+
+ }
+	
+		
+	
+	
+	mean_time_to_happen = {
+		months 2
+	}
+
+	
+	
+##They can't##
+	option = {
+		name = "Attack them!"
+release = MON
+		war = {
+target = MON
+attacker_goal = {
+casus_belli = conquest }
+defender_goal = {
+casus_belli = become_independent }
+}
+
+
+}
+#Let them go##
+ option = {
+name = "Let them go"
+release = MON }
+	}
+}
+}
+#Kosovo Independence
+country_event = {
+id = 4000056
+picture = "Kosovo"
+title = "Kosovo declare independence"
+desc = "Kosovo, a region on our south with many muslims from Albania wants independence what to do?If we declare war we risk war with Albania remember that"
+trigger = {
+tag = SER
+exists = MON
+year = 2005
+
+NOT = {
+
+exists = KOS 
+}
+
+}
+option = {
+name = "Kosovo is Serbia! "
+release = KOS
+KOS  = {
+create_alliance = ALB }
+
+war = {
+target = KOS
+attacker_goal = {
+
+
+
+casus_belli = conquest
+ }
+call_ally = yes
+defender_goal = {
+casus_belli = become_independent
+
+}
+}
+}
+option = {
+name = "We don't care "
+release = KOS
+}
+}
+}
+}
+
+

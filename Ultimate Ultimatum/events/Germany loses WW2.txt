@@ -1,0 +1,222 @@
+#Germany surrenders
+country_event = {
+	id = 4000050
+	title = "Treaty of Paris"
+	desc = "We have been defeated , now it's time to suffer the consequences of our acts"
+	picture = "berlinfallsovpic"
+
+trigger = {
+	has_country_flag = WW2_Axis
+tag = GER
+	AND = {
+
+	549 = {
+	controlled_by = RUS
+		}
+ 549 = {
+	controlled_by = USA
+		}
+549 = {
+	controlled_by = ENG
+}
+ 549 = {
+	controlled_by = FRA }
+549 = {
+	controlled_by = NET
+		}
+549 = {
+	controlled_by = LUX
+		}
+549 = {
+	controlled_by = BEL
+		}
+
+		
+		}
+	GER = {
+	war_exhaustion = 10
+		}
+			}
+	has_global_flag = WW2inprogress
+	NOT = {
+		has_global_flag = WW2_ended_GER_lost
+		}
+		}
+
+mean_time_to_happen = {
+		days = 1 }
+
+##real life##
+option = {
+
+name =  "Fine"
+any_country = {
+leave_alliance = GER }
+
+release = POL
+release = NET
+release = FRA
+release = BEL
+release = LUX
+release = AUS
+release = USA
+release = ENG
+695 = {
+secede_province = RUS }
+697 = {
+secede_province = RUS }
+698 = {
+secede_province = RUS }
+689 = {
+secede_province = POL }
+681 = {
+secede_province = POL }
+546 = {
+secede_province = POL }
+679 = {
+secede_province = POL }
+680 = {
+secede_province = POL }
+719 = {
+secede_province = POL }
+558 = {
+secede_province = DDR }
+559 = {
+secede_province = DDR }
+560 = {
+secede_province = DDR }
+561 = {
+secede_province = DDR }
+563 = {
+secede_province = DDR }
+562 = {
+secede_province = DDR }
+554 = {
+secede_province = DDR }
+556 = {
+secede_province = DDR }
+552 = {
+secede_province = DDR }
+687 = {
+secede_province = DDR }
+553 = {
+secede_province = DDR }
+557 = {
+secede_province = DDR }
+551 = {
+secede_province = DDR }
+550 = {
+secede_province = DDR }
+544 = {
+secede_province = DDR }
+545 = {
+secede_province = DDR }
+555 = {
+secede_province = DDR }
+549 = {
+secede_province = DDR }
+547 = {
+secede_province = DDR }
+548 = {
+secede_province = DDR }
+630 = {
+secede_province = CZR }
+625 = {
+secede_province = CZR }
+629 = {
+secede_province = CZR }
+627 = {
+secede_province = CZR }
+628 = {
+secede_province = CZR }
+631 = {
+secede_province = CZR }
+626 = {
+secede_province = CZR }
+632 = {
+secede_province = CZR }
+688 = {
+secede_province = CZR }
+
+CZR = {
+inherit = SLV 
+change_tag = CZH
+government = proletarian_dictatorship
+political_reform = party_appointed
+political_reform = none_voting
+public_meetings = no_meeting
+political_reform = state_press
+political_reform = state_controlled
+political_reform = first_past_the_post
+political_reform = underground_parties 
+}
+
+POL = { political_reform = party_appointed
+political_reform = none_voting
+public_meetings = no_meeting
+political_reform = state_press
+political_reform = state_controlled
+political_reform = first_past_the_post
+political_reform = underground_parties }
+
+ROM = { political_reform = party_appointed
+677 = {
+secede_province = RUS }
+676 = {
+secede_province = RUS }
+
+political_reform = none_voting
+public_meetings = no_meeting
+political_reform = state_press
+political_reform = state_controlled
+political_reform = first_past_the_post
+political_reform = underground_parties }
+
+BUL = {
+political_reform = party_appointed
+political_reform = none_voting
+public_meetings = no_meeting
+political_reform = state_press
+political_reform = state_controlled
+political_reform = first_past_the_post
+political_reform = underground_parties }
+
+DDR = {
+political_reform = party_appointed
+political_reform = none_voting
+public_meetings = no_meeting
+political_reform = state_press
+political_reform = state_controlled
+political_reform = first_past_the_post
+political_reform = underground_parties }
+HUN = {
+950 = {
+secede_province = RUS }
+political_reform = party_appointed
+political_reform = none_voting
+public_meetings = no_meeting
+political_reform = state_press
+political_reform = state_controlled
+political_reform = first_past_the_post
+political_reform = underground_parties
+ }
+FRA = {
+inherit = FNA }
+
+
+
+
+       prestige = -5000
+	
+	set_global_flag = WW2_ended_GER_lost
+	
+	any_pop = {
+	limit = {
+		ideology = fascist }
+	militancy = 6
+	consciousness = 6
+			}
+		}
+
+
+#}	
