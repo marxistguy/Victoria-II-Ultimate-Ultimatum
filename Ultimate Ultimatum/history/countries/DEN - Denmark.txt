@@ -1,0 +1,126 @@
+capital = 372
+primary_culture = danish
+culture = norwegian
+culture = icelandic
+religion = protestant
+government = absolute_monarchy
+plurality = 0
+nationalvalue = nv_order
+literacy = 0.1
+non_state_culture_literacy = 0.6 #Germans
+civilized = yes
+prestige = 25
+
+# Political reforms
+slavery = yes_slavery
+upper_house_composition = appointed
+vote_franschise = none_voting
+public_meetings = yes_meeting
+press_rights = censored_press
+trade_unions = no_trade_unions
+voting_system = first_past_the_post
+political_parties = underground_parties
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = low_health_care
+unemployment_subsidies = low_subsidies
+pensions = no_pensions 
+school_reforms = no_schools
+
+ruling_party = DAN_conservative
+upper_house = {
+	fascist = 0
+	liberal = 17
+	conservative = 70
+	reactionary = 13
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+1700.1.1 = {
+post_nelsonian_thought = 1
+post_renaissance_tech = 1
+birth_of_science_tech = 1
+scientific_revolution_tech = 1 #until this for 1700
+late_medieval_warfare = 1
+early_military_revolution = 1
+flintlock_muskets = 1 #Until this for 1700
+late_reformation = 1
+counter_reformation = 1
+inquisitions_tech = 1
+jesuit_movements_tech = 1 #Until this for 1700
+late_renaissance_philosophies = 1
+age_of_rationalism = 1
+early_modern_philosphies = 1 #Until this for 1700
+		}
+1830.1.1 = {
+plurality = 0
+literacy = 0.8
+
+# Technologies
+		}
+
+
+# Starting Consciousness
+consciousness = 2
+nonstate_consciousness = 0
+
+oob = "DEN_oob.txt"
+
+1850.1.1 = {
+decision = danmarks_riges_grundlov
+}
+
+1861.1.1 = {
+	government = hms_government
+	oob = "/1861/DEN_oob.txt"
+	plurality = 60
+	literacy = 0.90
+	non_state_culture_literacy = 0.7 #Germans
+
+# Political reforms
+slavery = no_slavery
+upper_house_composition = appointed
+vote_franschise = landed_voting
+public_meetings = yes_meeting
+press_rights = free_press
+trade_unions = no_trade_unions
+voting_system = first_past_the_post
+political_parties = underground_parties
+
+ruling_party = DAN_liberal_2
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = low_health_care
+unemployment_subsidies = low_subsidies
+pensions = no_pensions 
+school_reforms = low_schools	
+	
+	
+# Technologies
+
+#Inventions
+
+}
+
+1903.1.1 = {
+	decision = build_kiel_canal
+		}
+
+1914.7.28 = {
+
+#WW1 techs
+		}
+
+
+1930.1.1 = {
+civilized = yes
+
+}
