@@ -1,0 +1,68 @@
+#The United Kingdom surrenders
+country_event = {
+	id = 2000033
+	title = "Treaty of  London"
+	desc = "We have sucessufully ocuppied London and the British Empire has surrendered, They've stolen Quebec from us before, remember that. What should we do to them?"
+	picture = "napoleon"
+         major = yes
+
+trigger = {
+    tag = FRA
+	
+	300 = {
+	controlled_by = THIS
+		}
+     has_global_flag = napoleon
+	ENG = {
+	war_exhaustion = 2 } 
+}
+		
+			
+	
+option = {
+name = "Dismantle their Kingdom and Take their colonies"
+
+
+	end_war = ENG
+	treasury = 200000
+	ENG = {
+release = CAN
+release = AST
+release = IRE
+release = SCO
+release = WLS
+change_tag = ANG
+}
+	end_war = ENG
+	
+		
+FRA = {
+        inherit = CAN
+        inherit = AST
+        create_vassal = IRE
+        create_vassal = SCO
+        creare_vassal = WLS
+        
+        
+           
+	prestige = 1000
+}
+	
+	PLC = {
+            inherit = UKR
+          change_tag = BUF
+	treasury = -200000
+	prestige = -5000
+political_reform = party_appointed
+political_reform = none_voting
+public_meetings = no_meeting
+political_reform = state_press
+political_reform = state_controlled
+political_reform = first_past_the_post
+political_reform = underground_parties 
+	
+		}
+		ai_chance = {
+			factor = 25
+		}
+}

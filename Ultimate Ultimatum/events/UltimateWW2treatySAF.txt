@@ -1,0 +1,40 @@
+#Axis forces occupy South Africa
+country_event = {
+	id = 2000030
+	title = "South Africa surrenders"
+	desc = "South Africa has been occupied , now we will annex them"
+	picture = "BULGARIA"
+
+        fire_only_once = yes
+
+	trigger = {
+2087 = {
+controlled_by = THIS }
+
+NOT =
+{
+tag = SAF
+tag = ENG
+tag = BRI }
+	
+	
+		
+	has_global_flag = WW2_inprogress
+        
+	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	
+##Annex South Africa##
+	option = {
+		name = "Let Bulgaria have it"
+		BUL = {
+        end_war = SAF
+	inherit = SAF
+	prestige = 25
+}
+	}
+}

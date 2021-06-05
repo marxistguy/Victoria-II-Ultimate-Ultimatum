@@ -1,0 +1,60 @@
+#Italian forces occupy French North Africa
+country_event = {
+	id = 20000007
+	title = "French North Africa surrenders"
+	desc = "We have occupied French North Africa, They have surrendered, now we are one step way from reforming the Roman Empire!"
+	picture = "mussolini"
+
+        fire_only_once = yes
+
+	trigger = {
+tag = ITA
+FNA = {
+has_global_flag = WW2_inprogress }
+OR = {
+AND = {
+1700 = {
+	controlled_by = ITA
+		}
+}
+AND = {
+1700 = {
+	controlled_by = GER
+		}
+}
+AND = {
+1700 = {
+	controlled_by = JAP
+		}
+}
+AND = {
+1700 = {
+	controlled_by = HUN
+		} }
+AND = {
+1700 = {
+controlled_by = ROM
+} }
+AND = {
+1700  = {
+controlled_by = BUL
+}
+}
+	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+}
+	
+	
+##Annex French North africa#
+	option = {
+		name = "Annex French North africa"
+		ITA = {
+        end_war = FNA
+	inherit = FNA
+	prestige = 25
+}
+	}
+}

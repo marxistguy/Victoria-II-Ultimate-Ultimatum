@@ -1,0 +1,40 @@
+#Italo-turco War
+country_event = {
+	id = 2000001
+	title = "Italy Sends us An Ultimatum"
+	desc = "Italy has sent us an Ultimatum! Either we surrender to them or they declare war."
+	picture = "mussolini"
+	is_triggered_only = yes
+
+
+option = {
+name = "War it is!"
+
+	war = {
+	target = ITA
+	attacker_goal = {
+		casus_belli = status_quo
+	}
+	call_ally = yes
+	defender_goal = {
+		casus_belli = conquest
+	}
+}
+		ai_chance = {
+			factor = 25
+		}
+		}
+	option = {
+	name = "Very well, we shall surrender"
+	prestige = -25
+	ITA = {
+	create_vassal = TUR
+diplomatic_influence = {
+			who = TUR
+			value = 200
+						}
+
+		}
+
+			}
+}

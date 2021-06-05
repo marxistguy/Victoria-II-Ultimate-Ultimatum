@@ -1,0 +1,54 @@
+#Japanese forces occupy New Zealand
+country_event = {
+	id = 2000004
+	title = "New Zealand surrenders"
+	desc = "We have occupied New Zealand, now we are just some steps away to become the dominator of the pacific and the greatest power in asia!"
+	picture = "japanese"
+
+        fire_only_once = yes
+
+	trigger = {
+tag = JAP
+OR = {
+AND = {
+2512 = {
+	controlled_by = JAP
+		}
+}
+AND = {
+2512 = {
+	controlled_by = GER
+		}
+}
+AND = {
+2512 = {
+	controlled_by = ITA
+		}
+}
+AND = {
+2512 = {
+	controlled_by = SLO
+		}
+}
+}
+	AST = {
+	
+		
+	has_global_flag = WW2_inprogress
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	
+##Annex New Zealand##
+	option = {
+		name = "Annex New Zealand"
+		JAP = {
+        end_war = NZL
+	inherit = NZL
+	prestige = 25
+}
+	}
+}

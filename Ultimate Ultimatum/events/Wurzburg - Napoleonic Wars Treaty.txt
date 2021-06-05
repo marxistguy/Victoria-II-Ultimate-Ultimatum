@@ -1,0 +1,53 @@
+#Wurzburg surrenders
+country_event = {
+	id = 2000021
+	title = "Wurzburg surrenders"
+	desc = " We have taken out one of the german states"
+	picture = "TreatyofVersailles"
+
+        fire_only_once = yes
+
+	trigger = {
+tag = FRA
+has_global_flag = napoleon
+OR = {
+AND = {
+597 = {
+	controlled_by = FRA
+		}
+}
+AND = {
+597 = {
+	controlled_by = SPA
+		}
+}
+AND = {
+597 = {
+	controlled_by = NET
+		}
+}
+AND = {
+597 = {
+	controlled_by = ITA
+		}
+}
+}
+	
+		
+	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	
+##Annex Wurzburg##
+	option = {
+		name = "Annex Wurzburg"
+		FRA = {
+        end_war = WUZ
+	inherit = WUZ
+	prestige = 25
+}
+	}
+}
