@@ -1,0 +1,20 @@
+#Algerian Revolt
+name = "Algerian Revolt"
+1960.1.1 = {
+	add_attacker = ALD
+	add_defender = FRA
+	war_goal = {
+		casus_belli = become_independent
+		actor = ALD
+		receiver = FRA
+	}
+	war_goal = {
+		casus_belli = make_puppet
+		actor = FRA
+		receiver = ALD
+	}	
+}
+1965.1.1 = {
+	rem_attacker = ALD
+	rem_defender = FRA
+}

@@ -1,0 +1,38 @@
+name = "First Indochina War"
+
+1945.9.3 = {
+	add_attacker = DAI
+	add_defender = FRA
+	add_defender = SVI
+        add_defender = CAM
+        add_defender = LAO
+
+
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = conquest
+		actor = FRA
+		receiver = DAI
+	}
+
+	war_goal = {
+		casus_belli = status_quo
+		actor = DAI
+		receiver = FRA
+	}
+
+}
+
+1950.4.1 = {
+	rem_attacker = DAI
+	rem_defender = FRA
+	rem_defender = SVI
+       rem_defender = CAM
+rem_defender = LAO
+
+		}

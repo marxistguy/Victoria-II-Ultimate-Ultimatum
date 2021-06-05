@@ -1,0 +1,29 @@
+name = "Franco-Prussian War"
+
+1870.7.19 = {
+	add_attacker = NGF
+	add_attacker = BAD
+	add_attacker = BAV
+	add_attacker = WUR
+	add_defender = FRA
+        war_goal = {
+		casus_belli = humiliate
+		actor = NGF
+		receiver = FRA
+                country = FRA
+	}
+        war_goal = {
+		casus_belli = humiliate
+		actor = FRA
+		receiver = NGF
+                country = NGF
+	}
+}
+
+1871.5.10 = {
+	rem_attacker = NGF
+	rem_attacker = BAD
+	rem_attacker = BAV
+	rem_attacker = WUR
+	rem_defender = FRA
+}

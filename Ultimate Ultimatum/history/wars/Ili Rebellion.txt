@@ -1,0 +1,32 @@
+name = "Ili Rebellion"
+
+1945.9.3 = {
+	add_attacker = NCN
+	add_defender = TRK
+
+
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = status_quo
+		actor = TRK
+		receiver = NCN
+	}
+
+	war_goal = {
+		casus_belli = annex_core_country
+		actor = NCN
+		receiver = TRK
+	}
+
+}
+
+1950.4.1 = {
+	rem_attacker = NCN
+	rem_defender = TRK
+
+		}

@@ -1,0 +1,22 @@
+name = "The Arab Revolt"
+
+1914.7.28 = {
+	add_attacker = ARA
+	add_defender = TUR
+	
+	war_goal = {
+		casus_belli = acquire_state
+		actor = ARA
+		receiver = TUR
+		state_province_id = 1151
+	}
+	war_goal = {
+		casus_belli = conquest
+		actor = TUR
+		receiver = ARA
+	}
+}
+1918.11.11 = {
+	rem_attacker = ARA
+	rem_defender = TUR
+}

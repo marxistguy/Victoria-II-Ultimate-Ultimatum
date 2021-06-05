@@ -1,0 +1,21 @@
+name = "War of 1812"
+
+1812.6.18 = {
+	add_attacker = USA
+	add_defender = ENG
+	
+	war_goal = {
+		casus_belli = humiliate
+		actor = USA
+		receiver = ENG
+	}
+	war_goal = {
+		casus_belli = status_quo
+		actor = ENG
+		receiver = USA
+	}
+}
+1815.2.17 = {
+	rem_attacker = USA
+	rem_defender = ENG
+}

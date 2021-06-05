@@ -1,0 +1,26 @@
+#Indonesian National Revolution
+name = "Indonesian National Revolution"
+1945.12.1 = {
+	add_attacker = IDO
+	add_defender = NET
+	war_goal = {
+		casus_belli = become_independent
+		actor = IDO
+		receiver = NET
+	}
+	war_goal = {
+		casus_belli = acquire_core_state 
+		actor = IDO
+		receiver = NET
+		state_province_id = 1438
+	}
+	war_goal = {
+		casus_belli = conquest
+		actor = NET
+		receiver = IDO
+	}	
+}
+1949.10.13 = {
+	rem_attacker = IDO
+	rem_defender = NET
+}

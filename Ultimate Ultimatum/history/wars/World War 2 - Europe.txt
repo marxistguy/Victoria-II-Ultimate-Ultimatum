@@ -1,0 +1,94 @@
+name = "War of German Agression"
+
+1939.9.1 = {
+	add_attacker = GER
+	add_attacker = ITA
+	add_attacker = JAP
+	add_attacker = HUN
+	add_attacker = BOH
+	add_attacker = SLV
+	add_attacker = SXI
+	add_attacker = MCK
+	add_attacker = MNJ
+	add_defender = ENG
+	add_defender = CAN
+	add_defender = NZL
+	add_defender = SAF
+	add_defender = AST
+	add_defender = FRA
+	add_defender = POL
+	add_defender = DZG
+	add_defender = NET
+	add_defender = BEL
+	add_defender = LUX
+	add_defender = USA
+
+
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = ww2_axis_cb
+		actor = GER
+		receiver = ENG
+	}
+	war_goal = {
+		casus_belli = great_war_install_fascism
+		actor = GER
+		receiver = ENG
+	}
+	war_goal = {
+		casus_belli = lebensraum_cb
+		actor = GER
+		receiver = LUX
+	}
+	war_goal = {
+		casus_belli = lebensraum_cb
+		actor = GER
+		receiver = NET
+	}
+	war_goal = {
+		casus_belli = lebensraum_cb
+		actor = GER
+		receiver = BEL
+	}
+	war_goal = {
+		casus_belli = annex_core_country
+		actor = GER
+		receiver = DZG
+	}
+	war_goal = {
+		casus_belli = ww2_allies_cb
+		actor = ENG
+		receiver = GER
+	}
+
+}
+
+1945.4.1 = {
+	rem_attacker = GER
+	rem_attacker = ITA
+	rem_attacker = SLV
+	rem_attacker = JAP
+	rem_attacker = HUN
+	rem_attacker = BOH
+	rem_attacker = SXI
+	rem_attacker = MCK
+	rem_attacker = MNJ
+	rem_defender = ENG
+	rem_defender = FRA
+	rem_defender = POL
+	rem_defender = DZG
+	rem_defender = CAN
+	rem_defender = NZL
+	rem_defender = SAF
+	rem_defender = AST
+	rem_defender = NET
+	rem_defender = BEL
+	rem_defender = LUX
+	rem_defender = USA
+
+		}

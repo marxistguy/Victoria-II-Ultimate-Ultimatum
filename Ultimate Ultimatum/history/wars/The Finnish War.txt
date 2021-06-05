@@ -1,0 +1,27 @@
+name = "The Finnish War"
+
+1807.1.1 = {
+	add_attacker = RUS
+
+	add_defender = SWE
+
+	war_goal = {
+		casus_belli = liberate_country
+		actor = RUS
+		receiver = SWE
+                country = FIN
+	}
+
+	war_goal = {
+		casus_belli = status_quo
+		actor = SWE
+		receiver = RUS
+	}
+}
+
+
+1809.9.17 = {
+	rem_attacker = RUS
+
+	rem_defender = SWE
+}

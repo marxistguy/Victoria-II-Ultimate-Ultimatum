@@ -1,0 +1,36 @@
+name = "The Eighty-Years War"
+
+1603.12.31 = {
+	add_attacker = NET
+	add_attacker = ANG
+	add_attacker = SCO
+	add_attacker = FRA
+
+	add_defender = SPA
+	add_defender = AUS
+	add_defender = POR
+
+	war_goal = {
+		casus_belli = conquest
+		actor = SPA
+		receiver = NET
+	}
+
+	war_goal = {
+		casus_belli = become_independent
+		actor = NET
+		receiver = SPA
+	}
+}
+
+
+1648.12.31 = {
+	rem_attacker = NET
+	rem_attacker = ANG
+	rem_attacker = SCO
+	rem_attacker = FRA
+
+	rem_defender = SPA
+	rem_defender = AUS
+	rem_defender = POR
+}

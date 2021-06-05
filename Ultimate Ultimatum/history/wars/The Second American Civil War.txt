@@ -1,0 +1,27 @@
+#name = "The Second American Civil War"
+
+2023.1.1 = {
+	add_attacker = DES
+	add_defender = USA
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = civil_war
+		actor = USA
+		receiver = DES
+	}
+	war_goal = {
+		casus_belli = civil_war
+		actor = DES
+		receiver = USA
+	}
+
+}
+
+2024.2.5 = {
+	rem_defender = USA
+}

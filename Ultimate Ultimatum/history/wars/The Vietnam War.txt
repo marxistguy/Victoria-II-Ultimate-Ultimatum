@@ -1,0 +1,47 @@
+name = "The Vietnam War"
+
+1964.1.1 = {
+	add_attacker = DAI
+        add_attacker = LAO
+	add_defender = USA
+        add_defender = SVI
+        add_defender = CAM
+
+
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = annex_core_country
+		actor = DAI
+		receiver = SVI
+	}
+	war_goal = {
+		casus_belli = humiliate
+		actor = DAI
+		receiver = USA
+	}
+	war_goal = {
+		casus_belli = install_democracy
+		actor = USA
+		receiver = LAO
+	}
+	war_goal = {
+		casus_belli = annex_core_country
+		actor = SVI
+		receiver = DAI
+	}
+
+}
+
+1970.4.1 = {
+	rem_attacker = DAI
+        rem_attacker = LAO
+	rem_defender = SVI
+        rem_defender = USA
+	rem_defender = CAM
+
+		}
