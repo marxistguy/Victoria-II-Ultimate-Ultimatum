@@ -1,0 +1,511 @@
+####1604 Enlightenment####
+
+alliance = {
+	first = "AUS"
+	second = "SPA"
+	start_date = "1604.1.1"
+	end_date = "1713.1.1"
+		}
+alliance = {
+	first = "ANG"
+	second = "NET"
+	start_date = "1604.1.1"
+	end_date = "1713.1.1"
+		}
+alliance = {
+	first = "FRA"
+	second = "NET"
+	start_date = "1604.1.1"
+	end_date = "1713.1.1"
+		}
+####1714 Empire####
+alliance = {
+	first = "ENG"
+	second = "IRO"
+	start_date = "1713.1.1"
+	end_date = "1799.1.1"
+		}
+alliance = {
+	first = "FRA"
+	second = "WYA"
+	start_date = "1713.1.1"
+	end_date = "1799.1.1"
+		}
+####Rise of Napoleon####
+alliance = {
+	first = "ENG"
+	second = "AUS"
+	start_date = "1798.1.1"
+	end_date = "1810.1.1"
+		}
+alliance = {
+	first = "ENG"
+	second = "POR"
+	start_date = "1798.1.1"
+	end_date = "1815.1.1"
+		}
+alliance = {
+	first = "ENG"
+	second = "RUS"
+	start_date = "1798.1.1"
+	end_date = "1815.1.1"
+		}
+alliance = {
+	first = "ENG"
+	second = "BAV"
+	start_date = "1798.1.1"
+	end_date = "1810.1.1"
+		}
+alliance = {
+	first = "AUS"
+	second = "RUS"
+	start_date = "1798.1.1"
+	end_date = "1815.1.1"
+		}
+alliance = {
+	first = "AUS"
+	second = "POR"
+	start_date = "1798.1.1"
+	end_date = "1815.1.1"
+		}
+alliance = {
+	first = "AUS"
+	second = "BAV"
+	start_date = "1798.1.1"
+	end_date = "1815.1.1"
+		}
+alliance = {
+	first = "BAV"
+	second = "RUS"
+	start_date = "1798.1.1"
+	end_date = "1815.1.1"
+		}
+####Napoleon's Europe####
+alliance = {
+	first = "FRA"
+	second = "PRU"
+	start_date = "1812.1.1"
+	end_date = "1815.1.1"
+		}
+alliance = {
+	first = "FRA"
+	second = "AUS"
+	start_date = "1812.1.1"
+	end_date = "1815.1.1"
+		}
+alliance = {
+	first = "FRA"
+	second = "KNI"
+	start_date = "1812.1.1"
+	end_date = "1815.1.1"
+		}
+alliance = {
+	first = "FRA"
+	second = "CPL"
+	start_date = "1812.1.1"
+	end_date = "1815.1.1"
+		}
+####Boring Vanilla Stuff####
+alliance=
+	{
+		first="BOL"
+		second="PEU"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+	
+alliance=
+	{
+		first="CHI"
+		second="KOR"
+		end_date="1936.1.1"
+		start_date="1836.1.1"
+	}
+####Franco-Prussian War scenario####
+
+####North German Federation####
+
+alliance=
+	{
+		first="NGF"
+		second="BAV"
+		start_date="1870.7.19"
+end_date="1871.1.1"
+	}
+
+alliance=
+	{
+		first="NGF"
+		second="WUR"
+		start_date="1870.7.19"
+end_date="1871.1.1"
+	}
+
+alliance=
+	{
+		first="NGF"
+		second="BAD"
+		start_date="1870.7.19"
+end_date="1871.1.1"
+	}
+
+alliance=
+	{
+		first="NGF"
+		second="ITA"
+		start_date="1870.7.19"
+end_date="1871.1.1"
+	}
+####WW1 Scenario####
+
+##British Empire##
+
+alliance=
+	{
+		first="ENG"
+		second="CAN"
+		start_date="1914.7.28"
+end_date="1939.9.1"
+	}
+
+
+alliance=
+	{
+		first="ENG"
+		second="AST"
+		start_date="1914.7.28"
+end_date="1939.9.1"
+	}
+
+alliance=
+	{
+		first="ENG"
+		second="NZL"
+		start_date="1914.7.28"
+end_date="1939.9.1"
+	}
+
+alliance=
+	{
+		first="ENG"
+		second="SAF"
+		start_date="1914.7.28"
+end_date="1939.9.1"
+	}
+
+alliance=
+	{
+		first="ENG"
+		second="BEL"
+		start_date="1914.7.28"
+end_date="1939.9.1"
+	}
+
+alliance=
+	{
+		first="ENG"
+		second="LUX"
+		start_date="1914.7.28"
+end_date="1939.9.1"
+	}
+
+alliance=
+	{
+		first="ENG"
+		second="EGY"
+		start_date="1914.7.28"
+end_date="1939.9.1"
+	}
+
+alliance=
+	{
+		first="ENG"
+		second="ARA"
+		start_date="1914.7.28"
+end_date="1918.11.11"
+	}
+
+
+alliance=
+	{
+		first="ENG"
+		second="RUS"
+		start_date="1914.7.28"
+end_date="1939.9.1"
+        }
+
+
+
+##Russia##
+
+alliance=
+	{
+		first="RUS"
+		second="SER"
+		start_date="1914.7.28"
+end_date="1939.9.1"
+        }
+
+alliance=
+	{
+		first="RUS"
+		second="MON"
+		start_date="1914.7.28"
+end_date="1939.9.1"
+        }
+
+##France##
+alliance=
+	{
+		first="FRA"
+		second="ENG"
+		start_date="1914.7.28"
+end_date="1939.9.1"
+        }
+
+alliance=
+	{
+		first="FRA"
+		second="RUS"
+		start_date="1914.7.28"
+end_date="1939.9.1"
+        }
+
+####WW1 Scenario####
+
+#Central Powers
+alliance = {
+		first = GER
+		second = TUR
+		start_date = 1914.1.1
+		end_date = 1918.1.1
+}
+alliance = {
+		first = GER
+		second = KUK
+        start_date = 1914.1.1
+		end_date = 1918.1.1
+}
+alliance = {
+		first = TUR
+		second = KUK
+		start_date = 1914.1.1
+		end_date = 1918.1.1
+}
+alliance = {
+		first = TUR
+		second = BUL
+		start_date = 1914.1.1
+		end_date = 1918.1.1
+}
+alliance = {
+		first = GER
+		second = BUL
+		start_date = 1914.1.1
+		end_date = 1918.1.1
+}
+#Entente
+alliance = {
+		first = RUS
+		second = SER
+		start_date = 1914.1.1
+		end_date = 1918.1.1
+}
+alliance = {
+		first = FRA
+		second = RUS
+		start_date = 1914.1.1
+		end_date = 1918.1.1
+}
+alliance = {
+		first = FRA
+		second = ENG
+		start_date = 1914.1.1
+		end_date = 1918.1.1
+}
+alliance = {
+		first = ENG
+		second = RUS
+		start_date = 1914.1.1
+		end_date = 1918.1.1
+}
+
+#British Empire
+alliance = {
+		first = ENG
+		second = AST
+		start_date = 1901.1.1
+		end_date = 2022.1.1
+}
+alliance = {
+		first = ENG
+		second = CAN
+		start_date = 1867.7.1
+		end_date = 2022.1.1
+}
+alliance = {
+		first = ENL
+		second = CAN 
+		start_date = 2023.1.1
+        end_date = 2100.1.1
+}
+alliance = {
+		first = ENG
+		second = NZL
+		start_date = 1907.9.26
+		end_date = 2022.1.1
+}
+alliance = {
+		first = ENG
+		second = SAF
+		start_date = 1910.5.31
+        end_date = 2022.1.1
+}
+####WW2 Scenario####
+
+##British Empire##
+
+alliance=
+	{
+		first="ENG"
+		second="CAN"
+		start_date="1936.1.1"
+end_date="2018.1.1"
+	}
+
+alliance=
+	{
+		first="ANG"
+		second="CAN"
+		start_date="2015.1.1"
+end_date="2100.1.1"
+	}
+
+alliance=
+	{
+		first="ENG"
+		second="AST"
+		start_date="1936.1.1"
+end_date="2018.1.1"
+	}
+
+alliance=
+	{
+		first="ENG"
+		second="NZL"
+		start_date="1936.1.1"
+end_date="2018.1.1"
+	}
+
+alliance=
+	{
+		first="ENG"
+		second="SAF"
+		start_date="1936.1.1"
+end_date="2018.1.1"
+	}
+
+##Allies##
+
+alliance=
+	{
+		first="ENG"
+		second="FRA"
+		start_date="1936.1.1"
+end_date="1945.1.1"
+	}
+
+##Axis##
+
+alliance= 
+{
+		first="ITA"
+		second="GER"
+		start_date="1936.1.1"
+end_date="1945.1.1"
+	}
+
+alliance= 
+{
+		first="GER"
+		second="SLV"
+		start_date="1936.1.1"
+end_date="1945.1.1"
+	}
+
+alliance= 
+{
+		first="GER"
+		second="ROM"
+		start_date="1939.1.1"
+end_date="1945.1.1"
+	}
+
+alliance= 
+{
+		first="GER"
+		second="HUN"
+		start_date="1936.1.1"
+end_date="1945.1.1"
+	}
+
+alliance= 
+{
+		first="GER"
+		second="BUL"
+		start_date="1936.1.1"
+end_date="1945.1.1"
+	}
+
+alliance=
+	{
+		first="GER"
+		second="JAP"
+		start_date="1936.1.1"
+end_date="1945.1.1"
+	}
+
+
+alliance=
+	{
+		first="ITA"
+		second="JAP"
+		start_date="1936.1.1"
+end_date="1945.1.1"
+	}
+
+alliance=
+	{
+		first="JAP"
+		second="SIA"
+		start_date="1940.1.1"
+end_date="1945.1.1"
+	}
+
+####POST-WW2 AMERICAN ALLIANCES####
+
+alliance=
+	{
+		first="USA"
+		second="ENG"
+		start_date="1945.1.1"
+end_date="2018.1.1"
+	}
+
+####2023 Alliances####
+
+alliance=
+	{
+		first="FRA"
+		second="QUE"
+		start_date="2015.1.1"
+end_date="2050.1.1"
+	}
+
+alliance=
+	{
+		first="USA"
+		second="CAN"
+		start_date="2015.1.1"
+end_date="2040.1.1"
+	}

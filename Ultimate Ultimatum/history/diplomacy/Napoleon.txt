@@ -1,0 +1,127 @@
+#Confederation of the Rhine
+vassal = {
+	first = FRA
+	second = BAV
+	start_date = 1806.7.12
+	end_date = 1813.10.12
+}
+vassal = {
+	first = FRA
+	second = WUR
+	start_date = 1806.7.12
+	end_date = 1813.11.4
+}
+vassal = {
+	first = FRA
+	second = SGM
+	start_date = 1806.7.12
+	end_date = 1813.11.4
+}
+vassal = {
+	first = FRA
+	second = BAD
+	start_date = 1806.7.12
+	end_date = 1813.11.4
+}
+vassal = {
+	first = FRA
+	second = FRM
+	start_date = 1810.2.16
+	end_date = 1813.12.1
+}
+vassal = {
+	first = FRA
+	second = GHB
+	start_date = 1806.3.15
+	end_date = 1813.12.1
+}
+vassal = {
+	first = FRA
+	second = NAS
+	start_date = 1806.7.12
+	end_date = 1813.11.4
+}
+vassal = {
+	first = FRA
+	second = HES
+	start_date = 1806.7.12
+	end_date = 1813.11.4
+}
+vassal = {
+	first = FRA
+	second = LIP
+	start_date = 1807.4.11
+	end_date = 1813.11.4
+}
+vassal = {
+	first = FRA
+	second = WES
+	start_date = 1807.7.9
+	end_date = 1813.10.19
+}
+vassal = {
+	first = FRA
+	second = SAX
+	start_date = 1806.12.11
+	end_date = 1813.11.4
+}
+vassal = {
+	first = FRA
+	second = WUZ
+	start_date = 1806.9.30
+	end_date = 1813.10.26
+}
+vassal = {
+	first = FRA
+	second = MEC
+	start_date = 1808.3.22
+	end_date = 1813.11.4
+}
+vassal = {
+	first = FRA
+	second = COB
+	start_date = 1806.12.5
+	end_date = 1813.11.4
+}
+vassal = {
+	first = FRA
+	second = MEI
+	start_date = 1806.12.5
+	end_date = 1813.11.4
+}
+vassal = {
+	first = FRA
+	second = WEI
+	start_date = 1806.12.5
+	end_date = 1813.11.4
+}
+vassal = {
+	first = FRA
+	second = ANH
+	start_date = 1807.4.11
+	end_date = 1813.11.4
+}
+vassal = {
+	first = FRA
+	second = SWI
+	start_date = 1798.4.12
+	end_date = 1815.6.8
+}
+vassal = {
+	first = FRA
+	second = POL
+	start_date = 1807.9.9
+	end_date = 1815.6.9
+}
+vassal = {
+	first = FRA
+	second = DZG
+	start_date = 1807.9.9
+	end_date = 1814.1.2
+}
+vassal = {
+	first = FRA
+	second = KNI
+	start_date = 1806.3.30
+	end_date = 1808.6.6
+}

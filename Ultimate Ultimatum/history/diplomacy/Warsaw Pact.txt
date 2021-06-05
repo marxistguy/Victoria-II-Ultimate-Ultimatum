@@ -1,0 +1,50 @@
+## Warsaw Pact
+
+vassal = {
+	first = RUS
+	second = POL
+	start_date = 1955.5.14
+	end_date = 1991.7.1
+}
+
+vassal = {
+	first = RUS
+	second = DDR
+	start_date = 1955.5.14
+	end_date = 1991.7.1
+}
+
+vassal = {
+	first = RUS
+	second = CZH
+	start_date = 1955.5.14
+	end_date = 1991.7.1
+}
+
+vassal = {
+	first = RUS
+	second = BUL
+	start_date = 1955.5.14
+	end_date = 1991.7.1
+}
+
+vassal = {
+	first = RUS
+	second = HUN
+	start_date = 1955.5.14
+	end_date = 1991.7.1
+}
+
+vassal = {
+	first = RUS
+	second = ROM
+	start_date = 1955.5.14
+	end_date = 1991.7.1
+}
+
+vassal = {
+	first = RUS
+	second = ALB
+	start_date = 1955.5.14
+	end_date = 1991.7.1
+}
