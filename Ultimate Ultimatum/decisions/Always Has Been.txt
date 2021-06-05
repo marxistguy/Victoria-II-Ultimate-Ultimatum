@@ -1,0 +1,40 @@
+political_decisions = {
+	always_has_been = {
+		alert = no
+		picture = "alwayshasbeen"
+		potential = {
+		ai = no
+		NOT = { year = 1903 }
+		has_country_flag = shown_decisions
+		any_owned_province = { has_pop_type = spacecolonists } }
+		allow = {}
+		effect = {
+			any_pop = {
+				limit = {
+					pop_type = spacecolonists
+				}
+				reduce_pop = 0.10
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	always_has_been_for_ai = {
+		alert = no
+		picture = "alwayshasbeen"
+		potential = {
+		exists = yes
+		ai = yes
+		NOT = { year = 1903 }
+		any_owned_province = { has_pop_type = spacecolonists } }
+		allow = {}
+		effect = {
+			any_pop = {
+				limit = {
+					pop_type = spacecolonists
+				}
+				reduce_pop = 0.10
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

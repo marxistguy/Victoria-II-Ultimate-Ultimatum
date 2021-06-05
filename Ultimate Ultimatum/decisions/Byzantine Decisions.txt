@@ -1,0 +1,49 @@
+political_decisions = {
+	move_capital_to_Constantinople = {
+    		potential = {
+        		tag = BYZ
+			owns = 860
+
+	}	
+	
+	allow = {
+		controls = 860
+		NOT = { capital = 860 }
+	}
+	
+	effect = {
+		capital = 860
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+
+	rename_istanbul = {
+		potential = {
+			tag = BYZ 
+			owns = 860
+			NOT = { has_global_flag = rename_istanbul }
+			
+	}
+	
+	allow = {
+		money = 100
+	}
+	
+	effect = {
+	    set_global_flag = rename_istanbul
+		860 = {
+			change_province_name = "Constantinople"
+			state_scope = {
+			change_region_name = "Thrace"
+				}
+			}
+		prestige = 5
+		money -100
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}

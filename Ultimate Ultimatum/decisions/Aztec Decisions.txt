@@ -1,0 +1,28 @@
+political_decisions = {
+	rename_mexico_city = {
+		potential = {
+			tag = AZT  
+			owns = 2172
+			NOT = { has_global_flag = rename_mexico_city }
+			
+	}
+	
+	allow = {
+		money = 100
+	}
+	
+	effect = {
+	    set_global_flag = rename_mexico_city
+		2172 = {
+			change_province_name = "Tenochtitlan"
+			state_scope = {
+			change_region_name = "Tenochtitlan"
+				}
+			}
+		prestige = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}

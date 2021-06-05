@@ -1,0 +1,71 @@
+political_decisions = {
+form_usca = {
+picture = "form_usca"
+		potential = {
+			OR = {
+AND = {
+tag = GUA }
+AND = {
+tag = COS }
+AND = {
+tag = NIC }
+AND = {
+tag = HON }
+AND = {
+tag = ELS }
+}
+			NOT = {
+				exists = UCA
+			}
+		}	
+		allow = {
+			war = no
+			
+			UCA = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			any_country = {
+				limit = {
+					vassal_of = THIS
+				}
+				annex_to = THIS
+			}
+			any_country = {
+				limit = {
+					in_sphere = THIS
+				}
+				
+				any_owned = {
+					limit = {
+						is_core = UCA
+					}
+					secede_province = THIS
+				}
+
+			}
+			
+			
+
+			change_tag = UCA
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+}
+
+
+}

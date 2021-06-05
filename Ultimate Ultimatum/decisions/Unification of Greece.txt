@@ -1,0 +1,77 @@
+political_decisions = {
+
+unite_greece = {
+		picture = "unite_greece"
+	potential = {
+		OR = { tag = GRE tag = PEG }
+		GRE = { exists = yes }
+		PEG = { exists = yes }
+					}
+		allow = {
+			war = no
+			is_vassal = no
+
+		OR = { 
+
+AND = { 
+GRE = { OR = { government = democracy government = democracy1 } }
+PEG = { OR = { government = democracy government = democracy1 } } 
+}
+
+AND = { 
+GRE = { OR = { government = hms_government government = hms_government1 } }
+PEG = { OR = { government = hms_government government = hms_government1 } }
+}
+
+AND = { 
+GRE = { government = absolute_monarchy } 
+PEG = { government = absolute_monarchy } 
+}
+
+AND = { 
+GRE = { government = theocracy } 
+PEG = { government = theocracy } 
+}
+
+AND = { 
+GRE = { government = socialist_democracy } 
+PEG = { government = socialist_democracy } 
+}
+
+AND = { 
+GRE = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 } }
+PEG = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 } } 
+}
+
+AND = { 
+OR = { is_sphere_leader_of = GRE is_our_vassal = GRE tag = GRE }
+OR = { is_sphere_leader_of = PEG is_our_vassal = PEG tag = PEG }
+}
+ 
+		}
+					}
+		effect = {
+		prestige = 100
+
+random_owned = { 
+limit = { owner = { tag = GRE } }
+owner = { inherit = PEG }
+}
+
+random_owned = { 
+limit = { owner = { tag = PEG } }
+owner = { inherit = PEG change_tag = GRE }
+}
+
+		capital = 834
+		
+				}
+		ai_will_do = { 
+			factor = 1 
+modifier = { 
+factor = 0 
+OR = { PEG = { ai = no } GRE = { ai = no } } 
+}
+			}
+	}
+}
