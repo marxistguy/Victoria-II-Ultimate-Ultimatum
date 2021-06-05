@@ -1,0 +1,65 @@
+capital = 223
+primary_culture = yankee
+culture = dixie
+culture = english
+culture = texan
+religion = protestant
+government = prussian_constitutionalism
+plurality = 25.0
+nationalvalue = nv_liberty
+literacy = 0.50
+civilized = yes
+#Revolutionary
+prestige = 10
+	oob = "/1700/THC_oob.txt"
+
+# Political reforms
+slavery = yes_slavery
+upper_house_composition = appointed
+vote_franschise = wealth_weighted_voting
+public_meetings = yes_meeting
+press_rights = censored_press
+trade_unions = no_trade_unions
+voting_system = first_past_the_post
+political_parties = gerrymandering
+
+
+# Social Reforms
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = no_safety
+health_care = trinket_health_care
+unemployment_subsidies = trinket_subsidies
+pensions = no_pensions 
+school_reforms = no_schools
+
+ruling_party = THC_conservative
+upper_house = {
+	fascist = 0
+	liberal = 0
+	conservative = 100
+	reactionary = 0
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+1700.1.1 = {
+post_nelsonian_thought = 1
+post_renaissance_tech = 1
+birth_of_science_tech = 1
+scientific_revolution_tech = 1 #until this for 1700
+late_medieval_warfare = 1
+early_military_revolution = 1
+flintlock_muskets = 1 #Until this for 1700
+late_renaissance = 1
+mannerism = 1
+early_baroque = 1
+high_baroque = 1 #Until this for 1700
+late_reformation = 1
+counter_reformation = 1
+inquisitions_tech = 1
+jesuit_movements_tech = 1 #Until this for 1700
+late_renaissance_philosophies = 1
+age_of_rationalism = 1
+early_modern_philosphies = 1 #Until this for 1700
+		}
