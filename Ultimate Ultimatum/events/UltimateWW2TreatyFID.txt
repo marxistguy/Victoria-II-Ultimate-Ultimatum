@@ -1,0 +1,54 @@
+#Japanese forces occupy Indochina
+country_event = {
+	id = 2000002
+	title = "French Indochina surrenders"
+	desc = "We have occupied French Indochina, They have surrendered now we are one step closer to become the greatest country in Asia!"
+	picture = "japanese"
+
+        fire_only_once = yes
+
+	trigger = {
+tag = JAP
+OR = {
+AND = {
+1369 = {
+	controlled_by = JAP
+		}
+}
+AND = {
+1369 = {
+	controlled_by = GER
+		}
+}
+AND = {
+1369 = {
+	controlled_by = ITA
+		}
+}
+AND = {
+1369 = {
+	controlled_by = SLO
+		}
+}
+}
+	FID = {
+	
+		
+	has_global_flag = WW2_inprogress
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	
+##Annex French Indochina##
+	option = {
+		name = "Annex French Indochina"
+		JAP = {
+        end_war = FID
+	inherit = FID
+	prestige = 25
+}
+	}
+}

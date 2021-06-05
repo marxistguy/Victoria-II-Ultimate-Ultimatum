@@ -1,0 +1,31 @@
+# Conquest of Ming
+country_event = {
+	id = 55555
+	title = "Claim the Mandate of Heaven"
+	desc = "Ming has been conquered, its now time to legitimize our rule by claiming the Mandate of Heaven"
+	picture = "Claimmandateofheaven"
+
+	trigger = {
+		tag = QNG
+		year = 1604
+	}
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = "Claim the Mandate of Heaven"
+		prestige = 0.05
+		capital = 1612	
+		MNG = { all_core = { add_core = QNG } }	
+		MNG = { all_core = { remove_core = MNG } }	
+		}
+		ai_chance = {
+			factor = 25
+		}
+		any_pop = {
+			militancy = -2
+			consciousness = -3
+		}
+	}
+}

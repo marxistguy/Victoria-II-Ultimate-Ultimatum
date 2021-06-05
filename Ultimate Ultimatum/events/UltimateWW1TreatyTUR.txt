@@ -1,0 +1,552 @@
+#The Ottoman Empire is occupied by the allies
+country_event = {
+	id = 10000004
+	title = "Treaty of Sèvres"
+	desc = "The War is lost, and now we have to accept the dismantlement of our Empire"
+	picture = "TreatyofVersailles"
+
+	major = yes  
+fire_only_once = yes                 
+
+	trigger = { 
+tag = TUR
+          OR = {
+
+AND = {
+           860 = {
+	   controlled_by = ENG
+}
+
+}
+
+AND = {
+           860 = {
+	   controlled_by = FRA
+}
+
+}
+
+AND = {
+           860 = {
+	   controlled_by = RUS
+}
+
+}
+
+AND = {
+           860 = {
+	   controlled_by = ITA
+}
+
+}
+
+AND = {
+           860 = {
+	   controlled_by = SER
+}
+
+}
+
+AND = {
+           860 = {
+	   controlled_by = BEL
+}
+
+}
+
+AND = {
+           860 = {
+	   controlled_by = LUX
+}
+
+}
+
+AND = {
+           860 = {
+	   controlled_by = AST
+}
+
+}
+
+AND = {
+           860 = {
+	   controlled_by = NZL
+}
+
+}
+
+AND = {
+           860 = {
+	   controlled_by = CAN
+}
+
+}
+
+AND = {
+           860 = {
+	   controlled_by = NEW
+}
+
+}
+
+AND = {
+           860 = {
+	   controlled_by = EGY
+}
+
+}
+
+AND = {
+           860 = {
+	   controlled_by = JAP
+}
+
+}
+
+AND = {
+           860 = {
+	   controlled_by = SAF
+}
+
+}
+
+AND = {
+           860 = {
+	   controlled_by = MON
+}
+
+}
+
+AND = {
+           860 = {
+	   controlled_by = ALB
+}
+
+}
+AND = {
+           860 = {
+	   controlled_by = POR
+}
+
+}
+
+AND = {
+           860 = {
+	   controlled_by = ROM
+}
+
+}
+
+AND = {
+           860 = {
+	   controlled_by = GRE
+}
+
+}
+
+
+AND = {
+           860 = {
+	   controlled_by = USA
+}
+
+}
+}
+
+	TUR = {
+		war_exhaustion = 10
+		}
+	has_global_flag = WW1inprogress
+		
+
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+##Punish the Ottoman Empire##
+	option = {
+		name = "This is the end of our great Ottoman Empire"
+
+
+		any_country = {
+	end_war = TUR
+            }
+
+TUR = {
+ 1155 = {
+	secede_province = ARA }
+1152 = {
+	secede_province = ARA }
+1151 = {
+	secede_province = ARA }
+1153 = {
+	secede_province = ARA }
+1154 = {
+	secede_province = ARA }
+}
+
+TUR = {
+844 = {
+	secede_province = GRE }
+843 = {
+	secede_province = GRE }
+869 = {
+	secede_province = GRE }
+870 = {
+	secede_province = GRE }
+828 = {
+	secede_province = GRE }
+859 = {
+	secede_province = GRE }
+858 = {
+	secede_province = GRE }
+845 = {
+	secede_province = GRE }
+847 = {
+	secede_province = GRE }
+848 = {
+	secede_province = GRE }
+827 = {
+	secede_province = GRE }
+826 = {
+	secede_province = GRE }
+}
+
+TUR = {
+1096 = {
+	secede_province = RUS }
+886 = {
+	secede_province = RUS }
+885 = {
+	secede_province = RUS }
+887 = {
+	secede_province = RUS }
+882 = {
+	secede_province = RUS }
+}
+
+
+TUR = {
+910 = {
+	secede_province = ENG }
+909 = {
+	secede_province = ENG }
+911 = {
+	secede_province = ENG }
+908 = {
+	secede_province = ENG }
+922 = {
+	secede_province = ENG }
+918 = {
+	secede_province = ENG }
+919 = {
+	secede_province = ENG }
+917 = {
+	secede_province = ENG }
+921 = {
+	secede_province = ENG }
+916 = {
+	secede_province = ENG }
+920 = {
+	secede_province = ENG }
+856 = {
+	secede_province = ENG }
+855 = {
+	secede_province = ENG }
+857 = {
+	secede_province = ENG }
+2564 = {
+	secede_province = ENG }
+1835 = {
+	secede_province = ENG }
+1837 = {
+	secede_province = ENG }
+1836 = {
+	secede_province = ENG }
+1833 = {
+	secede_province = ENG }
+1834 = {
+	secede_province = ENG }
+935 = {
+	secede_province = ENG }
+1162 = {
+	secede_province = ENG }
+1165 = {
+	secede_province = ENG }
+1167 = {
+	secede_province = ENG }
+1168 = {
+	secede_province = ENG }
+1412 = {
+	secede_province = ENG }
+1176 = {
+	secede_province = ENG }
+1173 = {
+	secede_province = ENG }
+1175 = {
+	secede_province = ENG }
+
+}
+
+TUR = {
+905 = {
+	secede_province = FRA }
+900 = {
+	secede_province = FRA }
+897 = {
+	secede_province = FRA }
+904 = {
+	secede_province = FRA }
+901 = {
+	secede_province = FRA }
+915 = {
+	secede_province = FRA }
+913 = {
+	secede_province = FRA }
+914 = {
+	secede_province = FRA }
+912 = {
+	secede_province = FRA }
+902 = {
+	secede_province = FRA }
+903 = {
+	secede_province = FRA }
+906 = {
+	secede_province = FRA }
+907 = {
+	secede_province = FRA }
+1719 = {
+	secede_province = FRA }
+1718 = {
+	secede_province = FRA }
+1720 = {
+	secede_province = FRA }
+1714 = {
+	secede_province = FRA }
+1697 = {
+	secede_province = FRA }
+1698 = {
+	secede_province = FRA }
+1699 = {
+	secede_province = FRA }
+1694 = {
+	secede_province = FRA }
+1696 = {
+	secede_province = FRA }
+1715 = {
+	secede_province = FRA }
+1713 = {
+	secede_province = FRA }
+1711 = {
+	secede_province = FRA }
+1712 = {
+	secede_province = FRA }
+1729 = {
+	secede_province = FRA }
+1730 = {
+	secede_province = FRA }
+1728 = {
+	secede_province = FRA }
+1727 = {
+	secede_province = FRA }
+1710 = {
+	secede_province = FRA }
+1708 = {
+	secede_province = FRA }
+1702 = {
+	secede_province = FRA }
+1703 = {
+	secede_province = FRA }
+1707 = {
+	secede_province = FRA }
+1684 = {
+	secede_province = FRA }
+1683 = {
+	secede_province = FRA }
+1680 = {
+	secede_province = FRA }
+1681 = {
+	secede_province = FRA }
+1682 = {
+	secede_province = FRA }
+1685 = {
+	secede_province = FRA }
+1691 = {
+	secede_province = FRA }
+1692 = {
+	secede_province = FRA }
+2563 = {
+	secede_province = FRA }
+1690 = {
+	secede_province = FRA }
+1693 = {
+	secede_province = FRA }
+1681 = {
+	secede_province = FRA }
+1705 = {
+	secede_province = FRA }
+1704 = {
+	secede_province = FRA }
+1706 = {
+	secede_province = FRA }
+1700 = {
+	secede_province = FRA }
+1701 = {
+	secede_province = FRA }
+1709 = {
+	secede_province = FRA }
+1726 = {
+	secede_province = FRA }
+1725 = {
+	secede_province = FRA }
+
+}
+
+TUR = {
+1731 = {
+	secede_province = ITA }
+1744 = {
+	secede_province = ITA }
+1743 = {
+	secede_province = ITA }
+1741 = {
+	secede_province = ITA }
+2585 = {
+	secede_province = ITA }
+1739 = {
+	secede_province = ITA }
+1740 = {
+	secede_province = ITA }
+1742 = {
+	secede_province = ITA }
+1738 = {
+	secede_province = ITA }
+1737 = {
+	secede_province = ITA }
+1736 = {
+	secede_province = ITA }
+1735 = {
+	secede_province = ITA }
+1734 = {
+	secede_province = ITA }
+1733 = {
+	secede_province = ITA }
+1732 = {
+	secede_province = ITA }
+
+}
+
+TUR = {
+1485 = {
+	secede_province = JAP }
+2562 = {
+	secede_province = JAP }
+}
+
+TUR = {
+2536 = {
+	secede_province = AST }
+1446 = {
+         secede_province = POR }
+1954 = {
+         secede_province = POR }
+}
+865 = {
+secede_province = ENG }
+863 = {
+secede_province = ENG }
+862 = {
+secede_province = ENG }
+861 = {
+secede_province = ENG }
+860 = {
+secede_province = ENG }
+892 = {
+secede_province = ENG }
+
+846 = {
+secede_province = ITA }
+
+894 = {
+secede_province = FRA }
+896  = {
+secede_province = FRA }
+899  = {
+secede_province = FRA }
+898  = {
+secede_province = FRA }
+889  = {
+secede_province = FRA }
+893 = {
+secede_province = FRA }
+872 = {
+secede_province = ITA }
+871 = {
+secede_province = ITA }
+874 = {
+secede_province = ITA }
+875 = {
+secede_province = ITA }
+873 = {
+secede_province = ITA }
+895 = {
+secede_province = ITA }
+867 = {
+secede_province = ITA }
+
+866 = {
+secede_province = ITA }
+864 = {
+secede_province = ITA }
+
+
+
+TUR = {
+release = IRQ
+release = EGY
+
+government = democracy
+		political_reform = no_slavery
+		political_reform = universal_voting
+		political_reform = population_equal_weight
+		political_reform = proportional_representation
+		political_reform = yes_meeting
+		political_reform = free_press
+		political_reform = all_trade_unions
+		political_reform = secret_ballots
+       prestige = -5000
+neutrality = yes
+
+relation = {
+	who = KUK
+	value = -200
+}
+relation = {
+	who = BUL
+	value = -200
+}
+relation = {
+	who = GER
+	value = -200
+}
+relation = {
+	who = ITA
+	value = -200
+}
+
+ }
+ARA = {
+any_owned  = {
+limit = {
+is_core = IRQ }
+secede_province = IRQ }
+release = JOR
+}
+ENG = {
+inherit = JOR }
+
+
+	}
+}

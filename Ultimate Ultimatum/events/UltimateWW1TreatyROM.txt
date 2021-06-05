@@ -1,0 +1,71 @@
+#Romania is occupied by Bulgaria
+country_event = {
+	id = 10000010
+	title = "The end of the war"
+	desc = "We have lost, our country is occupied, we have to surrender"
+	picture = "TreatyofVersailles"
+
+ major = yes	
+fire_only_once = yes 
+	
+
+	trigger = { 
+tag = ROM
+OR = {
+AND = {
+664 = {
+	controlled_by = BUL
+		}
+}
+AND = {
+664 = {
+	controlled_by = KUK
+		}
+}
+AND = {
+664 = {
+	controlled_by = GER
+		}
+}
+AND = {
+664 = {
+	controlled_by = TUR
+		}
+}
+}
+	ROM = {
+	war_exhaustion = 10
+		}
+		
+	has_global_flag = WW1inprogress
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+#annex romania
+	option = {
+
+		name = "Accept the treaty"
+any_country = {
+	end_war = ROM
+            }
+ROM = {
+ 672 = {
+	secede_province = KUK }
+671 = {
+	secede_province = KUK }
+670 = {
+	secede_province = KUK }
+673 = {
+	secede_province = KUK }
+
+}
+		
+BUL = {	inherit = ROM
+	prestige = 25
+	}
+
+
+}

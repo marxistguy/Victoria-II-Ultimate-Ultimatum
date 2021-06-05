@@ -1,0 +1,47 @@
+#Peru declare independence
+country_event = {
+	id = 4000008
+	title = "Peru declare independence"
+	desc = "Following the example of our other American colonies Peru in 1821 declared independence , our advisors say that we can't let them go so that we don't become a weak empire talking about it's former glory , so how do we respond?"
+	picture = "scream"
+	is_triggered_only_once = yes
+major = yes
+
+trigger = {
+tag = SPA
+year = 1820
+militancy = 3
+
+NOT = {
+exist = PEU
+year = 1836
+}
+}
+
+
+
+option = {
+name = "We shall get back what's ours!"
+release = PEU 
+
+	war = {
+	target = PEU
+	attacker_goal = {
+		casus_belli = conquest
+	}
+	call_ally = yes
+	defender_goal = {
+		casus_belli = become_independent
+	}
+}
+		ai_chance = {
+			factor = 25
+		}
+		}
+	option = {
+	name = "We accept their independence"
+release = PEU
+	prestige = -25
+	
+			}
+}

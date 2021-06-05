@@ -1,0 +1,40 @@
+#The Portugal surrenders
+country_event = {
+	id = 2000034
+	title = "Treaty of  Cardigan"
+	desc = "We have sucessufully ocuppied Lisbon and the Portuguese Empire  have surrendered, they will pay for disobeying us!"
+	picture = "napoleon"
+         major = yes
+
+trigger = {
+    tag = FRA
+	
+	521 = {
+	controlled_by = THIS
+		}
+     has_global_flag = napoleon
+	POR = {
+	war_exhaustion = 2 } 
+}
+		
+			
+	
+option = {
+name = "Make them our puppet"
+
+
+	end_war = POR
+	treasury = 200000
+	
+	create_vassal = POR
+}
+       
+	
+		
+
+        
+           
+	prestige = 1000
+}
+	
+	

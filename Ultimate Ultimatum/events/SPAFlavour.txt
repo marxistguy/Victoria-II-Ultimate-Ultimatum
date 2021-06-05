@@ -1,0 +1,520 @@
+﻿### Debugger ###
+
+country_event = {
+       id = 40144
+       title = "Debugger"
+       desc  = "Debugger"
+       fire_only_once = yes
+
+       trigger = {                    
+	       tag = SPA
+		   year = 9000
+       }
+
+       option = {
+			name = "Debug"
+       }
+}
+
+### End of Primo de Rivera ###
+
+country_event = {
+       id = 40120
+       title = "The End of Primo de Rivera"
+       desc  = "EVTDESC2935"
+       picture = "primorivera"
+       fire_only_once = yes
+
+       trigger = {
+	       tag = SPA
+	       year = 1930
+	       month = 3
+	       has_country_flag = primo_de_rivera 
+	       NOT = { has_country_flag = end_primo_de_rivera }
+	       NOT = { year = 1941 }
+       }
+
+       option = {
+              name = "Yes, he must go"
+	      ai_chance = {
+			factor = 90
+		}
+	      any_pop = {
+		militancy = -1
+		consciousness = 1
+		}
+	      government = hms_government
+	      set_country_flag = end_primo_de_rivera
+	      political_reform = universal
+	      political_reform = free_press
+	      political_reform = secret_ballots
+		any_pop = {
+			limit = {
+				location = {
+					is_colonial = no
+				}
+			}
+	      		ideology = {
+				value = socialist
+				factor = 0.35
+			}
+		}
+       }
+
+       option = {
+              name = "Fascism is the way forward!"    
+	      ai_chance = {
+			factor = 10
+		}                                
+	      any_pop = {
+		militancy = 4
+		consciousness = 2
+		}
+		any_pop = {
+			limit = {
+				location = {
+					is_colonial = no
+				}
+			}
+	      		ideology = {
+				value = socialist
+				factor = 0.45
+			}
+		}
+		any_pop = {
+			limit = {
+				location = {
+					is_colonial = no
+				}
+			}
+	      		ideology = {
+				value = communist
+				factor = 0.15
+			}
+		}
+       }
+}                                                                                        
+
+### Ban the Falange Party ###
+
+country_event = {
+       id = 40133
+       title = "Ban the Falange Party?"
+       desc = "In early 1936, the newly elected socialist government of Spain sought to solidify its position by banning the extremely right wing Falange party, being a major contributor to the imminent Spanish Civil War."
+       picture = "franco"
+	   fire_only_once = yes
+
+       trigger = {
+            tag = SPA
+			year = 1936
+			month = 2
+			NOT = { year = 1941 }
+			NOT = { has_global_flag = falange_banned } 
+			NOT = { has_global_flag = spanish_civil_war } 
+			NOT = { 
+				OR = {
+					government = fascist_dictatorship 
+					government = fascist
+				}
+			}
+		}
+
+       option = {
+		name = "Yes! Socialism not intolerance!"
+		prestige = -5
+		set_global_flag = falange_banned
+		ai_chance = {
+			factor = 95
+		}
+		any_pop = {
+			militancy = 3
+			consciousness = 5
+		}
+		any_pop = {
+			limit = {
+				location = {
+					is_colonial = no
+				}
+			}
+	      	ideology = {
+				value = fascist
+				factor = 0.30
+			}
+		}
+	}
+	
+	   option = {
+		name = "No! Intolerance not socialism!"
+		prestige = 5
+		ai_chance = {
+			factor = 5
+		}
+		any_pop = {
+			limit = {
+				location = {
+					is_colonial = no
+				}
+			}
+	      	ideology = {
+				value = fascist
+				factor = 0.10
+			}
+		}
+	}
+}
+
+### Fascists Rioting Nationwide! ###
+
+country_event = {
+       id = 40134
+       title = "Fascists Rioting Nationwide!"
+       desc = "There is massive rioting across the nation over our decision to ban the Falange party, and discipline within the military is starting to break down - trouble is brewing on the horizon as the crisis gets worse!"
+       picture = "communist_riot"
+	   fire_only_once = yes
+
+       trigger = {
+            tag = SPA
+			year = 1936
+			month = 3
+			has_global_flag = falange_banned
+			NOT = { year = 1941 }
+			NOT = { has_global_flag = spanish_civil_war } 
+			NOT = { has_global_flag = spa_falange_riots } 
+			NOT = { 
+				OR = {
+					government = fascist_dictatorship 
+					government = fascist
+				}
+			}
+		}
+
+       option = {
+		name = "Hmph, troubling news!"
+		prestige = -5
+		set_global_flag = spa_falange_riots
+		474 = { add_core = SPF }
+		477 = { add_core = SPF }
+		475 = { add_core = SPF }
+		476 = { add_core = SPF }
+		482 = { add_core = SPF }
+		478 = { add_core = SPF }
+		480 = { add_core = SPF }
+		483 = { add_core = SPF }
+		479 = { add_core = SPF }
+		492 = { add_core = SPF }
+		494 = { add_core = SPF }
+		493 = { add_core = SPF }
+		495 = { add_core = SPF }
+		496 = { add_core = SPF }
+		486 = { add_core = SPF }
+		485 = { add_core = SPF }
+		484 = { add_core = SPF }
+		509 = { add_core = SPF }
+		512 = { add_core = SPF }
+		411 = { add_core = SPF }
+		502 = { add_core = SPF }
+		2136 = { add_core = SPF }
+		497 = { add_core = SPF }
+		511 = { add_core = SPF }
+		481 = { add_core = SPF }
+		any_pop = {
+			militancy = 6
+			consciousness = 5
+		}
+	}
+}
+
+### The Spanish Civil War ###
+
+country_event = {
+       id = 40135
+       title = "The Spanish Civil War"
+       desc = "SPA-CW-DESC"
+       major = yes
+	   fire_only_once = yes
+
+       trigger = {
+            tag = SPA
+			year = 1936
+			month = 7
+			has_global_flag = spa_falange_riots
+			NOT = { year = 1941 }                                              
+			NOT = { exists = SPF }
+			NOT = { has_global_flag = spanish_civil_war } 
+			NOT = { 
+				OR = { 
+					government = fascist_dictatorship
+					government = fascist
+				}
+			}
+		}
+
+       option = {
+		name = "For the República Española!"
+		prestige = -5 
+		set_global_flag = spanish_civil_war
+		set_global_flag = spcw_happening
+		release = SPF
+		SPF = {
+			political_reform = none_voting
+			political_reform = party_appointed
+			political_reform = no_meeting
+			political_reform = state_press
+			political_reform = state_controlled
+			political_reform = underground_parties
+		}
+	    war = {
+			name = "The Spanish Civil War"
+			target = SPF
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			defender_goal = {
+				casus_belli = civil_war
+			}
+		}
+	}
+}
+
+### Morocco Joins the Fascists! ###
+
+country_event = {
+       id = 40136
+       title = "Morocco Joins the Fascists!"
+       desc = "Alarmingly, our most professional and well equipped army The Army of Africa has defected and taken over Africa. Some 35,000 men and all their weapons have defected to Franco - we must not let them reach the mainland!"
+       picture = "franco"
+	   fire_only_once = yes
+
+       trigger = {
+            tag = SPA
+			year = 1936
+			month = 7
+			has_global_flag = spanish_civil_war
+			has_global_flag = spcw_happening
+			exists = SPF
+			NOT = { has_global_flag = morocco_joins_fascists }
+			owns = 1686
+			owns = 1687
+			owns = 1688
+			owns = 1689
+		}
+
+       option = {
+		name = "Useless land anyway!"
+		set_global_flag = morocco_joins_fascists
+		1686 = { secede_province = SPF }
+		1687 = { secede_province = SPF }
+		1688 = { secede_province = SPF }
+		1689 = { secede_province = SPF }
+	}
+}
+
+### Spanish Civil War - Fascist Victory! ###
+
+country_event = {
+       id = 40137
+       title = "Spanish Civil War - Fascist Victory!"
+       desc = "The government has fled Spain and our forces are now firmly in control of Madrid. The hour belongs to Franco!"
+       major = yes
+	   fire_only_once = yes
+
+       trigger = {
+            tag = SPF
+			year = 1936
+			month = 7
+			has_global_flag = spanish_civil_war
+			has_global_flag = spcw_happening
+			NOT = { exists = SPA} 
+			OR = {
+				NOT = { has_global_flag = spcw_fasc_win }
+				NOT = { has_global_flag = spcw_repub_win }
+			}
+		}
+
+       option = {
+		name = "Francisco Franco!"
+		prestige = 15
+		set_global_flag = spcw_fasc_win
+		clr_global_flag = spcw_happening
+		capital = 487
+		tag = SPA
+	        any_owned = { remove_core = SPF }
+		any_pop = {
+			militancy = -4
+		}
+	}
+}
+
+### Spanish Civil War - Republican Victory! ###
+
+country_event = {
+       id = 40138
+       title = "Spanish Civil War - Republican Victory!"
+       desc = "Franco has fled Spain and our forces are now firmly in control of Madrid. The hour belongs to the Republic!"
+       major = yes
+	   fire_only_once = yes
+
+       trigger = {
+            tag = SPA
+			year = 1936
+			month = 7								
+			has_global_flag = spanish_civil_war
+			has_global_flag = spcw_happening
+			NOT = { exists = SPF} 
+			OR = {
+				NOT = { has_global_flag = spcw_fasc_win }
+				NOT = { has_global_flag = spcw_repub_win }
+			}
+		}
+
+       option = {
+		name = "Republica Espanola!"
+		prestige = 15
+		set_global_flag = spcw_repub_win
+		clr_global_flag = spcw_happening 
+	        any_owned = { remove_core = SPF }
+		any_pop = {
+			militancy = -4
+		}
+	}
+}
+
+### Primo de Rivera ###
+
+country_event = {
+       id = 40143
+       title = "Primo de Rivera"
+       desc  = "EVTDESC2933"
+       picture = "primorivera"
+       fire_only_once = yes
+
+       trigger = {
+	       tag = SPA
+	       year = 1923
+	       month = 8
+	       NOT = { has_country_flag = primo_de_rivera }
+		   NOT = { year = 1941 }
+       }
+
+       option = {
+			name = "Someone fresh might help..."
+			set_country_flag = primo_de_rivera
+			any_pop = {
+			militancy = 1
+			consciousness = 1
+			}
+		
+		government = fascist_dictatorship
+		set_country_flag = primo_de_rivera
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = no_meeting
+		political_reform = state_press
+		political_reform = state_controlled
+		political_reform = underground_parties
+			any_pop = {
+				limit = {
+					location = {
+						is_colonial = no
+					}
+				}
+					ideology = {
+					value = fascist
+					factor = 0.20
+				}
+			}
+		}
+		option = {
+			name = "Bah, fascist bastards. Never."
+			any_pop = {
+			militancy = 4
+			consciousness = 2
+			}
+			any_pop = {
+				limit = {
+					location = {
+						is_colonial = no
+					}
+				}
+					ideology = {
+					value = fascist
+					factor = 0.35
+					}
+			}
+		}
+}
+
+### German Intervention! ###
+
+country_event = {
+       id = 40146
+       title = "German Intervention!"
+       desc  = "SPCW-INTER-DESC"
+       major = yes
+       fire_only_once = yes
+
+       trigger = {
+	       tag = SPF
+	       has_global_flag = ger_support_franco
+	       has_global_flag = spcw_happening
+       }
+
+       option = {
+	       name = "Excellent! Victory will be ours!"
+	       money = 1000000
+		relation = {
+			who = GER
+			value = 200
+		}
+       }
+}
+
+### Portugese Intervention! ###
+
+country_event = {
+       id = 40147
+       title = "Portugese Intervention!"
+       desc  = "SPCW-INTER-DESC"
+       major = yes
+       fire_only_once = yes
+
+       trigger = {
+	       tag = SPF
+	       has_global_flag = por_support_franco
+	       has_global_flag = spcw_happening
+       }
+
+       option = {
+		name = "Excellent! Victory will be ours!"
+		money = 50000
+		relation = {
+			who = POR
+			value = 200
+		}
+       }
+}
+
+### Russian Intervention! ###
+
+country_event = {
+       id = 40148
+       title = "Soviet Intervention!"
+       desc  = "SPCW-INTER-DESC"
+       major = yes
+       fire_only_once = yes
+
+       trigger = {
+	       tag = SPA
+	       has_global_flag = rus_support_republic
+	       has_global_flag = spcw_happening
+       }
+
+       option = {
+		name = "Excellent! Victory will be ours!"
+		money = 1000000
+		relation = {
+			who = RUS
+			value = 200
+		}
+       }
+}

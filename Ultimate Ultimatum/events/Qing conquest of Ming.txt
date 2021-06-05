@@ -1,0 +1,30 @@
+# Conquest of Ming
+country_event = {
+	id = 44444
+	title = "The Qing conquest of Ming"
+	desc = "After forming and uniting our Jurchen brethren, we can start the conquest of Ming"
+	picture = "QingconquestofMing"
+	tag = QNG
+
+	is_triggered_only = yes
+
+	option = {
+		name = "The Qing conquest of Ming"
+		prestige = 0.5
+		war = {
+		target = MNG
+		attacker_goal = {
+			casus_belli = conquest
+		}
+		defender_goal = {
+			casus_belli = make_puppet
+		}
+		ai_chance = {
+			factor = 25
+		}
+		any_pop = {
+			militancy = 1
+			consciousness = 1
+		}
+	}
+}

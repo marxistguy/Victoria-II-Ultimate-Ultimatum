@@ -1,0 +1,143 @@
+#Australia surrenders
+country_event = {
+	id = 10000017
+	title = "Treaty of Melbourne"
+	desc = "War has come over our peacefull Island, and have we lost it, now we will have to abandon our colonies"
+	picture = "TreatyofVersailles"
+
+       
+	major = yes 
+        fire_only_once = yes
+
+	trigger = { 
+tag = AST
+
+OR = {
+AND = {
+2468 = {
+	controlled_by = TUR
+		}
+}
+AND = {
+2468 = {
+	controlled_by = GER
+		}
+}
+AND = {
+2468 = {
+	controlled_by = BUL
+		}
+}
+AND = {
+2468 = {
+	controlled_by = KUK
+		}
+}
+}
+	AST = {
+	war_exhaustion = 10
+		}
+		
+	has_global_flag = WW1inprogress
+
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+#Push 'em back on their Islans
+	option = {
+		name = "Accept the treaty"
+		any_country = {
+end_war = AST
+}
+
+AST = {
+2535 = {
+	secede_province = KUK }
+2482 = {
+	secede_province = BUL }
+2529 = {
+	secede_province = GER }
+2528 = {
+	secede_province = GER }
+2534 = {
+	secede_province = GER }
+2536 = {
+	secede_province = TUR }
+}
+
+AST = {
+prestige = -5000
+neutrality = yes
+
+relation = {
+	who = FRA
+	value = -200
+}
+relation = {
+	who = RUS
+	value = -200
+}
+relation = {
+	who = USA
+	value = -200
+}
+relation = {
+	who = ITA
+	value = -200
+}
+
+relation = {
+	who = JAP
+	value = -200
+}
+relation = {
+	who = ALB
+	value = -200
+}
+relation = {
+	who = ENG
+	value = -200
+}
+relation = {
+	who = EGY
+	value = -200
+}
+
+relation = {
+	who = GRE
+	value = -200
+}
+relation = {
+	who = MON
+	value = -200
+}
+relation = {
+	who = POR
+	value = -200
+}
+relation = {
+	who = ROM
+	value = -200
+}
+relation = {
+	who = SAF
+	value = -200
+}
+relation = {
+	who = SER
+	value = -200
+}
+
+relation = {
+	who = CAN
+	value = -200
+}
+relation = {
+	who = BEL
+	value = -200
+}
+	}
+}

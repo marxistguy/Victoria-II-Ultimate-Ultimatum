@@ -1,0 +1,49 @@
+#Prussia surrenders
+country_event = {
+	id = 2000037
+	title = "Treaty of  Dortmund"
+	desc = "We have sucessufully ocuppied Berlin and the Prussians have surrendered what should we do to them ?"
+	picture = "napoleon"
+         major = yes
+
+trigger = {
+    tag = FRA
+	
+	549 = {
+	controlled_by = THIS
+		}
+     has_global_flag = napoleon
+	PRU = {
+	war_exhaustion = 2 } 
+}
+		
+			
+	
+option = {
+name = "Give Poland some of their lands"
+
+
+	end_war = PRU
+	treasury = 200000
+	PRU = {any_owned = {
+   limit = {
+    is_core = POL
+    }
+   secede_province = POL
+  }
+
+	end_war = PRU
+	military_access = PRU
+		
+FRA = {
+        
+        
+           
+	prestige = 1000
+}
+	
+	
+		ai_chance = {
+			factor = 25
+		}
+}

@@ -1,0 +1,31 @@
+#Portugal Join spain
+country_event = {
+	id = 4000011
+	title = "Portugal join us?"
+	desc = "We've decided we should make our puppet Portugal join us do you agree?"
+	is_triggered_only = yes
+major = yes
+trigger = {
+year = 1600
+tag = SPA
+has_global_flag = occupying_portugal
+}
+
+
+option = {
+name = "Ok i agree!"
+
+	inherit = POR
+militancy = 3
+}
+		ai_chance = {
+			factor = 25
+		}
+		}
+	option = {
+	name = "We don't need to"
+	prestige = -25
+	
+		}
+			}
+}

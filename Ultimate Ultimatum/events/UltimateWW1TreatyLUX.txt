@@ -1,0 +1,35 @@
+
+#German troops occupy Luxemburg
+
+country_event = {
+	id = 10000005
+	title = "Luxemburg is now under our control"
+	desc = "The population of Luxemburg is German, let's add them to our Empire !"
+	picture = "TreatyofVersailles"
+
+   fire_only_once = yes     
+
+	trigger = { 
+tag = GER
+397 = {
+	controlled_by = THIS
+}
+LUX = {
+		war_exhaustion = 10
+		}
+	has_global_flag = WW1inprogress
+}
+	
+	mean_time_to_happen = {
+		days = 1
+		
+		}
+##annex##
+option = {
+	name = "Annex them !"
+	end_war = LUX
+	inherit = LUX
+	prestige = 25
+	}
+
+}

@@ -1,0 +1,717 @@
+#Allied forces occupy Germany
+country_event = {
+	id = 10000001
+	title = "The Treaty of Versailles !"
+	desc = "Over the last few year the Great War caused millions of Death, now the winners meet at Versailles to determine the future of our country. Let's hope they will show mercy."
+	picture = "TreatyofVersailles"
+
+major = yes
+fire_only_once = yes
+
+trigger = {
+
+tag = GER
+          OR = {
+
+AND = {
+           549 = {
+	   controlled_by = ENG
+}
+
+}
+
+AND = {
+           549 = {
+	   controlled_by = FRA
+}
+
+}
+
+AND = {
+           549 = {
+	   controlled_by = RUS
+}
+
+}
+
+AND = {
+           549 = {
+	   controlled_by = ITA
+}
+
+}
+
+AND = {
+           549 = {
+	   controlled_by = SER
+}
+
+}
+
+AND = {
+           549 = {
+	   controlled_by = BEL
+}
+
+}
+
+AND = {
+           549 = {
+	   controlled_by = LUX
+}
+
+}
+
+AND = {
+           549 = {
+	   controlled_by = AST
+}
+
+}
+
+AND = {
+           549 = {
+	   controlled_by = NZL
+}
+
+}
+
+AND = {
+           549 = {
+	   controlled_by = CAN
+}
+
+}
+
+AND = {
+           549 = {
+	   controlled_by = NEW
+}
+
+}
+
+AND = {
+           549 = {
+	   controlled_by = EGY
+}
+
+}
+
+AND = {
+           549 = {
+	   controlled_by = JAP
+}
+
+}
+
+AND = {
+           549 = {
+	   controlled_by = SAF
+}
+
+}
+
+AND = {
+           549 = {
+	   controlled_by = MON
+}
+
+}
+
+AND = {
+           549 = {
+	   controlled_by = ALB
+}
+
+}
+AND = {
+           549 = {
+	   controlled_by = POR
+}
+
+}
+
+AND = {
+           549 = {
+	   controlled_by = ROM
+}
+
+}
+
+AND = {
+           549 = {
+	   controlled_by = GRE
+}
+
+}
+
+
+AND = {
+           549 = {
+	   controlled_by = USA
+}
+
+}
+}
+
+	GER = {
+		war_exhaustion = 10
+		}
+	has_global_flag = WW1inprogress
+		
+
+	}
+mean_time_to_happen = {
+		days = 1 }
+	
+	
+##Punish Germany##
+	option = {
+		name = "This is not peace. It is an armistice for 20 years"
+		
+	any_country = {
+	end_war = GER	
+            }
+
+
+GER = {
+ 371 = {
+	secede_province = DEN }
+ }
+GER = {
+412 = {
+	secede_province = FRA }
+409 = {
+	secede_province = FRA }
+410 = {
+	secede_province = FRA }
+1916 = {
+	secede_province = FRA }
+1918 = {
+	secede_province = FRA }
+1915 = {
+	secede_province = FRA }
+1917 = {
+	secede_province = FRA }
+1914 = {
+	secede_province = FRA }
+1957 = {
+	secede_province = FRA }
+1961 = {
+	secede_province = FRA }
+1960 = {
+	secede_province = FRA }
+1956 = {
+	secede_province = FRA }
+1958 = {
+	secede_province = FRA }
+1959 = {
+	secede_province = FRA }
+1962 = {
+	secede_province = FRA }
+1981 = {
+	secede_province = FRA }
+1966 = {
+	secede_province = FRA }
+1967 = {
+	secede_province = FRA }
+1963 = {
+	secede_province = FRA }
+1819 = {
+	secede_province = FRA }
+1964 = {
+	secede_province = FRA }
+2546 = {
+	secede_province = FRA }
+1922 = {
+	secede_province = FRA }
+1921 = {
+	secede_province = FRA }
+1920 = {
+	secede_province = FRA }
+1919 = {
+	secede_province = FRA }
+1824 = {
+	secede_province = FRA }
+1825 = {
+	secede_province = FRA }
+1821 = {
+	secede_province = FRA }
+1826 = {
+	secede_province = FRA }
+1818 = {
+	secede_province = FRA }
+1823 = {
+	secede_province = FRA }
+1822 = {
+	secede_province = FRA }
+1820 = {
+	secede_province = FRA }
+1819 = {
+	secede_province = FRA }
+1968 = {
+	secede_province = FRA }
+1965 = {
+	secede_province = FRA }
+1970 = {
+	secede_province = FRA }
+1971 = {
+	secede_province = FRA }
+1969 = {
+	secede_province = FRA }
+1972 = {
+	secede_province = FRA }
+1976 = {
+	secede_province = FRA }
+1980 = {
+	secede_province = FRA }
+1975 = {
+	secede_province = FRA }
+1974 = {
+	secede_province = FRA }
+2624 = {
+	secede_province = FRA }
+1978 = {
+	secede_province = FRA }
+1977 = {
+	secede_province = FRA }
+1875 = {
+	secede_province = FRA }
+414 = {
+	secede_province = FRA }
+411 = {
+	secede_province = FRA }
+413 = {
+	secede_province = FRA }
+408 = {
+	secede_province = FRA }
+405 = {
+	secede_province = FRA }
+403 = {
+	secede_province = FRA }
+404 = {
+	secede_province = FRA }
+402 = {
+	secede_province = FRA }
+401 = {
+	secede_province = FRA }
+400 = {
+	secede_province = FRA }
+399 = {
+	secede_province = FRA }
+2570 = {
+	secede_province = FRA }
+2117 = {
+	secede_province = FRA }
+2118 = {
+	secede_province = FRA }
+2116 = {
+	secede_province = FRA }
+2122 = {
+	secede_province = FRA }
+2115 = {
+	secede_province = FRA }
+2121 = {
+	secede_province = FRA }
+2119 = {
+	secede_province = FRA }
+2120 = {
+	secede_province = FRA }
+2123 = {
+	secede_province = FRA }
+2124 = {
+	secede_province = FRA }
+2126 = {
+	secede_province = FRA }
+
+}
+
+GER = {
+690 = {
+	secede_province = DZG }
+}
+
+GER= {
+685 = {
+	secede_province = POL }
+694 = {
+	secede_province = POL }
+691 = {
+	secede_province = POL }
+700 = {
+	secede_province = POL }
+699 = {
+	secede_province = POL }
+701 = {
+	secede_province = POL }
+717 = {
+	secede_province = POL }
+712 = {
+	secede_province = POL }
+716 = {
+	secede_province = POL }
+713 = {
+	secede_province = POL }
+710 = {
+	secede_province = POL }
+708 = {
+	secede_province = POL }
+706 = {
+	secede_province = POL }
+715 = {
+	secede_province = POL }
+711 = {
+	secede_province = POL }
+709 = {
+	secede_province = POL }
+707 = {
+	secede_province = POL }
+936 = {
+	secede_province = POL }
+719 = {
+	secede_province = POL }
+937 = {
+	secede_province = POL }
+360 = {
+	secede_province = POL }
+938 = {
+	secede_province = POL }
+939 = { 
+        secede_province = POL }
+940 = {
+	secede_province = POL }
+
+}
+
+GER = {
+2079 = {
+	secede_province = ENG }
+2080 = {
+	secede_province = ENG }
+2081 = {
+	secede_province = ENG }
+2082 = {
+	secede_province = ENG }
+2078 = {
+	secede_province = ENG }
+2083 = {
+	secede_province = ENG }
+2084 = {
+	secede_province = ENG }
+2085 = {
+	secede_province = ENG }
+2086 = {
+	secede_province = ENG }
+2034 = {
+	secede_province = ENG }
+2035 = {
+	secede_province = ENG }
+2044 = {
+	secede_province = ENG }
+2047 = {
+	secede_province = ENG }
+2037 = {
+	secede_province = ENG }
+2043 = {
+	secede_province = ENG }
+2046 = {
+	secede_province = ENG }
+2042 = {
+	secede_province = ENG }
+2040 = {
+	secede_province = ENG }
+2041 = {
+	secede_province = ENG }
+2039 = {
+	secede_province = ENG }
+2038 = {
+	secede_province = ENG }
+2036 = {
+	secede_province = ENG }
+2045 = {
+	secede_province = ENG }
+2048 = {
+	secede_province = ENG }
+1950 = {
+	secede_province = ENG }
+1953 = {
+	secede_province = ENG }
+2523 = {
+	secede_province = ENG }
+1538 = {
+	secede_province = ENG }
+1496 = {
+	secede_province = ENG }
+2072 = {
+	secede_province = ENG }
+2076 = {
+	secede_province = ENG }
+2075 = {
+	secede_province = ENG }
+2574 = {
+	secede_province = ENG }
+2077 = {
+	secede_province = ENG }
+2074 = {
+	secede_province = ENG }
+2017 = {
+	secede_province = ENG }
+2016 = {
+	secede_province = ENG }
+790 = {
+	secede_province = ENG }
+2014 = {
+	secede_province = ENG }
+2012 = {
+	secede_province = ENG }
+2013 = {
+	secede_province = ENG }
+2015 = {
+	secede_province = ENG }
+1842 = {
+	secede_province = ENG }
+1841 = {
+	secede_province = ENG }
+1843 = {
+	secede_province = ENG }
+1844 = {
+	secede_province = ENG }
+1845 = {
+	secede_province = ENG }
+1847 = {
+	secede_province = ENG }
+1846 = {
+	secede_province = ENG }
+2021 = {
+	secede_province = ENG }
+2022 = {
+	secede_province = ENG }
+2023 = {
+	secede_province = ENG }
+2020 = {
+	secede_province = ENG }
+2033 = {
+	secede_province = ENG }
+2029 = {
+	secede_province = ENG }
+2030 = {
+	secede_province = ENG }
+2032 = {
+	secede_province = ENG }
+2031 = {
+	secede_province = ENG }
+2025 = {
+	secede_province = ENG }
+2024 = {
+	secede_province = ENG }
+2027 = {
+	secede_province = ENG }
+2028 = {
+	secede_province = ENG }
+2026 = {
+	secede_province = ENG }
+2019 = {
+	secede_province = ENG }
+1874 = {
+	secede_province = ENG }
+1873 = {
+	secede_province = ENG }
+
+}
+
+GER = {
+2526 = {
+	secede_province = USA }
+}
+
+GER = {
+2519 = {
+	secede_province = JAP }
+2579 = {
+	secede_province = JAP }
+2522 = {
+	secede_province = JAP }
+1566 = {
+	secede_province = JAP }
+}
+
+GER = {
+2531 = {
+	secede_province = AST }
+2530 = {
+	secede_province = AST }
+2537 = {
+	secede_province = AST }
+1531 = {
+	secede_province = AST }
+2539 = {
+	secede_province = AST }
+}
+
+GER = {
+397 = {
+	secede_province = LUX }
+}
+
+GER = {
+1872 = {
+	secede_province = ITA }
+1871 = {
+	secede_province = ITA }
+1869 = {
+	secede_province = ITA }
+1868 = {
+	secede_province = ITA }
+1870 = {
+	secede_province = ITA }
+
+}
+
+GER = {
+610 = {
+	secede_province = JAP }
+1678 = {
+	secede_province = JAP }
+2521 = {
+	secede_province = JAP }
+1679 = {
+	secede_province = JAP }
+}
+
+GER = {
+2529 = {
+	secede_province = AST }
+2528 = {
+	secede_province = AST }
+2534 = {
+	secede_province = AST }
+}
+
+GER = {
+1498 = {
+         secede_province = POR }
+2004 = {
+         secede_province = POR }
+2005 = {
+         secede_province = POR }
+2008 = {
+         secede_province = POR }
+2007 = {
+         secede_province = POR }
+2006 = {
+         secede_province = POR }
+2011 = {
+         secede_province = POR }
+2003 = {
+         secede_province = POR }
+2009 = {
+         secede_province = POR }
+2002 = {
+         secede_province = POR }
+2010 = {
+         secede_province = POR }
+2011 = {
+         secede_province = POR }
+1999 = {
+         secede_province = POR }
+2000 = {
+         secede_province = POR }
+2001 = {
+         secede_province = POR }
+}
+GER = {
+release = BEL
+release = EST
+release = LAT
+release = LIT
+release = RUS
+release = FRA
+release = SAF
+release = NZL
+government = democracy
+		political_reform = no_slavery
+		political_reform = universal_voting
+		political_reform = population_equal_weight
+		political_reform = proportional_representation
+		political_reform = yes_meeting
+		political_reform = free_press
+		political_reform = all_trade_unions
+		political_reform = secret_ballots
+       prestige = -5000
+neutrality = yes
+
+relation = {
+	who = KUK
+	value = -200
+}
+relation = {
+	who = BUL
+	value = -200
+}
+relation = {
+	who = TUR
+	value = -200
+}
+relation = {
+	who = ITA
+	value = -200
+}
+
+
+
+
+ }
+GER = {
+1983 = {
+	secede_province = BEL }
+1982 = {
+	secede_province = BEL }
+1985 = {
+	secede_province = BEL }
+1984 = {
+	secede_province = BEL }
+1988 = {
+	secede_province = BEL }
+1987 = {
+	secede_province = BEL }
+1989 = {
+	secede_province = BEL }
+1986 = {
+	secede_province = BEL }
+1994 = {
+	secede_province = BEL }
+1990 = {
+	secede_province = BEL }
+1993 = {
+	secede_province = BEL }
+1992 = {
+	secede_province = BEL }
+1995 = {
+	secede_province = BEL }
+1990 = {
+	secede_province = BEL }
+1991 = {
+	secede_province = BEL }
+1996 = {
+	secede_province = BEL }
+1998 = {
+	secede_province = BEL }
+1997 = {
+	secede_province = BEL }
+
+}
+
+}
+
+
+
+    }
+}
+
+
+
+
+
+
+
+

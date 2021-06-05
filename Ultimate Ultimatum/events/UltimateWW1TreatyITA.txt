@@ -1,0 +1,214 @@
+#Italy is occupied by the central powers
+
+country_event = {
+	id = 10000013
+	title = "Treaty of Modena"
+	desc = "We have been beaten, now the barbariens will take control !"
+	picture = "TreatyofVersailles"
+
+        
+	major = yes 
+fire_only_once = yes
+
+	trigger = {
+ tag = ITA
+OR = {
+
+AND = {
+           749 = {
+	   controlled_by = GER
+}
+
+}
+
+AND = {
+           749 = {
+	   controlled_by = KUK
+}
+
+}
+
+AND = {
+           749 = {
+	   controlled_by = TUR
+}
+
+}
+AND = {
+           749 = {
+	   controlled_by = BUL
+}
+
+}
+
+}
+
+ITA = {
+		war_exhaustion = 10
+		}
+	has_global_flag = WW1inprogress
+
+
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+##punish the traitors##	
+
+	option = {
+		name = "The end of an empire"
+		any_country = {
+	end_war = ITA	
+            }
+
+
+ITA = {
+1850 = {
+	secede_province = BUL }
+1848 = {
+	secede_province = BUL }
+1849 = {
+	secede_province = BUL }
+1851 = {
+	secede_province = BUL }
+}
+
+
+ITA = {
+1872 = {
+	secede_province = GER }
+1871 = {
+	secede_province = GER }
+1869 = {
+	secede_province = GER }
+1868 = {
+	secede_province = GER }
+1870 = {
+	secede_province = GER }
+}
+
+ITA = {
+1731 = {
+	secede_province = TUR }
+1744 = {
+	secede_province = TUR }
+1743 = {
+	secede_province = TUR }
+1741 = {
+	secede_province = TUR }
+2585 = {
+	secede_province = TUR }
+1739 = {
+	secede_province = TUR }
+1740 = {
+	secede_province = TUR }
+1742 = {
+	secede_province = TUR }
+1738 = {
+	secede_province = TUR }
+1737 = {
+	secede_province = TUR }
+1736 = {
+	secede_province = TUR }
+1735 = {
+	secede_province = TUR }
+1734 = {
+	secede_province = TUR }
+1733 = {
+	secede_province = TUR }
+1732 = {
+	secede_province = TUR }
+}
+
+
+ITA = {
+release = AUS
+release = KNI
+release = SAR
+release = SCL
+
+
+prestige = -5000
+release_vassal = ETH
+
+relation = {
+	who = FRA
+	value = -200
+}
+relation = {
+	who = RUS
+	value = -200
+}
+relation = {
+	who = USA
+	value = -200
+}
+relation = {
+	who = ENG
+	value = -200
+}
+relation = {
+who = GER
+value = -200
+}
+
+relation = {
+	who = JAP
+	value = -200
+}
+relation = {
+	who = ALB
+	value = -200
+}
+relation = {
+	who = AST
+	value = -200
+}
+relation = {
+	who = EGY
+	value = -200
+}
+
+relation = {
+	who = GRE
+	value = -200
+}
+relation = {
+	who = MON
+	value = -200
+}
+relation = {
+	who = POR
+	value = -200
+}
+relation = {
+	who = ROM
+	value = -200
+}
+relation = {
+	who = SAF
+	value = -200
+}
+relation = {
+	who = SER
+	value = -200
+}
+
+relation = {
+	who = CAN
+	value = -200
+}
+relation = {
+	who = BEL
+	value = -200
+}
+}
+
+KUK = {
+create_vassal = KNI
+}
+	}
+}

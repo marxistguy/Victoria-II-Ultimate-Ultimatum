@@ -1,0 +1,54 @@
+#Italian forces occupy Egypt
+country_event = {
+	id = 2000000
+	title = "Egypt surrenders"
+	desc = "We have occupied Egypt, They have surrendered now we are one step way from reforming the Roman Empire!"
+	picture = "mussolini"
+
+        fire_only_once = yes
+
+	trigger = {
+tag = ITA
+OR = {
+AND = {
+1745 = {
+	controlled_by = ITA
+		}
+}
+AND = {
+1745 = {
+	controlled_by = GER
+		}
+}
+AND = {
+1745 = {
+	controlled_by = JAP
+		}
+}
+AND = {
+1745 = {
+	controlled_by = SLO
+		}
+}
+}
+	EGY = {
+	
+		
+	has_global_flag = WW2_inprogress
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	
+##Annex Egypt##
+	option = {
+		name = "Annex Egypt"
+		ITA = {
+        end_war = EGY
+	inherit = EGY
+	prestige = 25
+}
+	}
+}

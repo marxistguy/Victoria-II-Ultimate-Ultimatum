@@ -1,0 +1,245 @@
+#Russia is occupied by the central powers
+country_event = {
+	id = 10000003
+	title = "Treaty of Brest-Litovsk"
+	desc = "The central Powers are victorious. Now they will enforce us to dismantle our great Russian Empire, let's hope for mercy"
+	picture = "TreatyofVersailles"
+
+        #the four lines below are only needed if they are yes
+	 
+	major = yes   
+fire_only_once = yes               
+
+	trigger = { 
+tag = RUS
+OR = {
+
+AND = {
+           1008 = {
+	   controlled_by = GER
+}
+
+}
+
+AND = {
+           1008 = {
+	   controlled_by = KUK
+}
+
+}
+
+AND = {
+           1008 = {
+	   controlled_by = TUR
+}
+
+}
+AND = {
+           1008 = {
+	   controlled_by = BUL
+}
+
+}
+
+}
+
+RUS = {
+		war_exhaustion = 10
+		}
+	has_global_flag = WW1inprogress
+
+	}
+	
+	mean_time_to_happen = {
+		day = 1
+	}
+
+##Dismantle the Russian Empire##
+	
+	option = {
+		name = "What a shame"
+		any_country = {
+	end_war = RUS	
+            }
+ set_country_flag = entente_lost_war
+
+RUS = {
+government = hms_government
+		any_owned = {
+			limit = {
+				is_core = FIN
+			}
+			secede_province = FIN
+		}
+		any_owned = {
+			limit = {
+				is_core = EST
+			}
+			secede_province = EST
+		}
+		any_owned = {
+			limit = {
+				is_core = LIT
+			}
+			secede_province = LIT
+		}
+		any_owned = {
+			limit = {
+				is_core = LAT
+			}
+			secede_province = LAT
+		}
+		any_owned = {
+			limit = {
+				is_core = BYE
+			}
+			secede_province = BYE
+		}
+		any_owned = {
+			limit = {
+				is_core = UKR
+			}
+			secede_province = UKR
+		}
+		any_owned = {
+			limit = {
+				is_core = POL
+			}
+			secede_province = POL
+		}
+		any_owned = {
+			limit = {
+				is_core = ARM
+				NOT = { province_id = 1106 }
+			}
+			secede_province = ARM
+		}
+		any_owned = {
+			limit = {
+				is_core = AZB
+			}
+			secede_province = AZB
+		}
+		any_owned = {
+			limit = {
+				is_core = GEO
+			}
+			secede_province = GEO
+		}
+		any_owned = {
+			limit = {
+				is_core = MOL
+			}
+			secede_province = MOL
+		}
+neutrality = yes
+
+relation = {
+	who = FRA
+	value = -200
+}
+relation = {
+	who = ENG
+	value = -200
+}
+relation = {
+	who = USA
+	value = -200
+}
+relation = {
+	who = ITA
+	value = -200
+}
+
+relation = {
+	who = JAP
+	value = -200
+}
+relation = {
+	who = ALB
+	value = -200
+}
+relation = {
+	who = AST
+	value = -200
+}
+relation = {
+	who = EGY
+	value = -200
+}
+
+relation = {
+	who = GRE
+	value = -200
+}
+relation = {
+	who = MON
+	value = -200
+}
+relation = {
+	who = POR
+	value = -200
+}
+relation = {
+	who = ROM
+	value = -200
+}
+relation = {
+	who = SAF
+	value = -200
+}
+relation = {
+	who = SER
+	value = -200
+}
+
+relation = {
+	who = CAN
+	value = -200
+}
+relation = {
+	who = BEL
+	value = -200
+}
+
+UKR = { prestige = -1000 }
+BYE = { prestige = -1000 }
+EST = { prestige = -1000 }
+LAT = { prestige = -1000 }
+LIT = { prestige = -1000 }
+POL = { prestige = -1000 }
+FIN = { prestige = -1000 }
+MOL = { prestige = -1000 }
+GEO = { prestige = -1000 }
+ARM = { prestige = -1000 }
+AZB = { prestige = -1000 }
+	GER = {
+	create_vassal = BYE
+	military_access = BYE
+		   }
+	GER = {
+	create_vassal = POL
+	military_access = POL
+		   }
+	GER = {
+	create_vassal = LIT
+	military_access = LIT
+		   }
+	GER = {
+	create_vassal = EST
+	military_access = EST
+		   }
+	GER = {
+	create_vassal = LAT
+	military_access = LAT
+		   }
+	KUK = {
+	create_vassal = UKR
+	military_access = UKR
+		   }
+	KUK = {
+	create_vassal = MOL
+	military_access = MOL
+		   }
+	}
+}

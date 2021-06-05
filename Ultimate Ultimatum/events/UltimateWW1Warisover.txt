@@ -1,0 +1,176 @@
+#Warisover
+country_event = {
+	id = 10000022
+	title = "The Great War is over !"
+	desc = "The Great War is over, for a long and peacefull future"
+	picture = "(picture name)"
+
+	fire_only_once = yes
+        major = yes
+
+	trigger = { 
+AND = {
+
+
+GER = {
+
+NOT = {
+
+AND = { war_with = ENG }
+AND = { war_with = FRA }
+AND = { war_with = RUS }
+AND = { war_with = SER }
+AND = { war_with = LUX }
+AND = { war_with = BEL }
+AND = { war_with = AST }
+AND = { war_with = NZL }
+AND = { war_with = CAN }
+AND = { war_with = NEW }
+AND = { war_with = EGY }
+AND = { war_with = JAP }
+AND = { war_with = SAF }
+AND = { war_with = MON }
+AND = { war_with = ALB }
+AND = { war_with = ITA }
+AND = { war_with = POR }
+AND = { war_with = ROM }
+AND = { war_with = GRE }
+AND = { war_with = USA }
+
+}
+
+}
+
+}
+
+AND = {
+
+KUK = {
+
+NOT = {
+
+AND = { war_with = ENG }
+AND = { war_with = FRA }
+AND = { war_with = RUS }
+AND = { war_with = SER }
+AND = { war_with = LUX }
+AND = { war_with = BEL }
+AND = { war_with = AST }
+AND = { war_with = NZL }
+AND = { war_with = CAN }
+AND = { war_with = NEW }
+AND = { war_with = EGY }
+AND = { war_with = JAP }
+AND = { war_with = SAF }
+AND = { war_with = MON }
+AND = { war_with = ALB }
+AND = { war_with = ITA }
+AND = { war_with = POR }
+AND = { war_with = ROM }
+AND = { war_with = GRE }
+AND = { war_with = USA }
+
+}
+
+}
+
+}
+
+AND = {
+
+TUR = {
+
+NOT = {
+
+AND = { war_with = ENG }
+AND = { war_with = FRA }
+AND = { war_with = RUS }
+AND = { war_with = SER }
+AND = { war_with = LUX }
+AND = { war_with = BEL }
+AND = { war_with = AST }
+AND = { war_with = NZL }
+AND = { war_with = CAN }
+AND = { war_with = NEW }
+AND = { war_with = EGY }
+AND = { war_with = JAP }
+AND = { war_with = SAF }
+AND = { war_with = MON }
+AND = { war_with = ALB }
+AND = { war_with = ITA }
+AND = { war_with = POR }
+AND = { war_with = ROM }
+AND = { war_with = GRE }
+AND = { war_with = USA }
+
+}
+
+}
+
+}
+
+AND = {
+
+BUL = {
+
+NOT = {
+
+AND = { war_with = ENG }
+AND = { war_with = FRA }
+AND = { war_with = RUS }
+AND = { war_with = SER }
+AND = { war_with = LUX }
+AND = { war_with = BEL }
+AND = { war_with = AST }
+AND = { war_with = NZL }
+AND = { war_with = CAN }
+AND = { war_with = NEW }
+AND = { war_with = EGY }
+AND = { war_with = JAP }
+AND = { war_with = SAF }
+AND = { war_with = MON }
+AND = { war_with = ALB }
+AND = { war_with = ITA }
+AND = { war_with = POR }
+AND = { war_with = ROM }
+AND = { war_with = GRE }
+AND = { war_with = USA }
+
+}
+
+}
+
+}
+
+has_global_flag = WW1inprogress
+
+
+
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+		
+	}
+	
+##Finally##
+
+	option = {
+		name = "Exellent"
+
+		any_country = {
+any_pop = {
+			militancy = -3
+			dominant_issue = {
+				factor = 0.03
+				value = pacifism
+			}
+}
+
+
+
+}
+ clr_global_flag = WW1inprogress
+
+	}
+}

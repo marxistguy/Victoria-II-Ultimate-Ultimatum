@@ -1,0 +1,854 @@
+#Setup Test
+
+country_event = {
+
+	id = 6668910
+
+	trigger = {
+		ai = no
+	}
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 1
+
+		modifier = {
+			factor = 0.01
+			year = 1604
+			year = 1714
+			year = 1764
+			year = 1914
+			year = 1923
+			year = 1939
+			year = 1946
+			year = 1964
+			year = 2000
+			year = 2023
+		}
+	}
+
+	title = "Setup Event"
+	desc = "EVT6669900DESC"
+	picture = "UltimateUltimatum"
+
+	option = {
+		name = "OK"
+		country_event = 6668911
+	}
+	option = {
+		name = "I'd rather not change anything"
+		set_global_flag = everything_setup
+	}
+}
+
+#Setup Triggered
+
+country_event = {
+
+	id = 6668911
+
+	trigger = {
+		NOT = { year = 1946 }
+		NOT = { has_global_flag = everything_setup }
+		ai = no
+	}
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "Setup Event"
+	desc = "EVT6669901DESC"
+	picture = "UltimateUltimatum"
+
+	option = {
+		name = "1604, 1714 and 1764"
+		country_event = 6669901
+	}
+	option = {
+		name = "1800, 1836, 1861 and 1870"
+		country_event = 6669902
+	}
+	option = {
+		name = "1914, 1923, 1939"
+		country_event = 6669903
+	}
+	option = {
+		name = "1946, 1964, 2000 and 2023"
+		country_event = 6669904
+	}
+}
+
+#Setup Test 1604, 1714 and 1764
+country_event = {
+
+	id = 6669901
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "Choose the start dates"
+	desc = "Choose the year"
+	picture = "kingcharlespic"
+
+
+	option = {
+		name = "1604"
+		country_event = 6669911
+	}
+	
+	option = {
+		name = "1714 and 1764"
+		country_event = 6669912
+	}
+	
+	option = {
+		name = "Ooops i misclick it, back to the main setup menu."
+		country_event = 6668911
+	}
+}
+
+#Setup Test 1604
+country_event = {
+
+	id = 6669911
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "You choose 1604"
+	desc = "This is test setup event for the year 1604."
+	picture = "kingcharlespic"
+	option = {
+		name = "OK"
+		set_global_flag = setup_test1_done
+		SPA = { country_event = 8204005 }
+		POR = { country_event = 8204005 }
+	}
+	option = {
+		name = "Ooops i misclick it, back to the main setup menu."
+		country_event = 6668911
+	}
+	option = {
+		name = "I'd rather not change anything"
+		set_global_flag = everything_setup
+	}
+}
+
+#Setup Test 1714 and 1764
+country_event = {
+
+	id = 6669912
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "You choose 1714 and 1764 "
+	desc = "This is test setup event for the year 1714 and 1764."
+	picture = "LastMedici"
+
+	option = {
+		name = "OK"
+		set_global_flag = setup_test2_done
+		ENG = { country_event = 8204006 }
+		FRA = { country_event = 8204006 }
+		SPA = { country_event = 8204006 }
+		POR = { country_event = 8204006 }
+		NET = {
+			all_core = {
+			remove_core = REH } }
+		FRA = {
+			all_core = {
+			remove_core = REH } }
+	}
+	option = {
+		name = "Ooops i misclick it, back to the main setup menu."
+		country_event = 6668911
+	}
+	option = {
+		name = "I'd rather not change anything"
+		set_global_flag = everything_setup
+	}
+}
+
+#Setup Test 1800, 1836, 1861 and 1870
+country_event = {
+
+	id = 6669902
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "Choose the start dates"
+	desc = "Choose the year"
+	picture = "napoleon1"
+
+
+	option = {
+		name = "1800 and 1836"
+		country_event = 6669913
+	}
+	
+	option = {
+		name = "1861 and 1870"
+		country_event = 6669914
+	}
+	
+	option = {
+		name = "Ooops i misclick it, back to the main setup menu."
+		country_event = 6668911
+	}
+}
+
+#Setup Test 1800s Start Dates
+country_event = {
+
+	id = 6669913
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "You choose the 1800 and 1836 start dates "
+	desc = "This is test setup event for the 1800 and 1836."
+	picture = "napoleon1"
+
+	option = {
+		name = "OK"
+		set_global_flag = setup_test3_done
+	}
+	option = {
+		name = "Ooops i misclick it, back to the main setup menu."
+		country_event = 6668911
+	}
+	option = {
+		name = "I'd rather not change anything"
+		set_global_flag = everything_setup
+	}
+}
+
+#Setup Test 1861 and 1870 Start Dates
+country_event = {
+
+	id = 6669914
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "You choose the 1861 and 1870 start dates "
+	desc = "This is test setup event for the 1861 and 1870."
+	picture = "Grant"
+
+	option = {
+		name = "OK"
+		set_global_flag = setup_test3_done
+	}
+	option = {
+		name = "Ooops i misclick it, back to the main setup menu."
+		country_event = 6668911
+	}
+	option = {
+		name = "I'd rather not change anything"
+		set_global_flag = everything_setup
+	}
+}
+
+#Setup Test 1914, 1923 and 1939
+country_event = {
+
+	id = 6669903
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "Choose the start dates"
+	desc = "Choose the year"
+	picture = "WW1callingallies"
+
+
+	option = {
+		name = "1914"
+		country_event = 6669915
+	}
+	
+	option = {
+		name = "1923"
+		country_event = 6669916
+	}
+	
+	option = {
+		name = "1939"
+		country_event = 6669917
+	}
+	
+	option = {
+		name = "Ooops i misclick it, back to the main setup menu."
+		country_event = 6668911
+	}
+}
+
+#Setup Test 1914
+country_event = {
+
+	id = 6669915
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "You choose 1914 "
+	desc = "This is a test setup event for the year 1914."
+	picture = "WW1callingallies"
+
+	option = {
+		name = "OK"
+		set_global_flag = setup_test7_done
+		BRZ = {
+			all_core = {
+			remove_core = BOL } }
+		PEU = {
+			all_core = {
+			remove_core = ECU } }
+		PEU = {
+			all_core = {
+			remove_core = CHL } }
+		PRG = {
+			all_core = {
+			remove_core = BOL } }
+		BOL = {
+			all_core = {
+			remove_core = PRG } }
+		any_country = {
+			any_pop = {
+			limit = {
+			NOT = {
+			culture = zapotec
+			culture = mayan
+			culture = nahua
+			culture = tarascan 
+			culture = quechua 
+			culture = guarani 
+			culture = aimara 
+			culture = guarani 
+			culture = amazonian 
+			culture = patagonian 
+			culture = guajiro 
+			culture = tupinamba 
+			culture = metis 
+			culture = dakota 
+			culture = cherOKee 
+			culture = pueblo
+			culture = inuit 
+			culture = cree 
+			culture = navajo 
+			culture = native_american_minor
+				}
+					}
+			reduce_pop = 5
+				}
+					}
+					
+	}
+	option = {
+		name = "Ooops i misclick it"
+		country_event = 6668911
+	}
+	option = {
+		name = "I'd rather not change anything"
+		set_global_flag = everything_setup
+	}
+}
+
+#Setup Test 1923
+country_event = {
+
+	id = 6669916
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "You choose 1923"
+	desc = "This is a test setup event for the year 1923."
+	picture = "hitler"
+
+	option = {
+		name = "OK"
+		set_global_flag = setup_test8_done
+		RUS = {
+			set_country_flag = protector_removed
+			}
+		CZH = {
+			all_core = {
+			remove_core = HUN } }
+		QNG = {
+			all_core = {
+			remove_core = QNG } }
+		BRZ = {
+			all_core = {
+			remove_core = BOL } }
+		PEU = {
+			all_core = {
+			remove_core = ECU } }
+		PEU = {
+			all_core = {
+			remove_core = CHL } }
+		PRG = {
+			all_core = {
+			remove_core = BOL } }
+		BOL = {
+			all_core = {
+			remove_core = PRG } }
+		any_country = {
+			any_pop = {
+			limit = {
+			NOT = {
+			culture = zapotec
+			culture = mayan
+			culture = nahua
+			culture = tarascan 
+			culture = quechua 
+			culture = guarani 
+			culture = aimara 
+			culture = guarani 
+			culture = amazonian 
+			culture = patagonian 
+			culture = guajiro 
+			culture = tupinamba 
+			culture = metis 
+			culture = dakota 
+			culture = cherOKee 
+			culture = pueblo
+			culture = inuit 
+			culture = cree 
+			culture = navajo 
+			culture = native_american_minor
+				}
+					}
+			reduce_pop = 6
+				}
+					}
+					
+	}
+	option = {
+		name = "Ooops i misclick it, back to the main setup menu."
+		country_event = 6668911
+	}
+	option = {
+		name = "I'd rather not change anything"
+		set_global_flag = everything_setup
+	}
+}
+
+#Setup Test 1939
+country_event = {
+
+	id = 6669917
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "You choose 1939"
+	desc = "This is a test setup event for the year 1939."
+	picture = "hitlerparis"
+
+	option = {
+		name = "OK"
+		set_global_flag = setup_test8_done
+		RUS = {
+			set_country_flag = protector_removed
+			relation = { who = GER value = -200 }
+			}
+		QNG = {
+			all_core = {
+			remove_core = QNG } }
+		BRZ = {
+			all_core = {
+			remove_core = BOL } }
+		PEU = {
+			all_core = {
+			remove_core = ECU } }
+		PEU = {
+			all_core = {
+			remove_core = CHL } }
+		PRG = {
+			all_core = {
+			remove_core = BOL } }
+		BOL = {
+			all_core = {
+			remove_core = PRG } }
+		CHI = {
+			all_core = {
+			remove_core = TIB } }
+		any_country = {
+			any_pop = {
+			limit = {
+			NOT = {
+			culture = zapotec
+			culture = mayan
+			culture = nahua
+			culture = tarascan 
+			culture = quechua 
+			culture = guarani 
+			culture = aimara 
+			culture = guarani 
+			culture = amazonian 
+			culture = patagonian 
+			culture = guajiro 
+			culture = tupinamba 
+			culture = metis 
+			culture = dakota 
+			culture = cherOKee 
+			culture = pueblo
+			culture = inuit 
+			culture = cree 
+			culture = navajo 
+			culture = native_american_minor
+				}
+					}
+			reduce_pop = 6
+				}
+					}
+					
+	}
+	option = {
+		name = "Ooops i misclick it, back to the main setup menu."
+		country_event = 6668911
+	}
+	option = {
+		name = "I'd rather not change anything"
+		set_global_flag = everything_setup
+	}
+}
+
+#Setup Test 1946, 1964, 2000 and 2023
+country_event = {
+
+	id = 6669904
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "Choose the start dates"
+	desc = "Choose the year"
+	picture = "acolderwar"
+
+
+	option = {
+		name = "1946"
+		country_event = 6669918
+	}
+	
+	option = {
+		name = "1964"
+		country_event = 6669919
+	}
+	
+	option = {
+		name = "2000 and 2023"
+		country_event = 6669920
+	}
+	
+	option = {
+		name = "Ooops i misclick it, back to the main setup menu."
+		country_event = 6668911
+	}
+}
+
+#Setup Test 1946
+country_event = {
+
+	id = 6669918
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "You choose 1946"
+	desc = "This is a test setup event for the year 1946."
+	picture = "acolderwar"
+
+	option = {
+		name = "OK"
+		set_global_flag = setup_test7_done
+		CZH = {
+			all_core = {
+			add_core = CZH } }
+		CZH = {
+			all_core = {
+			remove_core = UKR } }
+		BRZ = {
+			all_core = {
+			remove_core = BOL } }
+		PEU = {
+			all_core = {
+			remove_core = ECU } }
+		PEU = {
+			all_core = {
+			remove_core = CHL } }
+		PRG = {
+			all_core = {
+			remove_core = BOL } }
+		BOL = {
+			all_core = {
+			remove_core = PRG } }
+		QNG = {
+			all_core = {
+			remove_core = QNG } }
+		any_country = {
+			any_pop = {
+			limit = {
+			NOT = {
+			culture = zapotec
+			culture = mayan
+			culture = nahua
+			culture = tarascan 
+			culture = quechua 
+			culture = guarani 
+			culture = aimara 
+			culture = guarani 
+			culture = amazonian 
+			culture = patagonian 
+			culture = guajiro 
+			culture = tupinamba 
+			culture = metis 
+			culture = dakota 
+			culture = cherOKee 
+			culture = pueblo
+			culture = inuit 
+			culture = cree 
+			culture = navajo 
+			culture = native_american_minor
+				}
+					}
+			reduce_pop = 5
+				}
+					}
+					
+	}
+	option = {
+		name = "Ooops i misclick it"
+		country_event = 6668911
+	}
+	option = {
+		name = "I'd rather not change anything"
+		set_global_flag = everything_setup
+	}
+}
+
+#Setup Test 1964
+country_event = {
+
+	id = 6669919
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "You choose 1964"
+	desc = "This is a test setup event for the year 1964."
+	picture = "OKapic"
+
+	option = {
+		name = "OK"
+		set_global_flag = setup_test7_done
+		CZH = {
+			all_core = {
+			add_core = CZH } }
+		CZH = {
+			all_core = {
+			remove_core = UKR } }
+		BRZ = {
+			all_core = {
+			remove_core = BOL } }
+		PEU = {
+			all_core = {
+			remove_core = ECU } }
+		PEU = {
+			all_core = {
+			remove_core = CHL } }
+		PRG = {
+			all_core = {
+			remove_core = BOL } }
+		BOL = {
+			all_core = {
+			remove_core = PRG } }
+		QNG = {
+			all_core = {
+			remove_core = QNG } }
+		FIN = {
+			all_core = {
+			remove_core = SWE } }
+		any_country = {
+			any_pop = {
+			limit = {
+			NOT = {
+			culture = zapotec
+			culture = mayan
+			culture = nahua
+			culture = tarascan 
+			culture = quechua 
+			culture = guarani 
+			culture = aimara 
+			culture = guarani 
+			culture = amazonian 
+			culture = patagonian 
+			culture = guajiro 
+			culture = tupinamba 
+			culture = metis 
+			culture = dakota 
+			culture = cherOKee 
+			culture = pueblo
+			culture = inuit 
+			culture = cree 
+			culture = navajo 
+			culture = native_american_minor
+				}
+					}
+			reduce_pop = 5
+				}
+					}
+					
+	}
+	option = {
+		name = "Ooops i misclick it"
+		country_event = 6668911
+	}
+	option = {
+		name = "I'd rather not change anything"
+		set_global_flag = everything_setup
+	}
+}
+
+#Setup Test 2000 and 2023
+country_event = {
+
+	id = 6669920
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "You choose 2000 and 2023"
+	desc = "This is a test setup event for the year 2000 and 2023."
+	picture = "War_in_the_gulf"
+
+	option = {
+		name = "OK"
+		set_global_flag = setup_test7_done
+		QNG = {
+			all_core = {
+			remove_core = QNG } }
+		PEU = {
+			all_core = {
+			remove_core = ECU } }
+		BOL = {
+			all_core = {
+			remove_core = PRG } }
+		any_country = {
+			any_pop = {
+			limit = {
+			NOT = {
+			culture = zapotec
+			culture = mayan
+			culture = nahua
+			culture = tarascan 
+			culture = quechua 
+			culture = guarani 
+			culture = aimara 
+			culture = guarani 
+			culture = amazonian 
+			culture = patagonian 
+			culture = guajiro 
+			culture = tupinamba 
+			culture = metis 
+			culture = dakota 
+			culture = cherOKee 
+			culture = pueblo
+			culture = inuit 
+			culture = cree 
+			culture = navajo 
+			culture = native_american_minor
+				}
+					}
+			reduce_pop = 5
+				}
+					}
+					
+	}
+	option = {
+		name = "Ooops i misclick it"
+		country_event = 6668911
+	}
+	option = {
+		name = "I'd rather not change anything"
+		set_global_flag = everything_setup
+	}
+}

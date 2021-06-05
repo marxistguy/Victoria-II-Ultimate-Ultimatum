@@ -1,0 +1,80 @@
+#Serbia is Occupied by Austria- Hungary
+country_event = {
+	id = 10000007
+	title = "Serbia surrenders"
+	desc = "We have achieved our goal, Serbia is beaten, now they will get punished"
+	picture = "TreatyofVersailles"
+fire_only_once = yes
+
+
+	trigger = { 
+tag = KUK
+794 = {
+	controlled_by = THIS
+		}
+	SER = {
+	war_exhaustion = 10
+		}
+		
+	has_global_flag = WW1inprogress
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	
+##annex Serbia##
+	
+	option = {
+		name = "Annex them !"
+		end_war = SER
+	inherit = SER
+	prestige = 25
+807 = {
+secede_province = BUL
+}
+806 = {
+secede_province = BUL
+}
+2619 = {
+secede_province = BUL
+}
+
+	}
+
+##Make puppet##
+option = {
+name = "Make them our puppet!"
+    end_war = SER
+inherit = SER
+prestige = 25
+
+
+807 = {
+secede_province = BUL
+}
+806 = {
+secede_province = BUL
+}
+794 = {
+secede_province = SER }
+795 = {
+secede_province = SER }
+796 = {
+secede_province = SER }
+797 = {
+secede_province = SER }
+798 = {
+secede_province = SER }
+799 = {
+secede_province = SER }
+802 = {
+secede_province = SER }
+803 = {
+secede_province = SER }
+804 = {
+secede_province = SER }
+create_vassal = SER
+
+}

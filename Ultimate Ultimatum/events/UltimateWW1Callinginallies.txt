@@ -1,0 +1,89 @@
+#More allies 
+country_event = {
+	id = 10000023
+	title = "Our role in the great War"
+	desc = "The Entente power have asked us to join in their war against the Central Powers, what shall we do ?"
+	picture = "WW1callingallies"
+
+	fire_only_once = yes
+
+	trigger = { 
+war = no
+has_global_flag = WW1inprogress
+has_country_flag = WW1_Allies
+
+OR = {
+AND = {
+GER = {
+war_score = 30
+	}
+}
+AND = {
+KUK = {
+war_score = 30
+	}
+}
+AND = {
+TUR = {
+war_score = 30
+	}
+}
+
+AND = {
+BUL = {
+war_score = 30
+	}
+}
+
+}
+}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+##Join in ##
+	option = {
+		name = "Help them !"
+ENG = {
+		create_alliance = THIS
+}
+relation = {
+who = ENG
+value = 200
+}
+
+THIS = {  
+badboy = 5            
+any_pop = {
+
+dominant_issue = {
+				factor = 0.10
+				value = jingoism
+			}
+}
+
+}
+	}
+
+##Stay neutral ##
+	option = {
+		name = "We are neutral"
+relation = {
+who = ENG
+value = -50
+}
+
+THIS = {  
+prestige = 5           
+any_pop = {
+
+dominant_issue = {
+				factor = 0.10
+				value = pacifism
+			}
+}
+
+}
+	}
+}

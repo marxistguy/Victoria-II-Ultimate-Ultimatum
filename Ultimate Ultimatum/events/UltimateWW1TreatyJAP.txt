@@ -1,0 +1,153 @@
+#Japan surrenders#
+country_event = {
+	id = 10000016
+	title = "The treaty of Kyoto"
+	desc = "How is that possible ? The Great Japanes Empire can't los ! I will have to commit seppuku..."
+	picture = "TreatyofVersailles"
+
+	major = yes
+fire_only_once = yes
+
+	trigger = { tag = JAP
+OR = {
+AND = {
+1649 = {
+	controlled_by = TUR
+		}
+}
+AND = {
+1649 = {
+	controlled_by = GER
+		}
+}
+AND = {
+1649 = {
+	controlled_by = BUL
+		}
+}
+AND = {
+1649 = {
+	controlled_by = KUK
+		}
+}
+}
+	JAP = {
+	war_exhaustion = 10
+		}
+		
+	has_global_flag = WW1inprogress
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+
+#Dissolve the empire
+
+	option = {
+		name = "Accept the treaty"
+any_country = {
+	end_war = JAP	
+            }
+JAP= {
+1481 = {
+	secede_province = KUK }
+1637 = {
+	secede_province = KUK }
+2525 = {
+	secede_province = BUL }
+1654 = {
+	secede_province = BUL }
+610 = {
+	secede_province = GER }
+1678 = {
+	secede_province = GER }
+2521 = {
+	secede_province = GER }
+1679 = {
+	secede_province = GER }
+1485 = {
+	secede_province = TUR }
+2562 = {
+	secede_province = TUR }
+
+}
+
+JAP = {
+
+release = KOR
+prestige = -5000
+neutrality = yes
+
+relation = {
+	who = FRA
+	value = -200
+}
+relation = {
+	who = RUS
+	value = -200
+}
+relation = {
+	who = USA
+	value = -200
+}
+relation = {
+	who = ITA
+	value = -200
+}
+
+relation = {
+	who = ENG
+	value = -200
+}
+relation = {
+	who = ALB
+	value = -200
+}
+relation = {
+	who = AST
+	value = -200
+}
+relation = {
+	who = EGY
+	value = -200
+}
+
+relation = {
+	who = GRE
+	value = -200
+}
+relation = {
+	who = MON
+	value = -200
+}
+relation = {
+	who = POR
+	value = -200
+}
+relation = {
+	who = ROM
+	value = -200
+}
+relation = {
+	who = SAF
+	value = -200
+}
+relation = {
+	who = SER
+	value = -200
+}
+
+relation = {
+	who = CAN
+	value = -200
+}
+relation = {
+	who = BEL
+	value = -200
+}
+
+}
+	}
+}

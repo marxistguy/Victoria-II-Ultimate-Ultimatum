@@ -1,0 +1,48 @@
+#Portugal declare independence
+country_event = {
+	id = 4000010
+	title = "Portugal declare independence"
+	desc = "The Portuguese have declared independence what to do?"
+	is_triggered_only = yes
+major = yes
+trigger = {
+year = 1610
+tag = SPA
+has_global_flag = occupying_portugal
+OR = {
+tag = IBU
+has_global_flag = occupying_portugal
+}
+}
+
+
+option = {
+
+name = "Ok let them go"
+
+	release = POR
+militancy = 3
+}
+		ai_chance = {
+			factor = 25
+		}
+		}
+	option = {
+	name = "Never"
+	prestige = -10
+release = POR
+war = {
+	target = POR
+	attacker_goal = {
+		casus_belli = conquest
+	}
+	call_ally = yes
+	defender_goal = {
+		casus_belli = become_independent
+	}
+}
+
+	
+		}
+			}
+}

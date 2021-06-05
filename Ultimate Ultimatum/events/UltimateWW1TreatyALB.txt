@@ -1,0 +1,33 @@
+#Albania is occupied by Austria-Hungary
+country_event = {
+	id = 10000009
+	title = "Albania surrenders"
+	desc = "Albania surrendered, now they are at our mercy"
+	picture = "TreatyofVersailles"
+
+        fire_only_once = yes
+        
+trigger = { 
+	tag = KUK
+849 = {
+	controlled_by = THIS
+		}
+	ALB = {
+	war_exhaustion = 10
+		}
+		
+	has_global_flag = WW1inprogress
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+##annex Albania##
+	option = {
+		name = "Annex them !"
+		end_war = ALB
+	inherit = ALB
+	prestige = 25
+	}
+}

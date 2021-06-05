@@ -1,0 +1,53 @@
+#Palatinate surrenders
+country_event = {
+	id = 2000016
+	title = "Palatinate surrenders"
+	desc = " We have taken out one of the german states"
+	picture = "TreatyofVersailles"
+
+        fire_only_once = yes
+
+	trigger = {
+tag = FRA
+has_global_flag = napoleon
+OR = {
+AND = {
+571 = {
+	controlled_by = FRA
+		}
+}
+AND = {
+571 = {
+	controlled_by = SPA
+		}
+}
+AND = {
+571 = {
+	controlled_by = NET
+		}
+}
+AND = {
+571 = {
+	controlled_by = ITA
+		}
+}
+}
+	
+		
+	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	
+##Annex PLT##
+	option = {
+		name = "Annex Palatinate"
+		FRA = {
+        end_war = PLT
+	inherit = PLT
+	prestige = 25
+}
+	}
+}

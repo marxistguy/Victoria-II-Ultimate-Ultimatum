@@ -1,0 +1,69 @@
+#Russian Empire surrenders
+country_event = {
+	id = 2000032
+	title = "Treaty of  Minsk"
+	desc = "We have sucessufully ocuppied Moscow and the Russians have surrendered we've been the first country since the Mongol Empire to have Russia at our mercy , what should we do to them ?"
+	picture = "napoleon"
+         major = yes
+
+trigger = {
+    tag = FRA
+	
+	1008 = {
+	controlled_by = THIS
+		}
+     has_global_flag = napoleon
+	RUS = {
+	war_exhaustion = 2 } 
+}
+		
+			
+	
+option = {
+name = "Establish a buffer zone"
+
+
+	end_war = RUS
+	treasury = 300000
+	RUS = {
+any_owned = {
+   limit = {
+    is_core = DOW
+    }
+   secede_province = DOW
+  }
+
+release = PLC
+release = UKR
+release = FIN
+}
+	end_war = RUS
+	military_access = RUS
+		
+FRA = {
+        create_vassal = PLC
+        create_Vassal = FIN
+        
+        
+           
+	prestige = 1000
+}
+	
+	PLC = {
+            inherit = UKR
+          change_tag = BUF
+	treasury = -200000
+	prestige = -5000
+political_reform = party_appointed
+political_reform = none_voting
+public_meetings = no_meeting
+political_reform = state_press
+political_reform = state_controlled
+political_reform = first_past_the_post
+political_reform = underground_parties 
+	
+		}
+		ai_chance = {
+			factor = 25
+		}
+}

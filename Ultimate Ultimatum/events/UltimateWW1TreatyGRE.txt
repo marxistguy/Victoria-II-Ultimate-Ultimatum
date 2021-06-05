@@ -1,0 +1,172 @@
+#Grece is occupied by the Central Powers
+country_event = {
+	id = 10000012
+	title = "The Treaty of Edessa"
+	desc = "We have lost the war, now we have to accept the peace therms of our ennemies"
+	picture = "TreatyofVersailles"
+
+	major = yes
+fire_only_once = yes
+	trigger = { tag = GRE
+OR = {
+
+AND = {
+           834 = {
+	   controlled_by = GER
+}
+
+}
+
+AND = {
+           834 = {
+	   controlled_by = KUK
+}
+
+}
+
+AND = {
+           834 = {
+	   controlled_by = TUR
+}
+
+}
+AND = {
+           834 = {
+	   controlled_by = BUL
+}
+
+}
+
+}
+
+GRE = {
+		war_exhaustion = 10
+		}
+	has_global_flag = WW1inprogress
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+##Dismantle Greece##
+	option = {
+		name = "Accept the treaty"
+		any_country = {
+	end_war = GRE	
+            }
+
+GRE = {
+858 = {
+	secede_province = TUR }
+859 = {
+	secede_province = TUR }
+828 = {
+	secede_province = TUR }
+870 = {
+	secede_province = TUR }
+869 = {
+	secede_province = TUR }
+844 = {
+	secede_province = TUR }
+843 = {
+	secede_province = TUR }
+845 = {
+	secede_province = TUR }
+847 = {
+	secede_province = TUR }
+848 = {
+	secede_province = TUR }
+827 = {
+	secede_province = TUR }
+826 = {
+	secede_province = TUR }
+}
+
+GRE = {
+805 = {
+	secede_province = BUL }
+822 = {
+	secede_province = BUL }
+821 = {
+	secede_province = BUL }
+819 = {
+	secede_province = BUL }
+820 = {
+	secede_province = BUL }
+}
+
+GRE = {
+release = BUL
+prestige = -5000
+neutrality = yes
+
+relation = {
+	who = FRA
+	value = -200
+}
+relation = {
+	who = RUS
+	value = -200
+}
+relation = {
+	who = USA
+	value = -200
+}
+relation = {
+	who = ITA
+	value = -200
+}
+
+relation = {
+	who = JAP
+	value = -200
+}
+relation = {
+	who = ALB
+	value = -200
+}
+relation = {
+	who = AST
+	value = -200
+}
+relation = {
+	who = EGY
+	value = -200
+}
+
+relation = {
+	who = ENG
+	value = -200
+}
+relation = {
+	who = MON
+	value = -200
+}
+relation = {
+	who = POR
+	value = -200
+}
+relation = {
+	who = ROM
+	value = -200
+}
+relation = {
+	who = SAF
+	value = -200
+}
+relation = {
+	who = SER
+	value = -200
+}
+
+relation = {
+	who = CAN
+	value = -200
+}
+relation = {
+	who = BEL
+	value = -200
+}
+	}
+}

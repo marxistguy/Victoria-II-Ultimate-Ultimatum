@@ -1,0 +1,45 @@
+# Treaty of Tarbagatai
+country_event = {
+	id = 8182833
+	title = "Treaty of Tarbagatai"
+	desc = "Treaty with the Qing Empire"
+	picture = "expansion"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Secede their territory to us"
+		1068 = {
+			secede_province = THIS
+			remove_core = MGL
+		}
+		1188 = {
+			secede_province = THIS
+			remove_core = MGL
+		}
+		1186 = {
+			secede_province = THIS
+			remove_core = XIN
+		}
+		1190 = {
+			secede_province = THIS
+			remove_core = XIN
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+	
+	option = {
+		name = "Casus belli against them"
+		RUS = {
+		add_casus_belli = {
+				target = QNG
+				type = acquire_core_state
+				months = 60
+		}		
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
