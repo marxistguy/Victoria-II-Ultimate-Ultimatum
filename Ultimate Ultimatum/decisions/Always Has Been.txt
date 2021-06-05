@@ -3,8 +3,8 @@ political_decisions = {
 		alert = no
 		picture = "alwayshasbeen"
 		potential = {
-		ai = no
-		NOT = { year = 1903 }
+		ai = yes
+		NOT = { year = 1925 }
 		has_country_flag = shown_decisions
 		any_owned_province = { has_pop_type = spacecolonists } }
 		allow = {}
