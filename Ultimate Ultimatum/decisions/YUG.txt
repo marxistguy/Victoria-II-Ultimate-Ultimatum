@@ -1,0 +1,33 @@
+political_decisions = {
+
+	claim_greater_yugoslavia = {
+	    picture = "claimgreateryugoslavia"
+	    potential = {
+	        tag = YUG
+			exists = BUL
+
+	        NOT = {  has_country_flag = claimed_balkans }
+	    }
+	    allow = {
+	        is_greater_power = yes
+	        war = no
+	    }
+
+	    effect = {
+	        set_country_flag = claimed_balkans
+
+			any_country = {
+            	any_owned = {
+            		limit = { 
+					AND = {
+					is_core = BUL
+					owned_by = BUL
+					}
+					}
+            		add_core = YUG
+            	}
+            }
+	        add_accepted_culture = bulgarian
+	    }
+	}
+}
