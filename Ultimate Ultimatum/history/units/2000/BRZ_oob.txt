@@ -1,0 +1,938 @@
+army = {
+	name = "Brazil Sao Joao del Rey Army"
+	location = 2446
+	regiment = {
+		name= "Regiment 1"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 2"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 3"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 4"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 5"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 6"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 7"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 8"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 9"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 10"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 11"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 12"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 13"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 14"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 15"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 16"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 17"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 18"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 19"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 20"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 21"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 22"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 23"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 24"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 25"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 26"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 27"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 28"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 29"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 30"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 31"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 32"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 33"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 34"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 35"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 36"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 37"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 38"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 39"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 40"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 41"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 42"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 43"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 44"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 45"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 46"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 47"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 48"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 49"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 50"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 51"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 52"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 53"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 54"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 55"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 56"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 57"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 58"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 59"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 60"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 61"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 62"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 63"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 64"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 65"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 66"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 67"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 68"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 69"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 70"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 71"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 72"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 73"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 74"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 75"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 76"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 77"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 78"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 79"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 80"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 81"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 82"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 83"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 84"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 85"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 86"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 87"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 88"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 89"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 90"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 91"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 92"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 93"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 94"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 95"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 96"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 97"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 98"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 99"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 100"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 101"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 102"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 103"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 104"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 105"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 106"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 107"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 108"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 109"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 110"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 111"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 112"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 113"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 114"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 115"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 116"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 117"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 118"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 119"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 120"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 121"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 122"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 123"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 124"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 125"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 126"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 127"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 128"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 129"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 130"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 131"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 132"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 133"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 134"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 135"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 136"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 137"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 138"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 139"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 140"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 141"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 142"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 143"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 144"
+		type = irregular
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 1"
+		type = infantry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 2"
+		type = infantry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 3"
+		type = infantry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 4"
+		type = infantry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 5"
+		type = infantry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 6"
+		type = infantry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 7"
+		type = infantry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 8"
+		type = infantry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 9"
+		type = infantry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 10"
+		type = infantry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 11"
+		type = infantry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 12"
+		type = infantry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 13"
+		type = infantry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 14"
+		type = infantry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 15"
+		type = infantry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 16"
+		type = infantry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 17"
+		type = infantry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 18"
+		type = infantry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 19"
+		type = infantry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 20"
+		type = infantry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 21"
+		type = infantry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 22"
+		type = infantry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 23"
+		type = infantry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 24"
+		type = infantry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 25"
+		type = infantry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 26"
+		type = infantry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 1"
+		type = mechanized_infantry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 1"
+		type = tank
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 2"
+		type = tank
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 3"
+		type = tank
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 4"
+		type = tank
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 5"
+		type = tank
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 1"
+		type = cavalry
+		home = 2446
+	}
+	regiment = {
+		name= "Regiment 2"
+		type = cavalry
+		home = 2446
+	}
+}
+navy = {
+	name = "Brazil Rio de Janeiro Navy"
+	location = 2447
+	ship = {
+		name= "Ship 1"
+		type = carrier
+	}
+	ship = {
+		name= "Ship 1"
+		type = frigate
+	}
+	ship = {
+		name= "Ship 2"
+		type = frigate
+	}
+	ship = {
+		name= "Ship 3"
+		type = frigate
+	}
+	ship = {
+		name= "Ship 4"
+		type = frigate
+	}
+	ship = {
+		name= "Ship 5"
+		type = frigate
+	}
+	ship = {
+		name= "Ship 6"
+		type = frigate
+	}
+	ship = {
+		name= "Ship 7"
+		type = frigate
+	}
+	ship = {
+		name= "Ship 8"
+		type = frigate
+	}
+	ship = {
+		name= "Ship 9"
+		type = frigate
+	}
+}

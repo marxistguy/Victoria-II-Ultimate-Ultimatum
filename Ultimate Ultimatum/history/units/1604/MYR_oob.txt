@@ -1,0 +1,32 @@
+army = {
+	name = "Yeren Army"
+	location = 1084
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+		}
+army = {
+	name = "Yeren Army"
+	location = 1083
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+		}

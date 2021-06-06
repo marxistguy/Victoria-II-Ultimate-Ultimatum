@@ -1,0 +1,306 @@
+CHI = {
+	value = 150
+	level = 5
+	influence_value = 50
+	military_access = yes
+}
+
+ROM = { 
+        value = 150
+	level = 5
+	influence_value = 50
+}
+BUL = {
+        value = 150
+	level = 5
+	influence_value = 50
+}
+
+ALB = {
+        value = 150
+	level = 5
+	influence_value = 50
+}
+
+HUN = {
+        value = 150
+	level = 5
+	influence_value = 50
+}
+
+CZH = { 
+        value = 150
+	level = 5
+	influence_value = 50
+}
+POL = {
+        value = 150
+	level = 5
+	influence_value = 50
+}
+
+DDR = {
+        value = 150
+	level = 5
+	influence_value = 50
+	military_access = yes
+}
+
+MGL = {
+        value = 150
+	level = 5
+	influence_value = 50
+}
+
+NKA = {
+        value = 150
+	level = 5
+	influence_value = 50
+}
+
+DAI = {
+        value = 150
+	level = 5
+	influence_value = 50
+}
+
+PEG = {
+        value = 150
+	level = 5
+	influence_value = 50
+}
+
+YUG = {
+        value = 150
+	level = 5
+	influence_value = 50
+}
+
+army = {
+        name = "1st Red Army"
+        location = 1008
+        regiment = {
+                name= "Guard Regiment"
+                type = guard
+                home = 1008
+        }
+        regiment = {
+                name= "Guard Regiment"
+                type = guard
+                home = 1008
+        }
+        regiment = {
+                name= "Guard Regiment"
+                type = guard
+                home = 1008
+        }
+        regiment = {
+                name= "Guard Regiment"
+                type = guard
+                home = 1008
+        }
+        regiment = {
+                name= "Guard Regiment"
+                type = guard
+                home = 1008
+        }
+        regiment = {
+                name= "Guard Regiment"
+                type = guard
+                home = 1008
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 1008
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 1008
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 1008
+	}
+			}
+army = {
+	name = "2nd Red Army"
+	location = 1003
+	regiment = {
+		name= "Guard"
+		type = guard
+		home = 1003
+	}
+	regiment = {
+		name= "Guard"
+		type = guard
+		home = 1003
+	}
+	regiment = {
+		name= "Guard"
+		type = guard
+		home = 1003
+	}
+	regiment = {
+		name= "Guard"
+		type = guard
+		home = 1003
+	}
+	regiment = {
+		name= "Guard"
+		type = guard
+		home = 1003
+	}
+	regiment = {
+		name= "Guard"
+		type = guard
+		home = 1003
+	}
+	regiment = {
+		name= "Guard"
+		type = guard
+		home = 1003
+	}
+	regiment = {
+		name= "Guard"
+		type = guard
+		home = 1003
+	}
+	regiment = {
+		name= "Guard"
+		type = guard
+		home = 1003
+	}
+	regiment = {
+		name= "Guard"
+		type = guard
+		home = 1003
+	}
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 1008
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 1008
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 1008
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 1008
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 1008
+        }
+	regiment = {
+		name= "Tank Division"
+		type = tank
+		home = 1003
+	}
+	regiment = {
+		name= "Tank Division"
+		type = tank
+		home = 1003
+	}
+	regiment = {
+		name= "Soviet Air Force"
+		type = plane
+		home = 1003
+	}
+			}
+
+army = {
+	name = "3rd Red Army"
+	location = 1020
+	regiment = {
+		name= "Guard"
+		type = guard
+		home = 1020
+	}
+	regiment = {
+		name= "Guard"
+		type = guard
+		home = 1020
+	}
+	regiment = {
+		name= "Guard"
+		type = guard
+		home = 1020
+	}
+	regiment = {
+		name= "Guard"
+		type = guard
+		home = 1020
+	}
+	regiment = {
+		name= "Guard"
+		type = guard
+		home = 1020
+	}
+	regiment = {
+		name= "Guard"
+		type = guard
+		home = 1020
+	}
+	regiment = {
+		name= "Guard"
+		type = guard
+		home = 1020
+	}
+	regiment = {
+		name= "Guard"
+		type = guard
+		home = 1020
+	}
+	regiment = {
+		name= "Guard"
+		type = guard
+		home = 1020
+	}
+	regiment = {
+		name= "Guard"
+		type = guard
+		home = 1020
+	}
+	regiment = {
+		name= "Guard"
+		type = guard
+		home = 1020
+	}
+	regiment = {
+		name= "Guard"
+		type = guard
+		home = 1020
+	}
+	regiment = {
+		name= "Guard"
+		type = guard
+		home = 1020
+	}
+	regiment = {
+		name= "Tank Division"
+		type = tank
+		home = 1020
+	}
+	regiment = {
+		name= "Tank Division"
+		type = tank
+		home = 1020
+	}
+	regiment = {
+		name= "Soviet Air Force"
+		type = plane
+		home = 1020
+	}
+}

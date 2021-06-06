@@ -1,0 +1,36 @@
+army = {
+	name = "Jianzhou Army"
+	location = 1533
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+		}
+army = {
+	name = "Jianzhou Army"
+	location = 1552
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+		}

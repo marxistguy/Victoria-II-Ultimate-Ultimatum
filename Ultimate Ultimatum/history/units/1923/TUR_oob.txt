@@ -1,0 +1,126 @@
+army = {
+	name = "Turkey Ankara Army"
+	location = 876
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 876
+	}
+	regiment = {
+		name= "Regiment nr2"
+		type = infantry
+		home = 876
+	}
+	regiment = {
+		name= "Regiment nr3"
+		type = infantry
+		home = 876
+	}
+	regiment = {
+		name= "Regiment nr4"
+		type = infantry
+		home = 876
+	}
+	regiment = {
+		name= "Regiment nr5"
+		type = infantry
+		home = 876
+	}
+	regiment = {
+		name= "Regiment nr6"
+		type = infantry
+		home = 876
+	}
+	regiment = {
+		name= "Regiment nr7"
+		type = infantry
+		home = 876
+	}
+	regiment = {
+		name= "Regiment nr8"
+		type = infantry
+		home = 876
+	}
+	regiment = {
+		name= "Regiment nr9"
+		type = infantry
+		home = 876
+	}
+	regiment = {
+		name= "Regiment nr10"
+		type = infantry
+		home = 876
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 876
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 876
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 876
+	}
+	regiment = {
+		name= "Regiment nr2"
+		type = artillery
+		home = 876
+	}
+	regiment = {
+		name= "Regiment nr3"
+		type = artillery
+		home = 876
+	}
+	regiment = {
+		name= "Regiment nr4"
+		type = artillery
+		home = 876
+	}
+	regiment = {
+		name= "Regiment nr5"
+		type = artillery
+		home = 876
+	}
+	regiment = {
+		name= "Regiment nr6"
+		type = artillery
+		home = 876
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = guard
+		home = 876
+	}
+	regiment = {
+		name= "Regiment nr2"
+		type = guard
+		home = 876
+	}
+	regiment = {
+		name= "Regiment nr3"
+		type = guard
+		home = 876
+	}
+	regiment = {
+		name= "Regiment nr4"
+		type = guard
+		home = 876
+	}
+}
+navy = {
+	name = "Turkey Istanbul Navy"
+	location = 860
+	ship = {
+		name= "Chip nr1"
+		type = steam_transport
+	}
+	ship = {
+		name= "Chip nr1"
+		type = battleship
+	}
+}

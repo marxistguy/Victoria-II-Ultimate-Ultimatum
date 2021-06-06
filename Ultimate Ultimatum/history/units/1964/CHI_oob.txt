@@ -1,0 +1,102 @@
+army = {
+	name = "China Yenan Army"
+	location = 1561
+	regiment = {
+		name= "Regiment 1"
+		type = infantry
+		home = 1561
+	}
+	regiment = {
+		name= "Regiment 2"
+		type = infantry
+		home = 1561
+	}
+	regiment = {
+		name= "Regiment 3"
+		type = infantry
+		home = 1561
+	}
+	regiment = {
+		name= "Regiment 4"
+		type = infantry
+		home = 1561
+	}
+}
+army = {
+	name = "China 1616 Army"
+	location = 1616
+	regiment = {
+		name= "Regiment 1"
+		type = infantry
+		home = 1561
+	}
+	regiment = {
+		name= "Regiment 2"
+		type = infantry
+		home = 1561
+	}
+	regiment = {
+		name= "Regiment 3"
+		type = infantry
+		home = 1561
+	}
+}
+army = {
+	name = "China Yenan Army"
+	location = 1561
+	regiment = {
+		name= "Regiment 1"
+		type = infantry
+		home = 1561
+	}
+	regiment = {
+		name= "Regiment 2"
+		type = infantry
+		home = 1561
+	}
+	regiment = {
+		name= "Regiment 3"
+		type = infantry
+		home = 1561
+	}
+	regiment = {
+		name= "Regiment 4"
+		type = infantry
+		home = 1561
+	}
+	regiment = {
+		name= "Regiment 5"
+		type = infantry
+		home = 1561
+	}
+	regiment = {
+		name= "Regiment 6"
+		type = infantry
+		home = 1561
+	}
+	regiment = {
+		name= "Regiment 7"
+		type = infantry
+		home = 1561
+	}
+	regiment = {
+		name= "Regiment 8"
+		type = infantry
+		home = 1561
+	}
+	regiment = {
+		name= "Regiment 9"
+		type = infantry
+		home = 1561
+	}
+	regiment = {
+		name= "Regiment 9"
+		type = infantry
+		home = 1561
+	}
+	regiment = {
+		name= "Regiment 9"
+		type = infantry
+		home = 1561
+	}
+}

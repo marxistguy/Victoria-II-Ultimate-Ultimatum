@@ -1,0 +1,45 @@
+army = {
+	name = "Die Nordwestliche Armee"
+	location = 534
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}	
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+		home = 549
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+}

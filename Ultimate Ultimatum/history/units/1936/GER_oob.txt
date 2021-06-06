@@ -1,0 +1,1171 @@
+#RELATIONS#
+JAP = {
+	value = 200
+	}
+ITA = {
+	value = 200
+	}
+SPA = {
+	value = 200
+	}
+MCK = {
+	value = 100
+	}
+NCN = {
+	value = 100
+	}
+SLV = {
+	value = 150
+	level = 5
+	influence_value = 50
+}
+
+SPA = {
+	value = 100
+}
+
+SWE = {
+	value = -50
+}
+
+POR = {
+	value = -50
+}
+ROM = {
+	value = 150
+	level = 5
+	influence_value = 50
+}
+HUN = {
+	value = 150
+	level = 5
+	influence_value = 50
+}
+BOH = {
+	value = 150
+	level = 5
+	influence_value = 50
+}
+army = {
+	name = "1.Infanterie-Division"
+	leader = {
+		name = "Wener von Blomberg"
+		date = 1939.1.1
+		type = land
+		background = school_of_offense
+			}
+	location = 695
+    regiment = {
+		name= "Infanterie-Regiment Königsburg"
+		type = infantry
+		home = 695
+	}
+    regiment = {
+		name= "Infanterie-Regiment Gumbinnen"
+		type = infantry
+		home = 695
+	}
+	regiment = {
+		name= "Artillerie-Regiment Königsburg"
+		type = artillery
+		home = 695
+	}
+	regiment = {
+		name= "Pionier-Bataillon Königsburg A"
+		type = engineer
+		home = 695
+	}
+}
+
+army = {
+	name = "Die Nordöstlichen Armee"
+	leader = {
+		name = "Rudolf Schmidt"
+		type = land
+		personality = aggressive
+		background = school_of_offense
+		date="1939.1.1"
+			}
+	location = 681
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Bombers Squadron"
+		type = bomber
+	}
+	regiment = {
+		name= "Bombers Squadron"
+		type = bomber
+	}
+	regiment = {
+		name= "Fighters Squadron"
+		type = plane
+	}
+	regiment = {
+		name= "Fighters Squadron"
+		type = plane
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Bombers Squadron"
+		type = bomber
+	}
+	regiment = {
+		name= "Bombers Squadron"
+		type = bomber
+	}
+	regiment = {
+		name= "Fighters Squadron"
+		type = plane
+	}
+	regiment = {
+		name= "Fighters Squadron"
+		type = plane
+	}
+	regiment = {
+		name= "Panzer Regiment"
+		type = tank
+	}
+	regiment = {
+		name= "Panzer Regiment"
+		type = tank
+	}
+	regiment = {
+		name= "Panzer Regiment"
+		type = tank
+	}
+	regiment = {
+		name= "Panzer Regiment"
+		type = tank
+	}
+	regiment = {
+		name= "Panzer Regiment"
+		type = tank
+	}
+	regiment = {
+		name= "Panzer Regiment"
+		type = tank
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+}
+army = {
+	name = "Der Nordwestliche Armee"
+	leader = {
+		name = "Erwin Rommel"
+		type = land
+		personality = aggressive
+		background = school_of_offense
+		date="1939.1.1"
+			}
+	location = 534
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Bombers Squadron"
+		type = bomber
+	}
+	regiment = {
+		name= "Bombers Squadron"
+		type = bomber
+	}
+	regiment = {
+		name= "Fighters Squadron"
+		type = plane
+	}
+	regiment = {
+		name= "Fighters Squadron"
+		type = plane
+	}
+	regiment = {
+		name= "Panzer Regiment"
+		type = tank
+	}
+	regiment = {
+		name= "Panzer Regiment"
+		type = tank
+	}
+	regiment = {
+		name= "Panzer Regiment"
+		type = tank
+	}
+	regiment = {
+		name= "Panzer Regiment"
+		type = tank
+	}
+	regiment = {
+		name= "Panzer Regiment"
+		type = tank
+	}
+	regiment = {
+		name= "Panzer Regiment"
+		type = tank
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+}
+
+army = {
+	name = "Der Südwestliche Armee"
+	leader = {
+		name = "Paul Ludwig Edwald von Kleist"
+		type = land
+		personality = aggressive
+		background = school_of_offense
+		date="1939.1.1"
+			}
+	location = 573
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Bombers Squadron"
+		type = bomber
+	}
+	regiment = {
+		name= "Bombers Squadron"
+		type = bomber
+	}
+	regiment = {
+		name= "Fighters Squadron"
+		type = plane
+	}
+	regiment = {
+		name= "Fighters Squadron"
+		type = plane
+	}
+	regiment = {
+		name= "Panzer Regiment"
+		type = tank
+	}
+	regiment = {
+		name= "Panzer Regiment"
+		type = tank
+	}
+	regiment = {
+		name= "Panzer Regiment"
+		type = tank
+	}
+	regiment = {
+		name= "Panzer Regiment"
+		type = tank
+	}
+	regiment = {
+		name= "Panzer Regiment"
+		type = tank
+	}
+	regiment = {
+		name= "Panzer Regiment"
+		type = tank
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+}
+
+
+navy = {
+	name = "Kriegsmarine"
+	location = 540 #Oldenburg Port
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "U-Boat"
+	type = submarine
+	}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Battleship"
+	type = battleship
+		}
+ship = {
+	name = "Cruiser"
+	type = cruiser
+	}
+ship = {
+	name = "Cruiser"
+	type = cruiser
+	}
+ship = {
+	name = "Cruiser"
+	type = cruiser
+	}
+ship = {
+	name = "Cruiser"
+	type = cruiser
+	}
+ship = {
+	name = "Cruiser"
+	type = cruiser
+	}
+ship = {
+	name = "Cruiser"
+	type = cruiser
+	}
+ship = {
+	name = "Cruiser"
+	type = cruiser
+	}
+ship = {
+	name = "Cruiser"
+	type = cruiser
+	}
+ship = {
+	name = "Cruiser"
+	type = cruiser
+	}
+ship = {
+	name = "Cruiser"
+	type = cruiser
+	}
+ship = {
+	name = "Cruiser"
+	type = cruiser
+	}
+ship = {
+	name = "Cruiser"
+	type = cruiser
+	}
+ship = {
+	name = "Cruiser"
+	type = cruiser
+	}
+ship = {
+	name = "Cruiser"
+	type = cruiser
+	}
+ship = {
+	name = "Cruiser"
+	type = cruiser
+	}
+ship = {
+	name = "Cruiser"
+	type = cruiser
+	}
+ship = {
+	name = "Cruiser"
+	type = cruiser
+	}
+ship = {
+	name = "Cruiser"
+	type = cruiser
+	}
+ship = {
+	name = "Cruiser"
+	type = cruiser
+	}
+ship = {
+	name = "Cruiser"
+	type = cruiser
+	}
+ship = {
+	name = "Cruiser"
+	type = cruiser
+	}
+ship = {
+	name = "Cruiser"
+	type = cruiser
+	}
+ship = {
+	name = "Cruiser"
+	type = cruiser
+	}
+ship = {
+	name = "Cruiser"
+	type = cruiser
+	}
+ship = {
+	name = "Cruiser"
+	type = cruiser
+	}
+ship = {
+	name = "Transport Ship"
+	type = steam_transport
+	}
+ship = {
+	name = "Transport Ship"
+	type = steam_transport
+	}
+ship = {
+	name = "Transport Ship"
+	type = steam_transport
+	}
+ship = {
+	name = "Transport Ship"
+	type = steam_transport
+	}
+ship = {
+	name = "Transport Ship"
+	type = steam_transport
+	}
+ship = {
+	name = "Transport Ship"
+	type = steam_transport
+	}
+ship = {
+	name = "Transport Ship"
+	type = steam_transport
+	}
+ship = {
+	name = "Transport Ship"
+	type = steam_transport
+	}
+ship = {
+	name = "Transport Ship"
+	type = steam_transport
+	}
+ship = {
+	name = "Transport Ship"
+	type = steam_transport
+	}
+ship = {
+	name = "Transport Ship"
+	type = steam_transport
+	}
+ship = {
+	name = "Transport Ship"
+	type = steam_transport
+	}
+}

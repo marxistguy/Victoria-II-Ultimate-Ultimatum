@@ -1,0 +1,189 @@
+army = {
+        name = "1st Vietcong Army"
+        location = 1369
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1369
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1369
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1369
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1369
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1369
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1369
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1369
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1369
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1369
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1369
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1369
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1369
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1369
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1369
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1369
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 1369
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 1369
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 1369
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 1369
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 1369
+        }
+}
+
+army = {
+        name = "2nd Vietcong Army"
+        location = 1374
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1374
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1374
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1374
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1374
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1374
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1374
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1374
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1369
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1369
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1369
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1369
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1374
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 1374
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 1374
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 1374
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 1374
+        }
+}

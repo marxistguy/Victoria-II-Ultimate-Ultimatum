@@ -1,0 +1,29 @@
+army = {
+	name = "Army of the Mataram Sultanate"
+	location = 1416
+	regiment = {
+		name= "1.Mataram Sultanate Troops"
+		type = irregular
+		home = 1416
+	}
+
+	regiment = {
+		name= "2.Mataram Sultanate Troops"
+		type = irregular
+		home = 1416
+	}
+
+	regiment = {
+		name= "3.Mataram Sultanate Troops"
+		type = irregular
+		home = 1416
+	}
+
+	regiment = {
+		name= "3.Mataram Sultanate Troops"
+		type = irregular
+		home = 1416
+	}
+
+}
+

@@ -1,0 +1,14 @@
+army = {
+	name = "Cambodian Army"
+	location = 1364
+	Infantry Regiment = {
+		name= "Infantry Regiment 1"
+		type = infantry
+		home = 1364
+	}
+	Infantry Regiment = {
+		name= "Infantry Regiment 2"
+		type = infantry
+		home = 1364
+	}
+}

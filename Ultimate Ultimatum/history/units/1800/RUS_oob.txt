@@ -1,0 +1,76 @@
+﻿}
+army = {
+	leader = {
+		name = "Mikhaïl Koutouzov"
+		type = land
+                prestige = 0.5
+                personality = smart_p
+                background = disgraced
+                picture="russian_general_10"
+			}
+	location = 994
+        regiment = {
+                name= "Infantry"
+                type = infantry
+        }
+
+
+        regiment = {
+                name= "Infantry"
+                type = infantry
+        }
+        regiment = {
+                name= "Infantry"
+                type = infantry
+        }
+
+
+        regiment = {
+                name= "Infantry"
+                type = infantry
+        }
+
+
+        regiment = {
+                name= "Infantry"
+                type = infantry
+        }
+
+
+        regiment = {
+                name= "Infantry"
+                type = infantry
+        }
+        regiment = {
+                name= "Cavalry"
+                type = cuirassier
+        }
+
+
+        regiment = {
+                name= "Cavalry"
+                type = cuirassier
+        }
+
+
+        regiment = {
+                name= "Cavalry"
+                type = hussar
+        }
+
+
+        regiment = {
+                name= "Cavalry"
+                type = hussar
+        }
+        regiment = {
+                name= "Artillery"
+                type = artillery
+        }
+
+
+        regiment = {
+                name= "Artillery"
+                type = artillery
+        }
+}

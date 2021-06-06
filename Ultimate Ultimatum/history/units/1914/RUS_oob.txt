@@ -1,0 +1,757 @@
+
+SER = {
+	value = 150
+	level = 5
+	influence_value = 50
+}
+ROM = {
+	value = 150
+	level = 5
+	influence_value = 50
+}
+
+ENG = {
+	value = 150
+}
+
+FRA = {
+	value = 150
+}
+
+TUR = {
+	value = -150
+}
+
+army = {
+	name = "North Army"
+	leader = {
+		name = "Nikolai Nikolajewitsch"
+		type = land
+		personality = aggressive
+		background = school_of_offense
+		date="1914.1.1"
+	}
+	location = 355
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = hussar
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cuirassier
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = dragoon
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = hussar
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cuirassier
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = dragoon
+			}
+}
+
+army = {
+	name = "1. Mid Army"
+	leader = {
+		name = "Michail Wassiljewitsch Alexejew"
+		type = land
+		personality = aggressive
+		background = school_of_offense
+		date="1914.1.1"
+	}
+	location = 718
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = hussar
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cuirassier
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = dragoon
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = hussar
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cuirassier
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = dragoon
+			}
+}
+army = {
+	name = "2. Mid Army"
+	leader = {
+		name = "Alexei Alexejewitsch Brussilow"
+		type = land
+		personality = aggressive
+		background = school_of_offense
+		date="1914.1.1"
+	}
+	location = 958
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = hussar
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cuirassier
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = dragoon
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = hussar
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cuirassier
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = dragoon
+			}
+}
+army = {
+	name = "South Army"
+	leader = {
+		name = "Lawr Georgijewitsch Kornilow"
+		type = land
+		personality = aggressive
+		background = school_of_offense
+		date="1914.1.1"
+	}
+	location = 970
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = hussar
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cuirassier
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = dragoon
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = hussar
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cuirassier
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = dragoon
+			}
+}

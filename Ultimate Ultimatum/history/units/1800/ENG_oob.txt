@@ -1,0 +1,373 @@
+﻿}
+army = {
+	name = "British Garison"
+        location = 300
+        leader = {
+                name = "Sir William Medows"
+                type = land
+                date="1800.1.1"
+                prestige = 0.1
+		personality = aggressive
+		background = school_of_offense
+                picture="european_general_43"
+        }
+        regiment = {
+                name= "Irregular Regiment"
+                type = irregular
+        }
+        regiment = {
+                name= "Irregular Regiment"
+                type = irregular
+        }
+        regiment = {
+                name= "Irregular Regiment"
+                type = irregular
+        }
+        regiment = {
+                name= "Irregular Regiment"
+                type = irregular
+        }
+        regiment = {
+                name= "Cavalry Regiment"
+                type = cuirassier
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+        }
+}
+army = {
+        name = "India Garrison"
+        location = 1251
+        leader = {
+                name = "Arthur Wellesley"
+                type = land
+                date="1800.1.1"
+                prestige = 0.1
+                personality = clever 
+                background = gifted_administrator
+                picture="wellington_generalpic"
+        }
+        regiment = {
+                name= "irregular"
+                type = irregular
+        }
+        regiment = {
+                name= "irregular"
+                type = irregular
+        }
+        regiment = {
+                name= "irregular"
+                type = irregular
+        }
+        regiment = {
+                name= "irregular"
+                type = irregular
+        }
+        regiment = {
+                name= "Cavalry"
+                type = cuirassier
+        }
+        regiment = {
+                name= "Cavalry"
+                type = hussar
+        }
+        regiment = {
+                name= "Artillery"
+                type = artillery
+        }
+}
+army = {
+        name = "Canada Garrison"
+        location = 58
+        leader = {
+                name = "Isaac Brock"
+                type = land
+                date="1800.1.1"
+                prestige = 0.05
+                personality = efficient 
+                background = drillmaster
+                picture="isaacbrock_generalpic"
+        }
+        regiment = {
+                name= "irregular"
+                type = irregular
+        }
+        regiment = {
+                name= "irregular"
+                type = irregular
+        }
+        regiment = {
+                name= "irregular"
+                type = irregular
+        }
+        regiment = {
+                name= "irregular"
+                type = irregular
+        }
+        regiment = {
+                name= "Cavalry"
+                type = cuirassier
+        }
+        regiment = {
+                name= "Artillery"
+                type = artillery
+        }
+}
+navy = {
+        name = "1st Fleet"
+        location = 303 #Southampton
+	leader = {
+                name = "Horatio Nelson"
+                type = sea
+                date="1800.1.1"
+                prestige = 0.7
+                personality = brilliant 
+                background = innovative_tactician
+                picture="horationelson_generalpic"
+        }
+        ship = {
+                name= "Ship of the Line"
+                type = manowar
+        }
+        ship = {
+                name= "Ship of the Line"
+                type = manowar
+        }
+        ship = {
+                name= "Ship of the Line"
+                type = manowar
+        }
+        ship = {
+                name= "Ship of the Line"
+                type = manowar
+        }
+        ship = {
+                name= "Ship of the Line"
+                type = manowar
+        }
+        ship = {
+                name= "Ship of the Line"
+                type = manowar
+        }
+        ship = {
+                name= "Ship of the Line"
+                type = manowar
+        }
+        ship = {
+                name= "Ship of the Line"
+                type = manowar
+        }
+        ship = {
+                name= "Ship of the Line"
+                type = manowar
+        }
+        ship = {
+                name= "Ship of the Line"
+                type = manowar
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+        }
+        ship = {
+                name= "Transport Ship"
+                type = clipper_transport
+        }
+        ship = {
+                name= "Transport Ship"
+                type = clipper_transport
+        }
+        ship = {
+                name= "Transport Ship"
+                type = clipper_transport
+        }
+        ship = {
+                name= "Transport Ship"
+                type = clipper_transport
+        }
+        ship = {
+                name= "Transport Ship"
+                type = clipper_transport
+        }
+        ship = {
+                name= "Transport Ship"
+                type = clipper_transport
+        }
+}
+navy = {
+        name = "2nd Fleet"
+        location = 303 #Southampton
+        ship = {
+                name= "Ship of the Line"
+                type = manowar
+        }
+        ship = {
+                name= "Ship of the Line"
+                type = manowar
+        }
+        ship = {
+                name= "Ship of the Line"
+                type = manowar
+        }
+        ship = {
+                name= "Ship of the Line"
+                type = manowar
+        }
+        ship = {
+                name= "Ship of the Line"
+                type = manowar
+        }
+        ship = {
+                name= "Ship of the Line"
+                type = manowar
+        }
+        ship = {
+                name= "Ship of the Line"
+                type = manowar
+        }
+        ship = {
+                name= "Ship of the Line"
+                type = manowar
+        }
+        ship = {
+                name= "Ship of the Line"
+                type = manowar
+        }
+        ship = {
+                name= "Ship of the Line"
+                type = manowar
+        }
+        ship = {
+                name= "Ship of the Line"
+                type = manowar
+        }
+        ship = {
+                name= "Ship of the Line"
+                type = manowar
+        }
+        ship = {
+                name= "Ship of the Line"
+                type = manowar
+        }
+        ship = {
+                name= "Ship of the Line"
+                type = manowar
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+        }
+        ship = {
+                name= "Frigate"
+                type = frigate
+	}
+}

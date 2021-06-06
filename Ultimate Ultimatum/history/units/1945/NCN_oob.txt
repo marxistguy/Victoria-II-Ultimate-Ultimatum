@@ -1,0 +1,258 @@
+army = {
+	name = "Republic of China Nanjing Army"
+	location = 2221
+	regiment = {
+		name= "Regiment 1"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 2"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 3"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 4"
+		type = infantry
+		home = 2221
+	}
+}
+
+army = {
+	name = "Republic of China Nanjing Army 3"
+	location = 2221
+	regiment = {
+		name= "Regiment 1"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 2"
+		type = infantry
+		home = 2221
+	}
+}
+
+army = {
+	name = "Republic of China Nanjing Division"
+	location = 2221
+	regiment = {
+		name= "Regiment 1"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 2"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 3"
+		type = infantry
+		home = 2221
+	}
+}
+army = {
+	name = "Republic of China Canton Army"
+	location = 1493
+	regiment = {
+		name= "Regiment 1"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 2"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 3"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 4"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 5"
+		type = infantry
+		home = 2221
+	}
+}
+army = {
+	name = "Republic of China Nanjing Army"
+	location = 2221
+	regiment = {
+		name= "Regiment 1"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 2"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 3"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 4"
+		type = infantry
+		home = 2221
+	}
+}
+army = {
+	name = "Republic of China Tianjin Army"
+	location = 1617
+	regiment = {
+		name= "Regiment 1"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 2"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 3"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 4"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 5"
+		type = infantry
+		home = 2221
+	}
+}
+army = {
+	name = "Republic of China Xian Army"
+	location = 1559
+	regiment = {
+		name= "Regiment 1"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 2"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 3"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 4"
+		type = infantry
+		home = 2221
+	}
+}
+army = {
+	name = "Republic of China Kaifeng Army"
+	location = 1508
+	regiment = {
+		name= "Regiment 1"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 2"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 3"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 4"
+		type = infantry
+		home = 2221
+	}
+}
+army = {
+	name = "Republic of China Fuzhou Army"
+	location = 1482
+	regiment = {
+		name= "Regiment 1"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 2"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 3"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 4"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 5"
+		type = infantry
+		home = 2221
+	}
+}
+army = {
+	name = "Republic of China Chongqing Army"
+	location = 1577
+	regiment = {
+		name= "Regiment 1"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 2"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 3"
+		type = infantry
+		home = 2221
+	}
+	regiment = {
+		name= "Regiment 4"
+		type = infantry
+		home = 2221
+	}
+}
+navy = {
+	name = "Republic of China Taibei Navy"
+	location = 1485
+	ship = {
+		name= "Ship 1"
+		type = destroyer
+	}
+	ship = {
+		name= "Ship 1"
+		type = frigate
+	}
+	ship = {
+		name= "Ship 2"
+		type = frigate
+	}
+}

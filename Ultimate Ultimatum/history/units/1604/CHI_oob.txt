@@ -1,0 +1,456 @@
+army = {
+	name = "Manchu Banner Army"
+	location = 1084
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+		}
+army = {
+	name = "Forbidden Banner Army"
+	location = 1555
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+		}
+army = {
+	name = "Yellow Banner Army"
+	location = 1553
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+		}
+army = {
+	name = "Green Banner Army"
+	location = 1554
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+		}

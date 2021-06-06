@@ -1,0 +1,123 @@
+1800.1.1 = {
+	army = { 
+	name = "Spanish Imperial Army I"
+        location = 488
+        regiment = {
+                name= "Spanish Infantry"
+                type = infantry
+		home = 488
+        }
+        regiment = {
+                name= "Spanish Infantry"
+                type = infantry
+        }
+        regiment = {
+                name= "Spanish Infantry"
+                type = infantry
+        }
+        regiment = {
+                name= "Spanish Infantry"
+                type = infantry
+        }
+        regiment = {
+                name= "Spanish Infantry"
+                type = infantry
+        }
+        regiment = {
+                name= "Spanish Infantry"
+                type = infantry
+        }
+        regiment = {
+                name= "Spanish Cavalry"
+                type = cuirassier
+        }
+	regiment = {
+		name = "Spanish Artillery I"
+		type = artillery
+	}
+}
+	army = { 
+	name = "Spanish Imperial Army II"
+        location = 487
+        regiment = {
+                name= "Spanish Infantry"
+                type = infantry
+        }
+        regiment = {
+                name= "Spanish Infantry"
+                type = infantry
+        }
+        regiment = {
+                name= "Spanish Infantry"
+                type = infantry
+        }
+        regiment = {
+                name= "Spanish Infantry"
+                type = infantry
+        }
+        regiment = {
+                name= "Spanish Infantry"
+                type = infantry
+        }
+        regiment = {
+                name= "Spanish Infantry"
+                type = infantry
+        }
+        regiment = {
+                name= "Spanish Cavalry"
+                type = cuirassier
+        }
+	regiment = {
+		name = "Spanish Artillery I"
+		type = artillery
+	}
+}
+	army = { 
+	name = "Spanish Imperial Army III"
+        location = 490
+        regiment = {
+                name= "Spanish Infantry"
+                type = infantry
+        }
+        regiment = {
+                name= "Spanish Infantry"
+                type = infantry
+        }
+        regiment = {
+                name= "Spanish Infantry"
+                type = infantry
+        }
+        regiment = {
+                name= "Spanish Infantry"
+                type = infantry
+        }
+        regiment = {
+                name= "Spanish Infantry"
+                type = infantry
+        }
+        regiment = {
+                name= "Spanish Infantry"
+                type = infantry
+        }
+        regiment = {
+                name= "Spanish Infantry"
+                type = infantry
+        }
+        regiment = {
+                name= "Spanish Cavalry"
+                type = cuirassier
+        }
+	regiment = {
+		name = "Spanish Artillery I"
+		type = artillery
+	}
+	regiment = {
+		name = "Spanish Artillery I"
+		type = artillery
+	}
+	regiment = {
+		name = "Spanish Artillery I"
+		type = artillery
+	}
+}
+}

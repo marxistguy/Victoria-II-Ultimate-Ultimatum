@@ -1,0 +1,29 @@
+army = {
+	name = "Lao Army"
+	location = 1536
+	regiment = {
+		name= "Regiment 1"
+		type = infantry
+		home = 1536
+	}
+	regiment = {
+		name= "Regiment 2"
+		type = infantry
+		home = 1536
+	}
+	regiment = {
+		name= "Regiment 3"
+		type = infantry
+		home = 1536
+	}
+	regiment = {
+		name= "Regiment 4"
+		type = infantry
+		home = 1536
+	}
+	regiment = {
+		name= "Regiment 5"
+		type = infantry
+		home = 1536
+	}
+}

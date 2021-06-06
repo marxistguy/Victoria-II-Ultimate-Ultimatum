@@ -1,0 +1,231 @@
+army = {
+	name = "Japanese Army"
+	location = 1651
+	regiment = {
+		name= "1.0/Imperial Japanese Army"
+		type = cavalry
+		home = 1651
+	}
+	
+	regiment = {
+		name= "1.1/Imperial Japanese Army"
+		type = infantry
+		home = 1650
+	}
+
+	regiment = {
+		name= "2.1/Imperial Japanese Army"
+		type = infantry
+		home = 1651
+	}
+
+	regiment = {
+		name= "3.1/Imperial Japanese Army"
+		type = infantry
+		home = 1652
+	}
+
+	regiment = {
+		name= "1.2/Imperial Japanese Army"
+		type = infantry
+		home = 1645
+	}
+
+	regiment = {
+		name= "2.2/Imperial Japanese Army"
+		type = infantry
+		home = 1646
+	}
+
+	regiment = {
+		name= "3.2/Imperial Japanese Army"
+		type = infantry
+		home = 1675
+	}
+
+	regiment = {
+		name= "1.3/Imperial Japanese Army"
+		type = infantry
+		home = 1669
+	}
+
+	regiment = {
+		name= "2.3/Imperial Japanese Army"
+		type = infantry
+		home = 1668
+	}
+
+	regiment = {
+		name= "3.3/Imperial Japanese Army"
+		type = artillery
+		home = 1674
+	}
+
+	regiment = {
+		name= "4.3/Imperial Japanese Army"
+		type = artillery
+		home = 1674
+	}
+
+
+}
+
+army = {
+	name = "Western Japanese Army"
+	location = 1675
+	regiment = {
+		name= "1.4/Imperial Japanese Army"
+		type = infantry
+		home = 1676
+	}
+	
+	regiment = {
+		name= "2.4/Imperial Japanese Army"
+		type = infantry
+		home = 1656
+	}
+
+	regiment = {
+		name= "3.4/Imperial Japanese Army"
+		type = infantry
+		home = 1657
+	}
+
+	regiment = {
+		name= "1.5/Imperial Japanese Army"
+		type = infantry
+		home = 1658
+	}
+
+	regiment = {
+		name= "2.5/Imperial Japanese Army"
+		type = infantry
+		home = 1659
+	}
+
+	regiment = {
+		name= "3.5/Imperial Japanese Army"
+		type = infantry
+		home = 1677
+	}
+
+}
+
+army = {
+	name = "Choshu Army"
+	location = 1640
+	regiment = {
+		name= "Choshu Samurai"
+		type = cavalry
+		home = 1640
+	}
+	
+	regiment = {
+		name= "1.6/Imperial Japanese Army"
+		type = infantry
+		home = 1641
+	}
+
+	regiment = {
+		name= "2.6/Imperial Japanese Army"
+		type = infantry
+		home = 1639
+	}
+
+	regiment = {
+		name= "3.6/Imperial Japanese Army"
+		type = infantry
+		home = 1638
+	}
+
+	regiment = {
+		name= "1.7/Imperial Japanese Army"
+		type = infantry
+		home = 1665
+	}
+
+	regiment = {
+		name= "2.7/Imperial Japanese Army"
+		type = infantry
+		home = 1667
+	}	
+
+}
+
+army = {
+	name = "Satsuma Army"
+	location = 1676
+	regiment = {
+		name= "1.23/Imperial Japanese Army"
+		type = infantry
+		home = 1676
+	}
+
+	regiment = {
+		name= "2.23/Imperial Japanese Army"
+		type = infantry
+		home = 1676
+	}
+
+	regiment = {
+		name= "3.23/Imperial Japanese Army"
+		type = infantry
+		home = 1676
+	}
+
+	regiment = {
+		name= "1.24/Imperial Japanese Army"
+		type = infantry
+		home = 1676
+	}
+
+	regiment = {
+		name= "2.24/Imperial Japanese Army"
+		type = infantry
+		home = 1676
+	}
+
+	regiment = {
+		name= "3.24/Imperial Japanese Army"
+		type = infantry
+		home = 1676
+	}
+	
+	regiment = {
+		name= "3.7/Imperial Japanese Army"
+		type = infantry
+		home = 1676
+	}
+	
+}
+
+navy = {
+	name = "Imperial Japanese Fleet"
+	location = 1649
+	ship = {
+		name= "Imperial Japanese Navy"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Imperial Japanese Navy"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Imperial Japanese Navy"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Imperial Japanese Navy"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "Imperial Japanese Navy"
+		type = commerce_raider
+	}
+
+}
+

@@ -1,0 +1,167 @@
+army = {
+        name = "Greek Army"
+	leader = {
+		name = "Konstantinos Vetiris"
+		type = land
+		personality = aggressive
+		background = school_of_offense
+		date="1946.1.1"
+			}
+	location = 834
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 834
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 834
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 834
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 834
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 834
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 834
+        }
+        regiment = {
+                name= "Guard Regiment"
+                type = guard
+                home = 834
+        }
+        regiment = {
+                name= "Guard Regiment"
+                type = guard
+                home = 834
+        }
+        regiment = {
+                name= "Guard Regiment"
+                type = guard
+                home = 834
+        }
+        regiment = {
+                name= "Guard Regiment"
+                type = guard
+                home = 834
+        }
+        regiment = {
+                name= "Guard Regiment"
+                type = guard
+                home = 834
+        }
+        regiment = {
+                name= "Guard Regiment"
+                type = guard
+                home = 834
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 834
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 834
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 834
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 834
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 834
+	}
+			}
+army = {
+        name = "Greek 2nd Army"
+	leader = {
+		name = "Alexander Papagos"
+		type = land
+		personality = aggressive
+		background = school_of_offense
+		date="1946.1.1"
+			}
+	location = 834
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 844
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 844
+        }
+        regiment = {
+                name= "Guard Regiment"
+                type = guard
+                home = 844
+        }
+        regiment = {
+                name= "Guard Regiment"
+                type = guard
+                home = 844
+        }
+        regiment = {
+                name= "Guard Regiment"
+                type = guard
+                home = 844
+        }
+        regiment = {
+                name= "Guard Regiment"
+                type = guard
+                home = 844
+        }
+        regiment = {
+                name= "Guard Regiment"
+                type = guard
+                home = 844
+        }
+        regiment = {
+                name= "Guard Regiment"
+                type = guard
+                home = 844
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 844
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 844
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 844
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 844
+        }
+}

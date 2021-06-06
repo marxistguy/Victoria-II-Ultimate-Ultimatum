@@ -1,0 +1,303 @@
+
+army = {
+	name = "1st Army"
+	location = 860
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = hussar
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cuirassier
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = dragoon
+			}
+}
+
+army = {
+	name = "2nd Army"
+	location = 917
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = hussar
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cuirassier
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = dragoon
+			}
+}
+
+army = {
+	name = "3rd Army"
+	location = 923
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Engineer Regiment"
+		type = engineer
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = guard
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = hussar
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cuirassier
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = dragoon
+			}
+}

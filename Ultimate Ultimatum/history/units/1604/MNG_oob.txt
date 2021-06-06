@@ -1,0 +1,116 @@
+army = {
+	name = "1st Army"
+	location = 1612
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+		}
+army = {
+	name = "2nd Army"
+	location = 2221
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+		}
+army = {
+	name = "3rd Army"
+	location = 1508
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+		}
+army = {
+	name = "4th Army"
+	location = 1510
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Irregular Infantry"
+		type = irregular
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cavalry
+	}
+		}
+navy = {
+	name = "Ming Fleet"
+	location = 1538
+	ship = {
+	name = "Frigate"
+	type = frigate
+		}
+	ship = {
+	name = "Frigate"
+	type = frigate
+		}
+	ship = {
+	name = "Frigate"
+	type = frigate
+		}
+	ship = {
+	name = "Frigate"
+	type = frigate
+		}
+	ship = {
+	name = "Frigate"
+	type = frigate
+		}
+	ship = {
+	name = "Frigate"
+	type = frigate
+		}
+	ship = {
+	name = "Frigate"
+	type = frigate
+		}
+	ship = {
+	name = "Transport Ship"
+	type = clipper_transport
+		}
+	ship = {
+	name = "Transport Ship"
+	type = clipper_transport
+		}
+	ship = {
+	name = "Transport Ship"
+	type = clipper_transport
+		}
+	ship = {
+	name = "Transport Ship"
+	type = clipper_transport
+		}
+			}

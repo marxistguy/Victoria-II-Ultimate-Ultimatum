@@ -1,0 +1,49 @@
+army = {
+        name = "DSE Army"
+        location = 819
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 819
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 819
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 819
+        }
+        regiment = {
+                name= "Guard Regiment"
+                type = guard
+                home = 819
+        }
+        regiment = {
+                name= "Guard Regiment"
+                type = guard
+                home = 819
+        }
+        regiment = {
+                name= "Guard Regiment"
+                type = guard
+                home = 819
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 819
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 819
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 819
+        }
+}

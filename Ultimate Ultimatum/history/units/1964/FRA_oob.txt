@@ -1,0 +1,97 @@
+SWI = {
+	level = 5
+	value = 200
+	influence_value = 25
+	military_access = yes
+}
+LUX = {
+	level = 5
+	value = 200
+	influence_value = 25
+	military_access = yes
+}
+army = {
+	name = "France Algiers Army"
+	location = 1700
+	regiment = {
+		name= "Regiment No.1"
+		type = infantry
+		home = 409
+	}
+	regiment = {
+		name= "Regiment No.1"
+		type = infantry
+		home = 409
+	}
+	regiment = {
+		name= "Regiment No.2"
+		type = infantry
+		home = 409
+	}
+	regiment = {
+		name= "Regiment No.3"
+		type = infantry
+		home = 409
+	}
+	regiment = {
+		name= "Regiment No.1"
+		type = guard
+		home = 409
+	}
+}
+army = {
+	name = "France Strasbourg Army"
+	location = 409
+	regiment = {
+		name= "Regiment No.1"
+		type = infantry
+		home = 409
+	}
+	regiment = {
+		name= "Regiment No.1"
+		type = infantry
+		home = 409
+	}
+	regiment = {
+		name= "Regiment No.2"
+		type = artillery
+		home = 409
+	}
+	regiment = {
+		name= "Regiment No.3"
+		type = artillery
+		home = 409
+	}
+}
+navy = {
+	name = "French Naval Fleet"
+	location = 470
+	ship = {
+		name= "Béarn"
+		type = battleship
+	}
+	ship = {
+		name= "Tigre"
+		type = battleship
+	}
+}
+navy = {
+	name = "French Merchant Navy"
+	location = 400
+	ship = {
+		name= "Cagou"
+		type = steam_transport
+	}
+	ship = {
+		name= "Casamance"
+		type = steam_transport
+	}
+	ship = {
+		name= "Djudjura"
+		type = steam_transport
+	}
+	ship = {
+		name= "Félix Roussel"
+		type = steam_transport
+	}
+}

@@ -1,0 +1,44 @@
+army = {
+        name = "1st South Vietnamese Army"
+        location = 1380
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1380
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1380
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1380
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1380
+        }
+        regiment = {
+                name= "Infantry Regiment"
+                type = infantry
+                home = 1380
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 1380
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 1380
+        }
+        regiment = {
+                name= "Artillery Regiment"
+                type = artillery
+                home = 1380
+        }
+}

@@ -1,0 +1,295 @@
+CAM = {
+	level = 5
+	value = 200
+	influence_value = 25
+	military_access = yes
+}
+LAO = {
+	level = 5
+	value = 200
+	influence_value = 100
+	military_access = yes
+}
+SVI = {
+	level = 5
+	value = 200
+	influence_value = 25
+	military_access = yes
+}
+SWI = {
+	level = 5
+	value = 200
+	influence_value = 25
+	military_access = yes
+}
+LUX = {
+	level = 5
+	value = 200
+	influence_value = 25
+	military_access = yes
+}
+army = {
+	name = "France Algiers Army"
+	location = 1700
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 409
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 409
+	}
+	regiment = {
+		name= "Regiment nr2"
+		type = infantry
+		home = 409
+	}
+	regiment = {
+		name= "Regiment nr3"
+		type = infantry
+		home = 409
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = guard
+		home = 409
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 409
+	}
+}
+army = {
+	name = "France Oran Army"
+	location = 1704
+	regiment = {
+		name= "Regiment nr1"
+		type = irregular
+		home = 409
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 409
+	}
+	regiment = {
+		name= "Regiment nr2"
+		type = infantry
+		home = 409
+	}
+	regiment = {
+		name= "Regiment nr3"
+		type = infantry
+		home = 409
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = guard
+		home = 409
+	}
+}
+army = {
+	name = "France Dakar Army"
+	location = 1783
+	regiment = {
+		name= "Regiment nr1"
+		type = irregular
+		home = 409
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 409
+	}
+	regiment = {
+		name= "Regiment nr2"
+		type = infantry
+		home = 409
+	}
+	regiment = {
+		name= "Regiment nr3"
+		type = infantry
+		home = 409
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = guard
+		home = 409
+	}
+}
+army = {
+	name = "France Strasbourg Army"
+	location = 409
+	regiment = {
+		name= "Regiment nr1"
+		type = irregular
+		home = 409
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 409
+	}
+	regiment = {
+		name= "Regiment nr2"
+		type = infantry
+		home = 409
+	}
+	regiment = {
+		name= "Regiment nr3"
+		type = infantry
+		home = 409
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = guard
+		home = 409
+	}
+}
+army = {
+	name = "French Colonial Army"
+	location = 2122
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 2122
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 2122
+	}
+	regiment = {
+		name= "Regiment nr2"
+		type = infantry
+		home = 2122
+	}
+	regiment = {
+		name= "Regiment nr3"
+		type = infantry
+		home = 2122
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 2122
+	}
+}
+army = {
+	name = "French Colonial Army"
+	location = 1380
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 1380
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 1380
+	}
+	regiment = {
+		name= "Regiment nr2"
+		type = infantry
+		home = 1380
+	}
+}
+navy = {
+	name = "French First Fleet"
+	location = 470
+	ship = {
+		name= "Béarn"
+		type = battleship
+	}
+	ship = {
+		name= "Tigre"
+		type = battleship
+	}
+	ship = {
+		name= "Ouragan"
+		type = battleship
+	}
+	ship = {
+		name= "Savorgnan de Brazza"
+		type = battleship
+	}
+	ship = {
+		name= "Lorraine"
+		type = battleship
+	}
+}
+navy = {
+	name = "French Second Fleet"
+	location = 470
+	ship = {
+		name= "Elan"
+		type = battleship
+	}
+	ship = {
+		name= "La Boudeuse"
+		type = battleship
+	}
+	ship = {
+		name= "Commandant Bory"
+		type = battleship
+	}
+	ship = {
+		name= "Commandant Delage"
+		type = battleship
+	}
+	ship = {
+		name= "Commandant Dominé"
+		type = battleship
+	}
+	ship = {
+		name= "Commandant Duboc"
+		type = battleship
+	}
+	ship = {
+		name= "La Gracieuse"
+		type = battleship
+	}
+	ship = {
+		name= "La Moqueuse"
+		type = battleship
+	}
+}
+navy = {
+	name = "French Merchant Navy"
+	location = 400
+	ship = {
+		name= "Cagou"
+		type = steam_transport
+	}
+	ship = {
+		name= "Casamance"
+		type = steam_transport
+	}
+	ship = {
+		name= "Djudjura"
+		type = steam_transport
+	}
+	ship = {
+		name= "Félix Roussel"
+		type = steam_transport
+	}
+	ship = {
+		name= "Fort Binger"
+		type = steam_transport
+	}
+	ship = {
+		name= "Franche-Comté"
+		type = steam_transport
+	}
+	ship = {
+		name= "Gravelines"
+		type = steam_transport
+	}
+	ship = {
+		name= "Île-de-Batz"
+		type = steam_transport
+	}
+}

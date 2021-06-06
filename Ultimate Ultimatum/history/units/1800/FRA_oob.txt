@@ -1,0 +1,795 @@
+NET = {
+	value = 100
+	level = 5
+	influence_value = 50
+}
+
+SPA = {
+	value = 100
+	level = 5
+	influence_value = 50
+}
+
+CIS = {
+	value = 100
+	level = 5
+	influence_value = 50
+}
+
+PIE = {
+	value = 100
+	level = 5
+	influence_value = 50
+}
+
+GEN = {
+	value = 100
+	level = 5
+	influence_value = 50
+}
+
+SWI = {
+	value = 100
+	level = 5
+	influence_value = 50
+}
+
+TUN = {
+	value = 100
+	level = 5
+	influence_value = 50
+}
+
+army = {
+	name = "Le French Great Army"
+	location = 425
+	leader = {
+		name = "Napoleon Bonaparte"
+		date="1800.1.1"
+		prestige = 1.0
+		type = land
+		personality = au_fait
+		background = natural_born_leader
+		picture="napoleon_generalpic"
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+			}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+			}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+			}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+			}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+			}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+}
+
+army = {
+	name = "Le 2nd Army Française"
+	location = 574
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+	}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+	}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+	}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+}
+
+army = {
+	name = "Army de France"
+	location = 412
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+	}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+}
+
+army = {
+	name = "Le 3rd Army Française"
+	location = 721
+	leader = {
+		name = "Bon-Adrien Jeannot de Moncey"
+		type = land
+		date="1800.1.1"
+		prestige = 1.0
+		personality = au_fait
+		background = natural_born_leader
+		picture="moncey_generalpic"
+			}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name= "Artillery Regiment"
+		type = artillery
+	}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Infantry Regiment"
+		type = infantry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = cavalry
+			}
+	regiment = {
+		name = "Cavalry Regiment"
+		type = hussar
+			}
+}

@@ -1,0 +1,472 @@
+MEX = {
+	value = 200
+	level = 5
+	influence_value = 50
+}
+
+HON = {
+	value = 200
+	level = 5
+	influence_value = 50
+}
+
+HAI = {
+	value = 200
+	level = 5
+	influence_value = 50
+}
+
+ELS = {
+	value = 200
+	level = 5
+	influence_value = 50
+}
+
+DOM = {
+	value = 200
+	level = 5
+	influence_value = 50
+}
+
+ARG = {
+	value = 200
+	level = 5
+	influence_value = 50
+}
+
+BOL = {
+	value = 200
+	level = 5
+	influence_value = 50
+}
+
+BRZ = {
+	value = 200
+	level = 5
+	influence_value = 50
+}
+
+CHL = {
+	value = 200
+	level = 5
+	influence_value = 50
+}
+
+CLM = {
+	value = 200
+	level = 5
+	influence_value = 50
+}
+
+ECU = {
+	value = 200
+	level = 5
+	influence_value = 50
+}
+
+PEU = {
+	value = 200
+	level = 5
+	influence_value = 50
+}
+
+PRG = {
+	value = 200
+	level = 5
+	influence_value = 50
+}
+
+URU = {
+	value = 200
+	level = 5
+	influence_value = 50
+}
+
+VNZ = {
+	value = 200
+	level = 5
+	influence_value = 50
+}
+
+army = {
+	name = "1st US Army"
+	location = 219
+	regiment = {
+		name= "1st US Artillery"
+		type = artillery
+		home = 219
+	}
+
+	regiment = {
+		name= "1st US Infantry"
+		type = infantry
+		home = 219
+	}
+
+	regiment = {
+		name= "2nd US Infantry"
+		type = infantry
+		home = 219
+	}
+
+
+}
+
+army = {
+	name = "2nd US Army"
+	
+	leader = {
+		name = "John J. Pershing"
+		type = land
+		date="1914.1.1"
+		prestige = 0.15
+		personality = aggressive
+		background = natural_born_leader
+		picture="european_general_44"
+	}
+	
+	location = 233
+	regiment = {
+		name= "2nd US Artillery"
+		type = artillery
+		home = 233
+	}
+
+	regiment = {
+		name= "3rd US Artillery"
+		type = artillery
+		home = 233
+	}
+
+	regiment = {
+		name= "1st US Cavalry"
+		type = guard
+		home = 233
+	}
+
+	regiment = {
+		name= "2nd US Cavalry"
+		type = guard
+		home = 233
+	}
+
+	regiment = {
+		name= "3rd US Infantry"
+		type = infantry
+		home = 233
+	}
+
+	regiment = {
+		name= "4th US Infantry"
+		type = infantry
+		home = 233
+	}
+
+	regiment = {
+		name= "5th US Infantry"
+		type = infantry
+		home = 233
+	}
+
+	regiment = {
+		name= "6th US Infantry"
+		type = infantry
+		home = 233
+	}
+
+	regiment = {
+		name= "7th US Infantry"
+		type = infantry
+		home = 233
+	}
+
+	regiment = {
+		name= "8th US Infantry"
+		type = infantry
+		home = 233
+	}
+
+	regiment = {
+		name= "9th US Infantry"
+		type = engineer
+		home = 233
+	}
+
+}
+
+army = {
+	name = "3rd US Army"
+	
+	leader = {
+		name = "Edward Anderson"
+		type = land
+		date="1914.1.1"
+		personality = audacious
+		background = cavalry_school
+		picture="european_general_13"
+	}
+	
+	location = 223
+	regiment = {
+		name= "4th US Artillery"
+		type = artillery
+		home = 223
+	}
+
+	regiment = {
+		name= "10th US Infantry"
+		type = infantry
+		home = 223
+	}
+
+	regiment = {
+		name= "11th US Infantry"
+		type = infantry
+		home = 223
+	}
+
+	regiment = {
+		name= "12th US Infantry"
+		type = infantry
+		home = 223
+	}
+
+}
+
+army = {
+	name = "4th US Army"
+
+	location = 205
+	regiment = {
+		name= "13th US Infantry"
+		type = infantry
+		home = 205
+	}
+
+	regiment = {
+		name= "14th US Infantry"
+		type = infantry
+		home = 205
+	}
+
+	regiment = {
+		name= "15th US Infantry"
+		type = infantry
+		home = 205
+	}
+
+}
+
+army = {
+	name = "5th US Army"
+
+leader = {
+	name = "William Wallace Atterbury"
+	type = land
+	date="1914.1.1"
+	personality = audacious
+	background = school_of_offense
+	picture="european_general_31"
+}
+
+	location = 210
+	regiment = {
+		name= "3rd US Cavalry"
+		type = guard
+		home = 210
+	}
+
+	regiment = {
+		name= "5th US Artillery"
+		type = artillery
+		home = 210
+	}
+
+	regiment = {
+		name= "16th US Infantry"
+		type = infantry
+		home = 210
+	}
+
+	regiment = {
+		name= "17th US Infantry"
+		type = infantry
+		home = 210
+	}
+
+	regiment = {
+		name= "18th US Infantry"
+		type = infantry
+		home = 210
+	}
+
+	regiment = {
+		name= "19th US Infantry"
+		type = engineer
+		home = 210
+	}
+
+}
+
+army = {
+	name = "US Guard Divison"
+	location = 241
+	regiment = {
+		name= "4th US Guard"
+		type = guard
+		home = 241
+	}
+
+	regiment = {
+		name= "4th US Guard"
+		type = guard
+		home = 241
+	}
+}
+
+army = {
+	name = "1st US Cavalry Divison"
+	location = 232
+	regiment = {
+		name= "5th US Cavalry"
+		type = 232
+		home = 151
+	}
+
+	regiment = {
+		name= "6th US Cavalry"
+		type = 232
+		home = 151
+	}
+}
+
+army = {
+	name = "2nd US Cavalry Division"
+	location = 97
+	regiment = {
+		name= "6th US Cavalry"
+		type = hussar
+		home = 161
+	}
+
+	regiment = {
+		name= "6th US Cavalry"
+		type = hussar
+		home = 161
+	}
+}
+
+navy = {
+	name = "1st Squadron"
+	location = 233
+	ship = {
+		name= "USS Vermont"
+		type = cruiser
+	}
+	
+	ship = {
+		name= "USS Constitution"
+		type = battleship
+	}
+
+	ship = {
+		name= "USS St. Lawrence"
+		type = battleship
+	}
+
+	ship = {
+		name= "USS Brandywine"
+		type = battleship
+	}
+
+}
+
+navy = {
+	name = "2nd Squadron"
+	location = 219
+	ship = {
+		name= "USS Wyandot"
+		type = steam_transport
+	}
+	
+	ship = {
+		name= "USS Mohawk"
+		type = steam_transport
+	}
+	
+	ship = {
+		name= "USS Crusader"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "USS Sumter"
+		type = steam_transport
+	}
+
+	ship = {
+		name= "USS Mystic"
+		type = steam_transport
+	}
+}
+
+navy = {
+	name = "3rd Squadron"
+	location = 219
+	
+	ship = {
+		name= "USS Potomac"
+		type = battleship
+	}
+
+	ship = {
+		name= "USS Sabine"
+		type = battleship
+	}
+
+	ship = {
+		name= "USS Congress"
+		type = battleship
+	}
+	
+	ship = {
+		name= "USS Roanoke"
+		type = submarine
+	}
+
+	ship = {
+		name= "USS Minnesota"
+		type = submarine
+	}
+
+}
+
+navy = {
+	name = "1st Submarine Squadron"
+	location = 219
+	ship = {
+		name= "USS Santee"
+		type = battleship
+	}
+
+	ship = {
+		name= "USS Colorado"
+		type = submarine
+	}
+
+}
+
+navy = {
+	name = "2nd Submarine Squadron"
+	location = 219
+	ship = {
+		name= "USS Wabash"
+		type = submarine
+	}
+
+	ship = {
+		name= "USS Wabash"
+		type = submarine
+	}
+
+}
