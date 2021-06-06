@@ -1,0 +1,20 @@
+owner = SPA
+controller = SPA
+add_core = LUX
+add_core = REH
+1700.1.1 = {
+	owner = AUS
+	controller = AUS
+		}
+1800.1.1 = {
+	owner = FRA
+	controller = FRA
+	remove_core = REH
+		}
+1820.1.1 = {
+	owner = LUX
+	controller = LUX
+		}
+trade_goods = iron
+life_rating = 35
+1861.1.1 = { railroad = 3 }

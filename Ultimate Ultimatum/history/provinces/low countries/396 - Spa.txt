@@ -1,0 +1,39 @@
+owner = SPA
+controller = SPA
+add_core = LIE
+add_core = REH
+add_core = BEL
+trade_goods = coal
+life_rating = 35
+
+1604.8.31 = { 
+owner = LIE
+controller = LIE
+}
+1795.10.1 = {
+owner = FRA
+controller = FRA
+remove_core = REH
+}
+1806.8.6 = { remove_core = REH }
+1815.6.9 = {
+owner = NET
+controller = NET
+add_core = BEL
+add_core = NET
+add_core = WLL
+remove_core = LIE
+}
+1831.7.14 = {
+owner = BEL
+controller = BEL
+}
+1861.1.1 = { 
+remove_core = NET
+railroad = 3
+}
+#Walloon ISA Break Off from Belgium
+2018.1.1 = {
+owner = WLL
+controller = WLL
+}

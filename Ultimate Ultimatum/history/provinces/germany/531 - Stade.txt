@@ -1,0 +1,53 @@
+life_rating = 35
+add_core = BRE
+add_core = GER
+add_core = REH
+trade_goods = cattle
+
+
+1604.1.1 = { 
+owner = BRE
+controller = BRE
+}
+1648.10.24 = { 
+owner = VER
+controller = VER
+}
+1712.9.7 = { controller = DEN }
+1719.11.9 = {
+owner = HAN
+controller = HAN
+add_core = HAN
+remove_core = BRE
+}
+1806.8.6 = { remove_core = REH }
+1807.7.9 = {
+owner = WES
+controller = WES
+}
+1811.1.1 = {
+owner = FRA
+controller = FRA
+}
+1815.6.9 = {
+owner = HAN
+controller = HAN
+}
+1870.1.1 = {
+owner = NGF
+controller = NGF
+add_core = NGF
+}
+1871.1.1 = {
+owner = GER
+controller = GER
+remove_core = NGF
+}
+1945.12.12 = { 
+owner = ENG
+controller = ENG
+}
+1950.1.1 = { 
+owner = GER
+controller = GER
+}

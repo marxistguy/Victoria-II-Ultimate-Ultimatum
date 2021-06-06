@@ -1,0 +1,29 @@
+owner = XIN
+controller = XIN
+add_core = XIN
+1750.1.1 = {
+owner = QNG
+controller = QNG
+}
+1836.1.1 = {
+owner = XIN
+controller = XIN
+}
+1864.10.7 = {
+owner = RUS
+controller = RUS
+add_core = RUS
+remove_core = XIN
+		}
+trade_goods = grain
+life_rating = 35
+
+1917.1.1 = {
+	add_core = KYR
+		}
+1992.1.1 = {
+	owner = KYR
+	controller = KYR
+	colonial = 0
+		}
+

@@ -1,0 +1,47 @@
+owner = MNG
+controller = MNG
+add_core = MNG
+add_core = CHI
+1620.1.1 = {
+add_core = QNG
+}
+1640.1.1 = {
+owner = QNG
+controller = QNG
+add_core = QNG
+}
+1650.1.1 = {
+owner = QNG
+controller = QNG
+remove_core = MNG
+}
+
+1910.1.1 = {
+	owner = CHI	
+	controller = CHI
+	}
+
+1923.1.1 = {
+owner = HUI
+controller = HUI
+add_core = HUI
+}
+1928.12.29 = {
+owner = NCN
+controller = NCN
+add_core = NCN
+}
+
+
+1950.1.1 = {
+	owner = CHI
+	controller = CHI
+		}
+
+
+
+
+
+
+trade_goods = fruit
+life_rating = 32

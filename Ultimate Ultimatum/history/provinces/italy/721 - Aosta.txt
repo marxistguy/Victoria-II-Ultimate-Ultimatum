@@ -1,0 +1,29 @@
+owner = SAV
+controller = SAV
+add_core = SAV
+add_core = ITA
+add_core = REH
+add_core = KNI
+trade_goods = wool
+life_rating = 35
+1760.1.1 = {
+	owner = SAR
+controller = SAR
+add_core = PIE
+add_core = SAR
+		}
+1800.1.1 = {
+	owner = PIE
+	controller = PIE
+	add_core = PIE
+		}
+1812.1.1 = {
+		controller = SAR
+		owner = SAR
+		add_core = SAR
+		}
+1861.1.1 = {
+	controller = ITA
+	owner = ITA
+	add_core = ITA
+}

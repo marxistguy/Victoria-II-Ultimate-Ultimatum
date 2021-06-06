@@ -1,0 +1,48 @@
+life_rating = 35
+add_core = GER
+add_core = REH
+add_core = PMR
+trade_goods = fruit
+
+
+1604.1.1 = { 
+owner = PMR
+controller = PMR
+}
+1637.3.10 = { add_core = BDB }
+1701.1.18 = {
+add_core = PRU
+remove_core = BDB
+}
+1806.8.6 = { remove_core = REH }
+1815.6.9 = { 
+owner = PRU
+controller = PRU
+}
+1870.1.1 = { 
+owner = NGF	
+controller = NGF
+add_core = NGF
+}
+1871.1.1 = { 
+owner = GER	
+controller = GER
+remove_core = NGF
+}
+#End of WW2
+1945.4.5 = { controller = RUS }
+1945.7.1 = {
+owner = RUS
+controller = RUS
+}
+1950.1.1 = {
+owner = DDR
+controller = DDR
+add_core = DDR
+}
+#Fall of Berlin Wall - Reunification
+1990.10.3 = {
+owner = GER
+controller = GER
+remove_core = DDR
+}

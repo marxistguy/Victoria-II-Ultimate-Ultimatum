@@ -1,0 +1,27 @@
+owner = MOL
+controller = MOL
+add_core = MOL
+add_core = ROM
+trade_goods = fruit
+life_rating = 35
+
+1812.5.28 = {
+owner = RUS
+controller = RUS
+add_core = RUS
+}
+1918.4.9 = {
+owner = ROM
+controller = ROM
+remove_core = RUS
+}
+#End of WW2
+1945.5.1 = {
+owner = RUS
+controller = RUS
+}
+#Soviet Collapse
+1991.8.27 = {
+owner = MOL
+controller = MOL
+}

@@ -1,0 +1,23 @@
+owner = SPA
+controller = SPA
+add_core = FRA
+add_core = REH
+trade_goods = iron
+life_rating = 30
+1700.1.1 = {
+	owner = FRA
+controller = FRA
+remove_core = REH		}
+#state_building = {
+#	level = 1
+#	building = steel_factory
+#	upgrade = yes
+#}
+1861.1.1 = {
+	state_building = {
+		level = 1
+		building = canned_food_factory
+		upgrade = yes
+	}
+}
+1861.1.1 = { railroad = 3 }

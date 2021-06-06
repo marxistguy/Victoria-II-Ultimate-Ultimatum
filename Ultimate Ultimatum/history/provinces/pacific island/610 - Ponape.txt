@@ -1,0 +1,6 @@
+1910.1.1 = {
+	owner = JAP
+	controller = JAP
+		}
+trade_goods = fish
+life_rating = 15

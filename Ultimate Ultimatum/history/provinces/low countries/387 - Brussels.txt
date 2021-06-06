@@ -1,0 +1,71 @@
+owner = SPA
+controller = SPA
+add_core = NET
+add_core = REH
+add_core = BEL
+trade_goods = sulphur
+life_rating = 35
+
+1713.4.11 = {
+owner = AUS
+controller = AUS
+}
+1788.1.1 = { add_core = FLA }
+1795.10.1 = {
+owner = FRA
+controller = FRA
+}
+1815.6.9 = {
+owner = NET
+controller = NET
+add_core = BEL
+}
+1831.7.14 = {
+owner = BEL
+controller = BEL
+railroad = 1
+state_building = {
+level = 1
+building = fabric_factory
+upgrade = yes
+}
+state_building = {
+level = 1
+building = canned_food_factory
+upgrade = yes
+}
+state_building = {
+level = 1
+building = cement_factory
+upgrade = yes
+}
+}
+1861.1.1 = {
+remove_core = NET
+state_building = {
+level = 2
+building = fabric_factory
+upgrade = yes
+}
+state_building = {
+level = 2
+building = canned_food_factory
+upgrade = yes
+}
+state_building = {
+level = 2
+building = cement_factory
+upgrade = yes
+}
+state_building = {
+level = 1
+building = liquor_distillery
+upgrade = yes
+}
+railroad = 3
+}
+#Flemish ISA Break Off from Belgium
+2018.1.1 = {
+owner = FLA
+controller = FLA
+}

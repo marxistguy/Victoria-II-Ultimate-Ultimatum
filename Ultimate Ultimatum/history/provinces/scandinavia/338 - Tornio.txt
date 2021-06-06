@@ -1,0 +1,17 @@
+owner = SWE
+controller = SWE
+add_core = FIN
+1809.9.17 = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+		}
+
+1917.12.6 = { 
+		controller = FIN
+		owner = FIN
+		remove_core = SWE
+		}
+add_core = SWE
+trade_goods = iron
+life_rating = 35

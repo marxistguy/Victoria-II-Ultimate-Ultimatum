@@ -1,0 +1,54 @@
+life_rating = 35
+add_core = GER
+add_core = REH
+add_core = SAX
+trade_goods = coal
+
+
+1604.1.1  = { 
+owner = SAX
+controller = SAX
+}
+1756.9.9 = { controller = PRU }
+1759.9.4 = { controller = SAX }
+1806.8.6 = { remove_core = REH }
+1836.1.1 = {
+state_building = {
+level = 1
+building = fabric_factory
+upgrade = yes
+}
+}
+1870.1.1 = { 
+owner = NGF	
+controller = NGF
+add_core = NGF
+}
+1871.1.1 = { 
+owner = GER	
+controller = GER
+remove_core = NGF
+}
+1910.1.1 = {
+state_building = {
+level = 2
+building = regular_clothes_factory
+upgrade = yes
+}
+}
+#End of WW2
+1945.7.1 = {
+owner = RUS
+controller = RUS
+}
+1950.1.1 = {
+owner = DDR
+controller = DDR
+add_core = DDR
+}
+#Fall of Berlin Wall - Reunification
+1990.10.3 = {
+owner = GER
+controller = GER
+remove_core = DDR
+}

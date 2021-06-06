@@ -1,0 +1,21 @@
+owner = ATJ
+controller = ATJ
+add_core = ATJ
+1836.1.1 = {
+	owner = NET
+	controller = NET
+	colonial = 2
+		}
+
+
+1935.1.1 = {
+	add_core= IDO
+		}
+1945.8.17 = {
+	owner = IDO
+	controller = IDO
+	colonial = 0
+		}
+
+trade_goods = spices
+life_rating = 30

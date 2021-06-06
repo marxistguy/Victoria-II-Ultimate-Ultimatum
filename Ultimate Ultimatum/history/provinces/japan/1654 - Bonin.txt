@@ -1,0 +1,9 @@
+add_core = TKG
+1868.10.23 = {
+	owner = JAP	
+	controller = JAP
+	add_core = JAP
+		}
+trade_goods = fish
+life_rating = 15
+colonial = 2

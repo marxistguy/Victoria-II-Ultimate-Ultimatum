@@ -1,0 +1,23 @@
+1836.1.1 = {
+owner = RUS
+controller = RUS
+add_core = LSK
+colonial = 2
+		}
+trade_goods = timber
+life_rating = 20
+
+
+1867.1.1 = {
+	owner = USA
+	controller = USA
+	add_core = USA
+		}
+1950.1.1 = {
+	colonial = 0
+		}
+
+2023.1.1 = {
+	owner = LSK
+	controller = LSK
+		}

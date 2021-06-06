@@ -1,0 +1,48 @@
+life_rating = 35
+add_core = FDA
+add_core = GER
+add_core = REH
+trade_goods = grain
+
+
+1604.1.1 = { 
+owner = FDA
+controller = FDA
+}
+1803.2.25 = { 
+owner = NET
+controller = NET
+}
+1806.3.15 = { 
+owner = GHB
+controller = GHB
+}
+1806.8.6 = { remove_core = REH }
+1809.10.14 = {
+owner = FRM
+controller = FRM
+}
+1815.6.9 = {
+owner = HEK
+controller = HEK
+add_core = HEK
+remove_core = FDA
+}
+1870.1.1 = { 
+owner = NGF	
+controller = NGF
+add_core = NGF
+}
+1871.1.1 = { 
+owner = GER	
+controller = GER
+remove_core = NGF
+}
+1945.12.12 = { 
+owner = USA
+controller = USA
+}
+1950.1.1 = { 
+owner = GER
+controller = GER
+}

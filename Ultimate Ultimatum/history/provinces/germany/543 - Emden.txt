@@ -1,0 +1,55 @@
+life_rating = 35
+add_core = EMD
+add_core = GER
+add_core = REH
+trade_goods = fish
+
+
+1604.1.1 = { 
+owner = EMD
+controller = EMD
+}
+1744.5.25 = {
+owner = PRU
+controller = PRU
+add_core = PRU
+remove_core = EMD
+}
+1806.6.5 = { 
+owner = NET
+controller = NET
+}
+1806.8.6 = { remove_core = REH }
+1810.7.9 = {
+owner = FRA
+controller = FRA
+}
+1813.10.19 = {
+owner = PRU
+controller = PRU
+}
+1815.6.9 = {
+owner = HAN
+controller = HAN
+add_core = HAN
+remove_core = PRU
+}
+1861.1.1 = { railroad = 3 }
+1870.1.1 = { 
+owner = NGF	
+controller = NGF
+add_core = NGF
+}
+1871.1.1 = { 
+owner = GER	
+controller = GER
+remove_core = NGF
+}
+1945.12.12 = { 
+owner = ENG
+controller = ENG
+}
+1950.1.1 = { 
+owner = GER
+controller = GER
+}

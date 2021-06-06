@@ -1,0 +1,17 @@
+owner = SPA
+controller = SPA
+colonial = 2
+1810.1.1 = {
+owner = PRG
+controller = PRG
+add_core = PRG
+add_core = BRZ
+colonial = 0
+		}
+
+trade_goods = sulphur
+life_rating = 25
+1914.1.1 = {
+		owner = BRZ
+		controller = BRZ
+		}

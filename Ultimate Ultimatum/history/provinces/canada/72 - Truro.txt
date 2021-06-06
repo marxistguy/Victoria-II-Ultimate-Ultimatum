@@ -1,0 +1,25 @@
+owner = MCM
+controller = MCM
+add_core = MCM
+1707.1.1 = {
+owner = ENG
+controller = ENG
+	colonial = 2
+		}
+
+1800.1.1 = {
+	add_core = CAN
+	add_core = NBN
+		}
+1880.1.1 = { 
+		controller = CAN
+		owner = CAN
+		colonial = 0
+		}
+2023.1.1 = {
+	controller = NBN
+	owner = NBN
+		}
+trade_goods = timber
+life_rating = 35
+colonial = 2

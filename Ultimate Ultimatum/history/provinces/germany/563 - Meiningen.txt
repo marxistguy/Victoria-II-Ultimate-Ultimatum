@@ -1,0 +1,49 @@
+life_rating = 35
+add_core = GER
+add_core = REH
+trade_goods = iron
+
+
+1604.1.1 = { 
+owner = HNB
+controller = HNB
+}
+1660.1.1 = {
+owner = COB
+controller = COB
+add_core = COB
+}
+1680.1.1 = {
+owner = MEI
+controller = MEI
+add_core = MEI
+remove_core = COB
+}
+1806.8.6 = { remove_core = REH }
+1861.1.1 = { railroad = 3 }
+1870.1.1 = {
+owner = NGF
+controller = NGF
+add_core = NGF
+}
+1871.1.1 = {
+owner = GER
+controller = GER
+remove_core = NGF
+}
+#End of WW2
+1945.7.1 = {
+owner = RUS
+controller = RUS
+}
+1950.1.1 = {
+owner = DDR
+controller = DDR
+add_core = DDR
+}
+#Fall of Berlin Wall - Reunification
+1990.10.3 = {
+owner = GER
+controller = GER
+remove_core = DDR
+}

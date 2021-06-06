@@ -1,0 +1,41 @@
+owner = XIN
+controller = XIN
+add_core = XIN
+
+1750.1.1 = {
+owner = QNG
+controller = QNG
+}
+1836.1.1 = {
+owner = XIN
+controller = XIN
+add_core = CHI
+}
+1923.1.1 = {
+owner = XIN
+controller = XIN
+}
+1928.12.29 = {
+owner = NCN
+controller = NCN
+add_core = NCN
+}
+
+
+1950.1.1 = {
+	owner = CHI
+	controller = CHI
+		}
+
+#2016 Uigur Revolt
+2016.1.1 = {
+	owner = XIN
+	controller = XIN
+		}
+
+trade_goods = cotton
+life_rating = 32
+
+add_core = XIN
+owner = XIN
+controller = XIN
