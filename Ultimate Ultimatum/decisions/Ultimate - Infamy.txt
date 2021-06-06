@@ -1,0 +1,15 @@
+political_decisions = {
+	international_apology = {
+		picture = "internationalapology"
+		potential = { has_country_flag = shown_decisions }
+		allow = {
+			war = no
+			prestige = 40
+		}
+		effect = {
+			prestige = -40
+			badboy = -10
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

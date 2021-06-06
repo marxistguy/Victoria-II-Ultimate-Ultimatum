@@ -1,0 +1,107 @@
+political_decisions = {
+
+#Cheat Pack mod
+
+	LaunchCheatPacks = {
+		picture = "cheat_pack"
+		potential = {
+			ai = no
+			has_country_flag = shown_decisions
+			NOT = {
+				has_country_flag = dontshowcheats
+				has_country_flag = Cheats_on
+				has_country_flag = cheat_disable_forever
+			}
+		}
+		effect = {
+		set_country_flag = Cheats_on
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	DisableCheats = {
+		picture = "disable_cheats"
+		potential = {
+			ai = no
+			has_country_flag = shown_decisions
+			has_country_flag = Cheats_on
+		}
+		effect = {
+			clr_country_flag = Cheats_on
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	DisableCheatsForever = {
+		picture = "crisis"
+		potential = {
+			ai = no
+			has_country_flag = shown_decisions
+			has_country_flag = Cheats_on
+		}
+		effect = {
+			clr_country_flag = shown_decisions
+			clr_country_flag = Cheats_on
+			country_event = 1010101
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	IncreaseLiteracy = {
+		picture = "increase_literacy"
+		potential = {
+		ai = false
+		has_country_flag = Cheats_on
+		has_country_flag = shown_decisions
+		}
+		allow = {
+		ai = false
+		}
+		effect = {
+		 any_pop = { literacy = 0.1 }
+		 any_pop = { consciousness = 1 }
+		 any_pop = { militancy = 1 }
+		}
+		effect = {
+			money = -30000
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	RemoveInfamy = {
+		picture = "infamy_removed"
+		potential = {
+			has_country_flag = shown_decisions
+			has_country_flag = Cheats_on
+		}
+		effect = {
+			badboy = -50
+		}
+		effect = {
+			prestige = -0.5
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	GivesMoney = {
+		picture = "give_money"
+		potential = {
+			has_country_flag = Cheats_on
+			has_country_flag = shown_decisions
+		}
+		effect = {
+			treasury = 10000
+		}
+		effect = {
+			prestige = -0.1
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

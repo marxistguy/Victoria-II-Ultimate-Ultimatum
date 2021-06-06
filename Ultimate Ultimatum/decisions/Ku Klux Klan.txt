@@ -1,0 +1,80 @@
+political_decisions = {
+	persecute_the_undesirables = {
+		picture = KKKsoutherninfamy
+		potential = {
+			OR = {
+				tag = KKK
+			}
+			NOT = {
+				has_country_flag = persecute_minorities
+			}
+		}
+
+		allow = {
+			war = no
+		}
+		
+		effect = {	
+		bad_boy = 35
+		prestige = -900
+		relation = { who = ISR  value = -200 }
+		relation = { who = PAP  value = -200 }
+		relation = { who = USA  value = -100 }
+		
+			any_pop = {
+				limit = {
+					has_pop_culture = afro_american
+					has_pop_culture = yankee
+					has_pop_religion = catholic
+					has_pop_religion = jewish
+				}
+				militancy = 4
+				consciousness = 6
+				reduce_pop = 0.99
+			}
+			set_country_flag = persecute_minorities
+		}
+	}
+	
+	reestablish_the_southern_states = {
+		picture = KKKinfamy
+		potential = {
+			tag = KKK
+			OR = {
+				government = fascist_dictatorship
+				government = presidential_dictatorship
+			}
+			NOT = {
+				has_country_flag = klans_southern_dream
+			}			
+		}
+
+		allow = {
+			war = no
+			owns = 211			
+		}
+
+		effect = {
+			CSA = { all_core = { add_core = KKK } }	
+			capital = 211
+			211 = {
+				change_province_name = "Klansville"
+			}
+			any_owned = {
+				limit = {
+					is_colonial = no
+					OR = {
+						culture = dixie
+					}
+				}
+				add_core = KKK
+			}
+			set_country_flag = klans_southern_dream
+			prestige = -100
+			badboy = -10
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}

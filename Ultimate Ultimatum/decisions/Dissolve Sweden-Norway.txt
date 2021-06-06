@@ -1,0 +1,30 @@
+political_decisions = {
+	dissolve_sweden-norway = {
+		picture = form_the_sweden-norway
+		potential = {
+			militancy = 6
+			OR = {
+				tag = SWN
+			}
+			NOT = {
+				has_country_flag = dissolve_sweden-norway_done
+			}
+			NOT = {
+			tag = SWE
+			tag = NOR
+				}
+		}
+		allow = {
+			tag = SWN
+			
+		}
+	
+		effect = {
+			set_country_flag = dissolve_sweden-norway_done
+			country_event = { id=22154 days=0 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

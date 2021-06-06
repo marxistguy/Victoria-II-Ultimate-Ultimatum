@@ -1,0 +1,90 @@
+political_decisions = {
+
+	form_american_republics = {
+		picture = panamerica
+		potential = {
+			tag = USA
+			year = 2023
+			NOT = {
+				has_country_flag = form_american_republics_done
+			}
+		}
+		allow = {
+				tag = USA
+				is_greater_power = yes
+				war = no
+				prestige = 450
+				any_neighbor_country = {
+					OR = {
+						tag = CAN
+						tag = MEX
+						tag = COL
+						tag = QUE
+						}
+					in_sphere = this
+					}
+				}
+		effect = {
+			prestige = 100
+			change_tag = UCS
+			set_country_flags = form_american_republics_done
+			add_accepted_culture = anglo_canadian
+			add_accepted_culture = mexican
+			country_event = { id=9999999 days=0 }
+			capital = 78
+			78 = {
+				change_province_name = "Americana Maxima"
+			}
+			any_country = {
+				limit = {
+					is_culture_group = THIS
+				}
+				all_core = {
+					secede_province = UCS
+				}
+			}
+			any_neighbor_country = {
+				limit = {
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			MEX_2138 = {
+				add_core = UCS
+			}
+			MEX_2142 = {
+				add_core = UCS
+			}
+			MEX_2146 = {
+				add_core = UCS
+			}
+			SPA_2209 = {
+				add_core = UCS
+			}
+			MEX_2151 = {
+				add_core = UCS
+			}
+			MEX_2170 = {
+				add_core = UCS
+			}
+			MEX_2161 = {
+				add_core = UCS
+			}
+			MEX_2173 = {
+				add_core = UCS
+			}
+			MEX_2162 = {
+				add_core = UCS
+			}
+			MEX_2183 = {
+				add_core = UCS			
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+}

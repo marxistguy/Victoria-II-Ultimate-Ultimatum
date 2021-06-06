@@ -1,0 +1,93 @@
+political_decisions = {
+	establish_west_germany = {
+			picture = "establish_west_germany"
+			potential = {
+				year = 1949
+				NOT = { has_global_flag = establish_west_germany }	
+				OR = { 
+					tag = USA
+					}
+				}
+
+			allow = {
+
+			}
+
+			effect = {
+				set_global_flag = establish_west_germany
+				any_owned = { 
+					limit = {
+					is_core = GER
+					}
+					secede_province = GER
+				}
+				create_alliance = GER
+			}
+		ai_will_do = {
+			factor = 1
+		}		
+	}
+	establish_west_germany_uk_fra = {
+			picture = "establish_west_germany"
+			potential = {
+				has_global_flag = establish_west_germany
+				NOT = { has_country_flag = establish_west_germany_uk_fra }	
+				OR = { 
+					tag = ENG
+					tag = FRA
+					}
+				}
+
+			allow = {
+
+			}
+
+			effect = {
+				set_country_flag = establish_west_germany_uk_fra
+				GER = { prestige = -1000 }
+				any_owned = { 
+					limit = {
+					is_core = GER
+					}
+					secede_province = GER
+				}
+				create_alliance = GER
+			}
+		ai_will_do = {
+			factor = 1
+		}		
+	}
+	establish_ddr = {
+			picture = "establish_east_germany"
+			potential = {
+				tag = RUS
+				government = proletarian_dictatorship
+				year = 1950
+				NOT = { has_global_flag = establish_ddr }	
+				OR = { 
+					tag = RUS
+					}
+				}
+
+			allow = {
+
+			}
+
+			effect = {
+				set_global_flag = establish_ddr
+				any_owned = { 
+					limit = {
+					is_core = GER
+					}
+					add_core = DDR
+					secede_province = DDR
+				}
+				create_alliance = DDR
+            				create_vassal = DDR
+				DDR = { prestige = -1000 }
+				influence = { who = DDR value = 100 }
+			}
+		ai_will_do = {
+			factor = 1
+		}		
+	}

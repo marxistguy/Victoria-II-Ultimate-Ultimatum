@@ -1,0 +1,53 @@
+political_decisions = {	
+	ems_dispatch = {
+		potential = {
+			NOT = { has_country_flag = ems_dispatch_sent }
+			OR = {
+				tag = PRU
+				tag = NGF
+			}
+			FRA = {
+				any_owned_province = { is_core = GER }
+			}
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+			}
+		}
+		
+		allow = {
+			war = no
+			OR = {
+				steel_breech_loaded_artillery = 1
+				machine_guns = 1
+			}
+			FRA = {
+				war = no
+				NOT = { truce_with = THIS }
+				NOT = {
+					relation = { who = THIS value = 100 }
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			relation = { who = FRA value = -100 }
+			set_country_flag = ems_dispatch_sent
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					war_exhaustion = 20
+					num_of_revolts = 1
+					is_disarmed = yes
+					FRA = { brigades_compare = 2 }
+				}
+			}
+		}
+	}
+	

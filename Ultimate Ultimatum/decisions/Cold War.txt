@@ -1,0 +1,173 @@
+political_decisions = {
+
+soviet_northkorea_landreform = {
+picture = soviet_northkorea_landreform
+	potential = {
+		tag = RUS
+		year = 1950
+		AND = {
+		KOR_1619 = {
+			owned_by = THIS
+				}
+		KOR_1627 = {
+			owned_by = THIS
+				}
+			}
+		NOT = {
+			OR = {
+			exists = NKA
+			has_global_flag = korea_landreform_done
+				}
+			}
+			}
+	allow = {
+			}
+
+	effect = {
+		KOR_1619 = {
+			add_core = NKA
+				}
+		KOR_1627 = {
+			add_core = NKA
+			}
+		release = NKA
+			diplomatic_influence = {
+			who = NKA
+			value = 200
+						}
+		set_global_flag = korea_landreform_done
+			}
+				}
+usa_southkorea_decision = {
+	picture = southkoreapic
+		potential = {
+			tag = USA
+			year = 1950
+			KOR_1624 = {
+				owned_by = THIS
+					}
+
+			KOR_1635 = {
+				owned_by = THIS
+					}
+			NOT = {
+				OR = {
+				exists = SKA
+				has_global_flag = southkorea_decision_done
+					}
+				}
+			}
+
+		allow = {
+				}
+	effect = {
+			KOR_1624 = {
+				add_core = SKA
+					}
+
+			KOR_1635 = {
+				add_core = SKA
+					}
+		release = SKA
+			diplomatic_influence = {
+			who = SKA
+			value = 200
+						}
+		set_global_flag = southkorea_decision_done
+		}
+	}
+
+north_korean_reunification = {
+	picture = goodoldkimpic
+		potential = {
+		tag = NKA
+		exists = SKA
+		NOT = {
+			has_global_flag = korean_war_done
+			}
+				}
+		allow = {
+				}
+		effect = {
+			set_global_flag = korean_war_done
+
+	war = {
+	target = SKA
+	attacker_goal = {
+		casus_belli = conquest
+	}
+	defender_goal = {
+		casus_belli = status_quo
+	}
+        
+				}
+			}
+		}	
+
+reach_out_to_Khrushchev = {
+picture = jfkphonecallpic
+	potential = {
+		tag = USA
+		has_global_flag = cuban_missile_crisis_IP
+			}
+	allow = {
+	}
+	effect = {
+		relation = {
+		who = RUS
+		value = 50
+			}
+		prestige = -10
+		clr_global_flag = cuban_missile_crisis_IP
+			}
+				}
+
+nuke_america_cubamissilecrisis = {
+picture = nuke_strikepic
+	potential = {
+		tag = RUS
+		has_global_flag = cuban_missile_crisis_IP
+			}
+	allow = {
+	}
+	effect = {
+		any_country = {
+		limit = {
+		OR = {
+		government = democracy
+		government = hms_government
+		government = proletarian_dictatorship
+			}
+				}
+		country_event = 666668
+				}
+		clr_global_flag = cuban_missile_crisis_IP
+				}
+		}
+
+warsawpact = {
+	picture = warsawpactpic
+	potential = {
+		tag = RUS
+		government = proletarian_dictatorship
+		year = 1955
+		NOT = {
+			has_country_flag = warsawpact_enacted
+		}
+	}
+	allow = {
+	}
+	effect = {
+		any_country = {
+			limit = {
+				government = proletarian_dictatorship
+				in_sphere = RUS
+			}
+		country_event = 250000
+		}
+		RUS = {
+			set_country_flag = warsawpact_enacted
+		}
+	}
+}       
+}

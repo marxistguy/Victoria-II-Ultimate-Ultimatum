@@ -1,0 +1,230 @@
+song = {
+	name = "soundtrack1.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = yes
+			}
+		}	
+	}
+
+song = {
+	name = "soundtrack2.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = yes
+			}
+		}	
+	}
+
+song = {
+	name = "soundtrack3.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = yes
+			}
+		}	
+	}
+
+song = {
+	name = "soundtrack4.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = yes
+			}
+		}	
+	}
+
+song = {
+	name = "soundtrack5.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = yes
+			}
+		}	
+	}
+
+song = {
+	name = "soundtrack6.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = yes
+			}
+		}	
+	}
+
+song = {
+	name = "soundtrack7.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = yes
+			}
+		}	
+	}
+
+song = {
+	name = "soundtrack8.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = yes
+			}
+		}	
+	}
+	
+song = {
+	name = "soundtrack9.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = no
+			}
+		}	
+	}		
+	
+song = {
+	name = "soundtrack10.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = yes
+			}
+		}	
+	}	
+	
+song = {
+	name = "soundtrack11.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = yes
+			}
+		}	
+	}		
+	
+song = {
+	name = "soundtrack12.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = yes
+			}
+		}	
+	}		
+	
+song = {
+	name = "soundtrack13.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = yes
+			}
+		}	
+	}		
+	
+song = {
+	name = "soundtrack14.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = yes
+			}
+		}	
+	}		
+
+song = {
+	name = "soundtrack15.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = yes
+			}
+		}	
+	}		
+	
+song = {
+	name = "soundtrack16.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = yes
+			}
+		}	
+	}		
+			
+song = {
+	name = "war1.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = no
+			}
+		}	
+	}
+
+song = {
+	name = "war2.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = yes
+			}
+		}	
+	}
+	
+song = {
+	name = "war3.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = no
+			}
+		}	
+	}
+	
+song = {
+	name = "war4.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = no
+			}
+		}	
+	}
+	
+song = {
+	name = "war5.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = no
+			}
+		}	
+	}

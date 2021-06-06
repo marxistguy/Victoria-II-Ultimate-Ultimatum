@@ -1,0 +1,86 @@
+political_decisions
+propose_baltic_unification_estonia = {
+	picture = eastprussiapic
+title = "Propose Baltic unification"
+desc = "The Baltics are a region under many threats , since we have good relations with our Baltic neighbours how about we propose a unification "
+		potential = {
+			
+tag = EST
+}
+			
+					
+
+		allow = {
+			
+relation = { who = LIT value = 100  }
+relation = { who = LAT value = 100 }
+				}
+effect = {
+LAT = {
+country_event = 4000070 }
+LIT = {
+country_event  = 4000070 }
+change_tag = UBD 
+
+		
+					}
+}
+
+	propose_baltic_unification_lithuania = {
+	picture = eastprussiapic
+title = "Propose Baltic unification"
+desc = "The Baltics are a region under many threats , since we have good relations with our Baltic neighbours how about we propose a unification "
+		potential = {
+			
+tag = LIT
+}
+			
+					
+
+		allow = {
+			
+relation = { who = EST value = 100  }
+relation = { who = LAT value = 100 }
+				}
+
+
+effect = {
+change_tag = UBD
+LAT = {
+country_event = 4000071 }
+EST = {
+country_event  = 4000071 }
+}
+}
+
+
+
+
+
+	propose_baltic_unification_latvia = {
+title = "Propose Baltic unification"
+desc = "The Baltics are a region under many threats , since we have good relations with our Baltic neighbours how about we propose a unification "
+	picture = eastprussiapic
+		potential = {
+			
+tag = LAT
+}
+			
+					
+
+		allow = {
+			
+relation = { who = LIT value = 100  }
+relation = { who = EST value = 100 }
+change_tag = UBD
+				}
+effect = {
+EST = {
+country_event = 4000072 }
+LIT = {
+country_event  = 4000072 }
+
+		
+					}
+}
+}

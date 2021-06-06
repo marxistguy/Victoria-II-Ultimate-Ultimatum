@@ -1,0 +1,34 @@
+political_decisions = {
+	commision_another_voyage_to_the_west = {
+		picture = mingsecondvoyage
+		potential = {
+			OR = {
+				tag = MNG
+			}
+			NOT = {
+				has_country_flag = another_ming_voyage_to_the_west
+				}
+		}
+		allow = {
+			money = 15000
+			war = no
+			relation = { who = SPA  value = 25 }
+			relation = { who = POR  value = 25 }
+			relation = { who = NET  value = 25 }
+		}
+		
+		effect = {
+			money = -9000
+			prestige = 0.5
+			set_country_flag = another_ming_voyage_to_the_west
+			country_event = { id=432764 days=160 }
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+			}
+		}
+	}
+}
+			

@@ -1,0 +1,205 @@
+political_decisions = {
+	form_asean = {
+		picture = asean_membership
+		potential = {
+			year = 1967
+			OR = {
+				tag = IDO
+				tag = MAL
+				tag = BRU
+				tag = THA
+				tag = DAI
+				tag = CAM
+				tag = BUR
+				tag = ETM
+				tag = LAO
+			}
+			NOT = {
+				has_global_flag = asean_formed
+				exists = ASE
+			}
+		}	
+		allow = {
+			war = no
+			is_greater_power = yes
+			1393 = {				
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			1387 = {				
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			1413 = {				
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			2344 = {				
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			1346 = {				
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			1369 = {				
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			1364 = {				
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			1356 = {				
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			1334 = {				
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			2528 = {				
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+		}
+
+		effect = {
+			prestige = 15
+			set_global_flag = asean_formed
+			change_tag = ASE
+			capital = 1413
+			add_accepted_culture = javan
+			add_accepted_culture = malay
+			add_accepted_culture = moluccan
+			add_accepted_culture = vietnamese
+			add_accepted_culture = filipino
+			add_accepted_culture = thai
+			add_accepted_culture = khmer			
+			add_accepted_culture = lao
+			add_accepted_culture = shan
+			add_accepted_culture = burmese
+			add_accepted_culture = karen
+			add_accepted_culture = kachin
+			add_accepted_culture = asian_minor
+			any_country = {
+				limit = {
+					is_culture_group = THIS
+					tag = ETM
+				}
+				all_core = {
+					secede_province = ASE
+				}
+			}
+			any_owned = {
+				limit = {
+					is_culture_group = southeast_asian
+					tag = ETM
+				}
+				add_core = ASE
+			}
+			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	form_african_union = {
+		picture = african_continent
+		potential = {
+			year = 1967
+			OR = {
+				is_culture_group = west_african
+				is_culture_group = east_african
+				is_culture_group = southern_african
+				is_culture_group = central_african
+			}
+			NOT = {
+				exists = AFU
+			}
+		}	
+
+		allow = {
+			is_greater_power = yes
+			war = no
+			random_country = {
+				limit = {
+					is_culture_group = west_african
+					is_culture_group = east_african
+					is_culture_group = southern_african
+					is_culture_group = central_african
+					in_sphere = THIS
+					OR = {
+						is_vassal = no
+						vassal_of = THIS
+					}
+				}
+			}
+		}
+		effect = {
+			prestige = 15
+			change_tag = AFU
+			capital = 1852
+			add_accepted_culture = union
+			any_country = {
+				limit = {
+					capital_scope = { continent = africa }
+				}
+				all_core = {
+					secede_province = AFU
+				}
+			}
+			any_owned = {
+				limit = {
+					capital_scope = { continent = africa }
+				}
+				add_core = AFU
+			}
+			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

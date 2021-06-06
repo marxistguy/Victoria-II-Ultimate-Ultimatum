@@ -1,0 +1,37 @@
+political_decisions = {
+	treaty_of_tarbagatai = {
+		potential = {
+			tag = RUS
+			owns = 1183
+			owns = 1193
+			MGL = {
+					owns = 1068 }
+			NOT = {
+				has_country_flag = treaty_of_tarbagatai_done
+				war_with = MGL
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+		}
+		
+		effect = {
+			1068 = {
+				add_core = RUS
+			}
+			1188 = {
+				add_core = RUS
+			}
+			1186 = {
+				add_core = RUS
+			}
+			1190 = {
+				add_core = RUS
+			}
+			set_country_flag = treaty_of_tarbagatai_done
+			country_event = { id=8182833 days=0 }
+			}
+			prestige = 1
+		}
+	}

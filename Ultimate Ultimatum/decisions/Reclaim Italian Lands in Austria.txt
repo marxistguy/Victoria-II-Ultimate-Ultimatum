@@ -1,0 +1,52 @@
+political_decisions = {	
+	reclaim_italian_land = {
+		potential = {
+			set_country_flag = italia_ulterior
+			NOT = { has_country_flag = italian_land_claimed }
+			OR = {
+				tag = ITA
+				exist = KUK
+				exist = AUS
+			}
+			KUK = {
+				any_owned_province = { is_core = ITA }
+			}
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+			}
+		}
+		
+		allow = {
+			war = no
+			military_score = 1000
+			OR = {
+				steel_breech_loaded_artillery = 1
+				machine_guns = 1
+			}
+			KUK = {
+				war = no
+				NOT = { truce_with = THIS }
+				NOT = {
+					relation = { who = THIS value = 100 }
+				}
+			}
+		}
+		
+		effect = {
+			clr_country_flag = italian_irredentism
+			prestige = 10
+			relation = { who = KUK value = -100 }
+			set_country_flag = italian_land_claimed
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				}
+			}
+		}
+	}
+	

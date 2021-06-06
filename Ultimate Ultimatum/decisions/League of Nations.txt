@@ -1,0 +1,85 @@
+political_decisions = {
+
+	create_league_nations = {
+	picture = "league_nations"
+		potential = {
+			year = 1918
+			OR = {
+			government = democracy
+			government = hms_government }
+			NOT = {
+			OR = {
+			year = 1936
+			has_global_flag = league_nations_created
+			government = fascist_dictatorship
+			badboy = 1 } }
+				}
+
+		allow = {
+			mass_politics = 1
+			associationism = 1
+			OR = {
+			government = democracy
+			government = hms_government }
+				}
+
+		effect = {
+			set_global_flag = league_nations_created
+			add_country_modifier = {
+			name = member_of_league_nations
+			duration = 9125
+				}
+			prestige = 10
+			}
+}
+
+	join_league_nations = {
+		picture = "league_nations"
+		potential = {
+			year = 1918
+			NOT = { year = 1936 }
+			NOT = { has_global_flag = UNcreated }
+			NOT = { tag = USA }
+			has_global_flag = great_wars_enabled
+			has_global_flag = league_nations_created
+			civilized = yes
+			NOT = { has_country_modifier = member_of_league_nations }
+		}
+
+		allow = {
+			war = no
+			OR = { is_vassal = no civilized = yes ideological_thought = 1 }
+		}
+
+		effect = {
+			set_country_flag = league_of_nations
+			prestige = 40
+			any_country = {
+				limit = { has_country_modifier = member_of_league_nations }
+				relation = { who = THIS value = 25 }
+			}
+			add_country_modifier = { name = member_of_league_nations duration = 9125 }
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	leave_league_nations = {
+		picture = "league_nations"
+		potential = {
+			has_country_modifier = member_of_league_nations
+				}
+		allow = {
+			government = fascist_dictatorship
+			}
+		effect = {
+			prestige = -50
+			any_country = {
+				limit = { has_country_modifier = member_of_league_nations }
+				relation = { who = THIS value = -50 }
+			}
+			remove_country_modifier = member_of_league_nations
+		}
+
+		ai_will_do = { factor = 0 }
+	}

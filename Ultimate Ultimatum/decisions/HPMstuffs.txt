@@ -1,0 +1,39 @@
+political_decisions = {
+		option_disable_workplace_events = {
+		alert = no
+		picture = "workplace"
+		potential = {
+			ai = no
+			has_country_flag = shown_decisions
+			NOT = { year = 1837 }
+			NOT = { has_global_flag = workplace_events_disabled }
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			set_global_flag = workplace_events_disabled
+		}
+		ai_will_do = { factor = 0 }
+	}
+	
+	option_disable_bankruptcy_events = {
+		alert = no
+		picture = "bankruptcy"
+		potential = {
+			ai = no
+			has_country_flag = shown_decisions
+			NOT = { has_country_flag = bankruptcy_events_disabled }
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			set_country_flag = bankruptcy_events_disabled
+			any_country = { limit = { ai = no } set_country_flag = bankruptcy_events_disabled }
+		}
+		ai_will_do = { factor = 0 }
+	}
+	

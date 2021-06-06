@@ -1,0 +1,52 @@
+political_decisions = {
+	reorganize_alaska = {
+		picture = alaskan_purchase
+		potential = {
+			owns = 2599
+			owns = 2630
+			owns = 2631
+			owns = 1
+			owns = 2
+			owns = 3
+			owns = 4
+			owns = 5
+			NOT = {
+				has_country_flag = reorganize_alaska_done
+				year = 1836
+			}
+		}
+		
+		allow = {
+			
+		}
+		
+		effect = {
+			2599 = {
+				add_core = LSK
+			}
+			2630 = {
+				add_core = LSK
+			}
+			2631 = {
+				add_core = LSK
+			}
+			1 = {
+				add_core = LSK
+			}
+			2 = {
+				add_core = LSK
+			}
+			3 = {
+				add_core = LSK
+			}
+			4 = {
+				add_core = LSK
+			}
+			5 = {
+				add_core = LSK
+			}
+			set_country_flag = reorganize_alaska_done
+			}
+			prestige = 5
+		}
+	}

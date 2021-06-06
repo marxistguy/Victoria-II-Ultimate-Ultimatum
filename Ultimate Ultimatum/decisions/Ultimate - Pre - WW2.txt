@@ -1,0 +1,401 @@
+political_decisions = {
+	#Guarantee event for Britain
+	independence_of_poland = {
+    	potential = {
+			tag = ENG
+            NOT = {
+            	year = 1950
+            	has_global_flag = independence_of_poland_guaranteed
+            }
+            GER = { has_global_flag = occupation_of_czechoslovakia_done }
+            year = 1939
+        }
+
+        allow = { prestige = 10 }
+
+        effect = {
+        	set_global_flag = independence_of_poland_guaranteed
+            create_alliance = POL
+       		badboy = -10
+        	relation = {
+                who = POL
+                value = 200
+                       }
+                  }
+		     ai_will_do = {
+    			factor = 1
+				modifier = {
+	 	        factor = 0
+	 	        OR = {
+		        NOT = { month = 3 }
+		        is_our_vassal = GER
+		        alliance_with = GER
+	                  }
+	                        }
+    		              }
+}
+
+    #guarantee event for France
+    guarantee_poland = {
+        potential = {
+    		tag = FRA
+            NOT = {
+            	year = 1950
+            	has_global_flag = guarantee_poland_done
+            }
+            GER = { has_global_flag = occupation_of_czechoslovakia_done }
+            year = 1939
+        }
+
+        allow = { prestige = 10 }
+
+        effect = {
+            set_global_flag = guarantee_poland_done
+            create_alliance = ENG
+			create_alliance = POL
+           	badboy = -10
+            relation = {
+                who = POL
+                value = 200
+            }
+        }
+		ai_will_do = {
+        		factor = 1
+				modifier = {
+	 	        factor = 0
+	 	        OR = {
+		        NOT = { month = 4 }
+		        is_our_vassal = GER
+		        alliance_with = GER
+	                  }
+	                        }
+        	}
+    }
+
+    danzig_or_war = {
+        potential = {
+        	OR = {
+			    tag = GER
+        		tag = PRU
+        	}
+        	exists = POL
+        	NOT = {
+        		year = 1939
+        		has_global_flag = germany_invades_poland
+        	}
+        	has_global_flag = molotov_ribbentrop_pact_done
+        	year = 1939
+        }
+
+        allow = {
+        	prestige = 50
+            government = fascist_dictatorship
+        }
+
+        effect = {
+		    set_global_flag = germany_invades_poland
+        	set_global_flag = WW2inprogress
+			set_country_flag = WW2_Axis
+
+       		 GER = {
+			    inherit = DZG
+				war = {
+        			target = ENG
+        			attacker_goal = { casus_belli = ww2_axis_cb }
+        			defender_goal = { casus_belli = ww2_allies_cb }
+        		}
+				call_ally = yes
+        	}
+
+        	POL = { set_country_flag = WW2_Allies }
+        	ENG = { set_country_flag = WW2_Allies }
+        	FRA = { set_country_flag = WW2_Allies }
+        	JAP = { set_country_flag = WW2_Axis }
+        	ITA = { set_country_flag = WW2_Axis }
+        	SLV = { set_country_flag = WW2_Axis }
+        	HUN = { set_country_flag = WW2_Axis }
+        }
+		ai_will_do = {
+				factor = 1
+				modifier = {
+	 	        factor = 0
+	 	        OR = {
+		        NOT = { month = 8 }
+				alliance_with = ENG
+				alliance_with = FRA
+		        alliance_with = POL
+	                  }
+	                        }
+			}
+}
+	italian_provocation_ethiopia = {
+        potential = {
+        	tag = ITA
+        	exists = ETH
+        	NOT = {
+        		year = 1945
+        		has_global_flag = italian_provocation_ethiopia_done
+        	}
+        	OR = {
+        		has_global_flag = blackshirts_leadership
+        		government = fascist_dictatorship
+        	}
+        	year = 1930
+        }
+
+        allow = { ruling_party_ideology = fascist }
+
+        effect = {
+        	set_global_flag = italian_provocation_ethiopia_done
+
+			relation = {
+				who = ETH
+				value = -100
+			}
+        }
+		ai_will_do = { factor = 1 }
+    }
+	italian_ethiopian_war = {
+        potential = {
+        	tag = ITA
+        	exists = ETH
+        	NOT = {
+        		year = 1950
+        		has_global_flag = italian_ethiopian_war_done
+        	}
+        	has_global_flag = italian_provocation_ethiopia_done
+        	government = fascist_dictatorship
+        	year = 1935
+        }
+
+        allow = { ruling_party_ideology = fascist }
+
+        effect = {
+        	set_global_flag = italian_ethiopian_war_done
+
+			war = {
+        		target = ETH
+        		attacker_goal = { casus_belli = lebensraum_cb }
+        		defender_goal = { casus_belli = status_quo }
+        	}
+
+			relation = {
+				who = ETH
+				value = -100
+			}
+			any_country = {
+			    limit = {
+			        is_greater_power = yes
+					NOT = { ruling_party_ideology = fascist }
+			    }
+			    relation = {
+			    	who = ITA
+			    	value = -200
+		    	}
+			}
+            any_country = {
+			    limit = {
+			        is_secondary_power = yes
+					NOT = { ruling_party_ideology = fascist }
+			    }
+			    relation = {
+			    	who = ITA
+			    	value = -100
+		    	}
+			}
+                 }
+	        ai_will_do = {
+				factor = 1
+				modifier = {
+	 	        factor = 0
+	 	        OR = {
+		        NOT = { month = 9 }
+				alliance_with = ETH
+                is_our_vassal = ETH
+	                  }
+	                        }
+			}
+				           }
+	
+	mukden_incident = {
+        potential = {
+        	tag = JAP
+        	exists = NCN
+        	NOT = {
+        		year = 1947
+        		has_country_flag = first_sino_japanese_war
+				war = NCN
+				exists = MCK
+        	}
+			year = 1926
+        }
+
+        allow = { year = 1931 }
+
+        effect = {
+        	set_country_flag = first_sino_japanese_war
+
+			war = {
+        		target = NCN
+        		attacker_goal = { casus_belli = humiliate }
+        		defender_goal = { casus_belli = status_quo }
+        	}
+        }
+		    ai_will_do = {
+		    factor = 1
+	         modifier = {
+	 	     factor = 0
+	 	     OR = {
+		     NOT = { month = 8 }
+		     is_our_vassal = NCN
+		     alliance_with = NCN
+	               }
+	                    }
+		                 }
+    }
+	
+	second_sino_japanese_war = {
+        potential = {
+        	tag = JAP
+        	exists = NCN
+        	NOT = {
+        		year = 1950
+        		has_global_flag = second_sino_japanese_war_done
+        	}
+        	year = 1937
+        }
+
+        allow = { government = fascist_dictatorship }
+
+        effect = {
+        	set_global_flag = second_sino_japanese_war_done
+
+			war = {
+        		target = NCN
+        		attacker_goal = { casus_belli = conquest }
+        		defender_goal = { casus_belli = status_quo }
+        	}
+        }
+		     ai_will_do = { 
+		     factor = 1
+	         modifier = {
+	 	     factor = 0
+	 	     OR = {
+		     NOT = { month = 6 }
+		     is_our_vassal = NCN
+		     alliance_with = NCN
+	              }
+	                    }
+		                 }
+    }
+	molotov_ribbentrop_pact = {
+            potential = {
+            	tag = GER
+				exists = POL
+            	exists = RUS
+            	NOT = {
+            		year = 1939
+            		has_global_flag = molotov_ribbentrop_pact_done
+            	}
+            	government = fascist_dictatorship
+            	year = 1938
+				OR = {
+			AND = {
+			NOT = { exists = AUS }
+			NOT = { exists = KUK }
+			}
+			is_our_vassal = AUS
+			alliance_with = AUS
+			alliance_with = KUK
+			}
+			OR = {
+			NOT = { exists = CZH }
+			alliance_with = CZH
+			}
+            }
+
+            allow = {
+            NOT = { 
+			alliance_with = ENG
+			alliance_with = POL
+			is_our_vassal = POL
+                   }
+				     }
+
+            effect = {
+            	set_global_flag = molotov_ribbentrop_pact_done
+			RUS = {
+				relation = {
+					who = GER
+					value = 400
+				}
+				relation = {
+					who = ENG
+					value = -400
+				}
+				relation = {
+					who = FRA
+					value = -400
+				}
+				break_alliance = ENG
+				break_alliance = FRA
+			}
+			GER = {
+				relation = {
+					who = RUS
+					value = 400
+				}
+				relation = {
+					who = ENG
+					value = -400
+				}
+				relation = {
+					who = FRA
+					value = -400
+				}
+				break_alliance = ENG
+				break_alliance = FRA
+			}
+                   }
+		     ai_will_do = { 
+		    factor = 1
+	         modifier = {
+	 	     factor = 0
+		     NOT = { month = 7 }
+	                    }
+		                 }
+}
+demand_memel = {
+        potential = {
+        	tag = GER
+        	698 = { controlled_by = LIT }
+			698 = { owned_by = LIT }
+        	NOT = {
+        		year = 1945
+        		has_country_flag = memel_ultimatum
+        	}
+        	OR = {
+			NOT = { exists = CZH }
+			alliance_with = CZH
+			}
+        }
+        allow = { government = fascist_dictatorship }
+
+        effect = {
+        	relation = {
+			who = LIT
+			value = -200
+		}
+		LIT = { country_event = 36005 }
+		}
+
+        
+		     ai_will_do = { 
+		    factor = 1
+	         modifier = {
+	 	     factor = 0
+		     NOT = { month = 2 }
+	                    }
+		                 }
+	}
+}

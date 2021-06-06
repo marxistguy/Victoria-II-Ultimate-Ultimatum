@@ -1,0 +1,27 @@
+political_decisions = {
+	establish_a_unified_communist_greece = {
+		potential = {
+			tag = PEG
+			owns = 834
+			NOT = {
+				has_country_flag = communist_greece_done
+			}
+		}
+		allow = {
+		war = no
+			
+		}
+		effect = {
+		capital = 834
+		prestige = 5
+		money = 10000
+		any_owned = {
+			limit = {
+				is_core = GRE
+			}
+			add_core = THIS
+		}
+		set_country_flag = communist_greece_done
+		}
+	}
+}

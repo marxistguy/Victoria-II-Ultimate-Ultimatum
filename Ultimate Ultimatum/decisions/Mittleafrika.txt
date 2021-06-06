@@ -1,0 +1,37 @@
+political_decisions = {
+	form_mittleafrika = {
+		picture = "mittleafrika"
+		potential = {
+			tag = GER
+			has_country_flag = entente_lost_war
+			NOT = {
+				exists = MIA
+			}
+		}	
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			prestige = 15
+			any_owned = {
+				limit = {
+					OR = {
+						continent = africa
+					}
+					owned_by = GER
+					NOT = {
+						is_core = NMB
+					}
+				}
+				add_core = MIA
+				secede_province = MIA
+			}
+			MIA = { prestige = -10000 }
+			create_vassal = MIA
+			diplomatic_influence = {
+				who = MIA
+				value = 300
+			}
+		}
+	}

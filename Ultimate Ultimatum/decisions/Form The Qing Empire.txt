@@ -1,0 +1,42 @@
+political_decisions = {
+	form_the_qing_empire = {
+		picture = "form_the_qing_empire"
+		potential = {
+			OR = {
+				tag = MJZ
+				tag = MYR
+			}
+			NOT = { exists = CHI }
+		}
+
+		allow = {
+			owns = 1084
+			owns = 1533
+		}
+		
+		effect = {
+			prestige = 0.5
+			change_tag = QNG
+			MJZ = { all_core = { remove_core = MJZ } }
+			MYR = { all_core = { remove_core = MYR } }
+			random_country = {
+				limit = {
+					tag = MJZ
+					exists = yes
+				}
+				annex_to = THIS
+			}
+			random_country = {
+				limit = {
+					tag = MYR
+					exists = yes
+				}
+				annex_to = THIS
+			}
+			country_event = 44444
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}

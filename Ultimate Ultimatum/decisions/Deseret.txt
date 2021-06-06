@@ -1,0 +1,35 @@
+political_decisions = {
+	persecute_other_religion = {
+		picture = religiouspersecution
+		potential = {
+			OR = {
+				tag = DES
+			}
+			NOT = {
+			has_country_flag = persecute_other_religion
+				}
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+		set_country_flag = persecute_other_religion
+		badboy = 10
+		prestige = -50
+			any_pop = {
+				limit = {
+					has_pop_religion = protestant
+					has_pop_religion = catholic
+				}
+				reduce_pop = 0.10
+				consciousness = 4
+				militancy = 3
+				move_pop = 658
+			}
+		}
+		add_country_modifier = { name = encourage_mormonism duration = -1 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}

@@ -1,0 +1,624 @@
+political_decisions = {
+	construct_germania_werft = {
+		potential = {
+			NOT = {
+				has_global_flag = germania_werft_has_been_built
+			}
+			OR = {
+				tag = PRU
+				tag = GER
+				tag = NGF
+			}
+			owns = 369
+		}
+		
+		allow = {
+			steel_steamers = 1
+		}
+		
+		effect = {
+			set_global_flag = germania_werft_has_been_built
+			prestige = 1
+			369 = {
+				add_province_modifier = {
+					name = germania_werft
+					duration = -1
+				}
+			}
+		}
+	}
+	
+	support_ruhr_industrialism = {
+		potential = {
+			has_global_flag = ruhr_boom_has_happened
+			OR = {
+				tag = PRU
+				tag = GER
+				tag = NGF
+			}
+			NOT = {
+				tech_school = prussian_tech_school
+			}
+		}
+		
+		allow = {
+			cheap_steel = 1
+			iron_breech_loaded_artillery = 1
+			state_n_government = 1
+			industrial_score = 500
+			owns = 577
+			owns = 578
+			owns = 2561
+			owns = 576
+			owns = 575
+			575 = {
+				state_scope = {
+					has_building = steel_factory
+				}
+			}
+		}
+		
+		effect = {
+			tech_school = prussian_tech_school
+			prestige = 5
+		}
+	}	
+	
+	die_wacht_am_rhein = {
+		potential = {
+			OR = {
+				tag = GER
+				tag = NGF
+				tag = PRU
+			}
+			exists = FRA
+			FRA = {
+				has_country_flag = crisis_on_the_rhine
+			}
+			NOT = {
+				has_country_flag = watching_the_rhine
+			}
+		}
+		allow = {
+			NOT = {
+				relation = {
+					who = FRA
+					value = -50
+				}
+			}
+		}
+		effect = {
+			prestige = 5
+			badboy = -1
+			set_country_flag = watching_the_rhine
+		}
+	}
+	
+	niederwald_denkmal = {
+		potential = {
+			tag = GER
+			has_country_flag = watching_the_rhine
+			war = no
+			NOT = {
+				has_country_flag = niederwald_denkmal
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			any_pop = {
+				militancy = -1
+			}
+			badboy = -3
+			set_country_flag = niederwald_denkmal
+		}
+	}
+	
+	schwabing_circles = {
+		potential = {
+			OR = {
+				tag = BAV
+				tag = SGF
+				tag = GER
+			}
+			owns = 599
+			NOT = {
+				has_country_flag = schwabing_encircled
+			}
+		}
+		allow = {
+			expressionism = 1
+		}
+		effect = {
+			prestige = 20
+			set_country_flag = schwabing_encircled
+		}
+	}
+	
+	support_biesterfelds = {
+		potential = {
+			tag = LIP
+			year = 1880
+			NOT = {
+				has_country_flag = lippe_dispute_solved
+			}
+			exists = PRU
+		}
+		
+		allow = {
+			is_independant = yes
+		}
+		
+		effect = {
+			prestige = 10
+			set_country_flag = lippe_dispute_solved
+		}
+	}
+	
+	support_schaumburgs = {
+		potential = {
+			tag = LIP
+			year = 1880
+			NOT = {
+				has_country_flag = lippe_dispute_solved
+			}
+			exists = PRU
+		}
+		
+		allow = {
+			is_independant = yes
+		}
+		
+		effect = {
+			relation = {
+				who = PRU
+				value = 50
+			}
+			set_country_flag = lippe_dispute_solved
+		}
+		
+	}
+	
+	das_zivilgesetzbuch = {
+		potential = {
+			tag = HES
+			NOT = {
+				has_country_flag = code_of_laws
+			}
+		}
+		
+		allow = {
+			ideological_thought = 1
+		}
+		
+		effect = {
+			prestige = 5
+			years_of_research = 0.05
+			any_pop = {
+				militancy = -1
+			}
+			set_country_flag = code_of_laws
+		}
+	}
+	
+	kaiser_wilhelms_land = {
+		potential = {
+			tag = GER
+			owns = 1531
+			owns = 2530
+			owns = 2531
+			owns = 2537
+			owns = 2539
+			NOT = {
+				has_country_flag = wir_wollen_unseren_alten_kaiser_wilhelm_wiederhaben
+			}
+		}
+		
+		allow = {
+			invention = mission_to_civilize
+		}
+		
+		effect = {
+			prestige = 10
+			2531 = {
+				change_province_name = "Friedrich-Wilhelmshafen"
+				state_scope = {
+					change_region_name = "Kaiser-Wilhelms-Land"
+				}
+			}
+			set_country_flag = wir_wollen_unseren_alten_kaiser_wilhelm_wiederhaben
+		}
+	}
+	
+	the_heligoland_question = {
+		potential = {
+			tag = GER
+			NOT = {
+				has_country_flag = has_questioned_heligoland
+			}
+		}
+		
+		allow = {
+			OR = {
+				is_greater_power = yes
+				invention = national_fraternity
+			}
+		}
+		
+		effect = {
+			533 = {
+				add_core = GER # Heligoland is my last territorial demand!
+			}
+			set_country_flag = has_questioned_heligoland
+		}
+	}
+	
+	construct_the_walhalla = {
+		potential = {
+			OR = {
+				tag = BAV
+				tag = SGF
+				tag = GER
+			}
+			owns = 602
+			NOT = {
+				has_global_flag = the_walhalla_is_built
+			}
+		}
+		
+		allow = {
+			romanticism = 1
+		}
+		
+		effect = {
+			602 = {
+				add_province_modifier = {
+					name = the_walhalla
+					duration = -1
+				}
+			}
+			set_global_flag = the_walhalla_is_built
+		}
+	}
+	
+	introduce_the_presbyteries = {
+		potential = {
+			tag = HAN
+			NOT = {
+				has_country_flag = presbyteries_introduced
+			}
+		}
+		allow = {
+			average_militancy = 3
+			NOT = {
+				vassal_of = ENG
+			}
+		}
+		
+		effect = {
+			any_pop = {
+				limit = {
+					has_pop_religion = protestant
+				}
+				militancy = -1
+			}
+			set_country_flag = presbyteries_introduced
+		}
+	}
+	von_moltkes_staff_reforms = {
+		potential = {
+			OR = {
+				tag = PRU
+				tag = GER
+				tag = NGF
+			}
+			NOT = {
+				year = 1875
+				has_country_flag = von_moltke
+				has_country_modifier = prussian_general_staff
+			}
+		}
+		allow = {
+			army_decision_making = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = prussian_general_staff
+				duration = 10950
+			}
+			prestige = 5
+			set_country_flag = von_moltke
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = no
+			}
+		}
+	}
+	
+	the_ruhr_boom = {
+		potential = {
+			OR = {
+				tag = PRU
+				tag = GER
+				tag = NGF
+			}
+			owns = 578
+			owns = 2561
+			owns = 575
+			NOT = {
+				has_global_flag = ruhr_boom_has_happened
+			}
+		}
+		
+		allow = {
+			market_structure = 1
+			organized_factories = 1
+			early_railroad = 1
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = ruhr_boom
+				duration = 3650
+			}
+			set_global_flag = ruhr_boom_has_happened
+		}
+	}
+	enabling_act = {
+		potential = {
+			OR = {
+			    tag = GER
+				tag = PRU
+			}
+			NOT = {
+				has_global_flag = nazi_leadership
+				government = fascist_dictatorship
+				year = 1945
+			}
+			year = 1928
+			has_country_modifier = treaty_of_versailles
+		}
+
+		allow = {
+			upper_house = {
+                ideology = fascist
+            	value = 0.33
+            }
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = man_of_the_people
+				duration = 3191
+			}
+			set_global_flag = nazi_leadership
+
+			government = fascist_dictatorship
+            political_reform = no_slavery
+            political_reform = party_appointed
+            political_reform = none_voting
+            political_reform = first_past_the_post
+            political_reform = no_meeting
+            political_reform = censored_press
+            political_reform = state_controlled
+            political_reform = underground_only
+		}
+		ai_will_do = {
+		factor = 1
+	    modifier = {
+	 	factor = 0
+	 	OR = {
+		NOT = { year = 1933 }
+		NOT = { month = 3 }
+	    }
+	}
+		}
+	}
+	
+	violate_versailles = {
+		picture = "violateversailles"
+		potential = {
+			OR = {
+				tag = GER
+				tag = NGF
+				tag = SGF
+				tag = PRU
+			}
+			has_country_modifier = treaty_of_versailles
+		             }
+		
+		allow = {
+			OR = {
+				government = absolute_monarchy
+				government = fascist_dictatorship
+				government = presidential_dictatorship
+				government = proletarian_dictatorship
+			      }
+		         }
+		
+		effect = {
+			remove_country_modifier = treaty_of_versailles
+			badboy = 5
+		          }
+	    ai_will_do = { 
+		factor = 1
+	    modifier = {
+	 	factor = 0
+	 	OR = {
+		NOT = { year = 1935 }
+		NOT = { month = 2 }
+	    }
+	}
+		}
+}
+	
+	anschluss = {
+    	potential = {
+    		OR = {
+			    tag = GER
+    			tag = PRU
+    		}
+    		exists = AUS
+    		NOT = {
+    			year = 1946
+    			has_global_flag = nazi_austrian_anschluss
+    		}
+    		year = 1928
+    	}
+
+    	allow = {
+    		prestige = 50
+            government = fascist_dictatorship
+            AUS = { government = fascist_dictatorship }
+			war = no
+			AUS = { war = no }
+			OR = {
+			relation = { who = ITA value = 190 }
+			AND = {
+			ai = yes
+			ITA = { ai = yes }
+			}
+			}
+    	}
+
+    	effect = {
+    		set_global_flag = nazi_austrian_anschluss
+            any_country = {
+            	any_owned = {
+            		limit = { 
+					AND = {
+					is_core = AUS
+					owned_by = AUS
+					}
+					}
+            		add_core = THIS
+            	}
+            }
+			inherit = AUS
+			badboy = 5
+    	}
+		ai_will_do = { 
+		factor = 1
+	    modifier = {
+	 	factor = 0
+	 	OR = {
+		NOT = { year = 1938 }
+		NOT = { month = 3 }
+		is_our_vassal = AUS
+		alliance_with = AUS
+	    }
+	}
+		}
+    }
+	munich_conference = {
+    	potential = {
+			tag = GER
+    		exists = CZH
+    		NOT = {
+    			year = 1946
+    			has_global_flag = munich_conference_held
+    		}
+			OR = {
+			AND = {
+			NOT = { exists = AUS }
+			NOT = { exists = KUK }
+			}
+			is_our_vassal = AUS
+			alliance_with = AUS
+			}
+    		year = 1928
+    	}
+
+    	allow = {
+    		prestige = 50
+            government = fascist_dictatorship
+            war = no
+			CZH = { war = no }
+     	}
+
+    	effect = {
+    		set_global_flag = munich_conference_held
+                627 = { add_core = GER }
+				628 = { add_core = GER }
+				629 = { add_core = GER }
+				630 = { add_core = GER }
+				632 = { add_core = GER }
+				688 = { add_core = GER }
+				relation = { who = CZH value = -20 }
+				relation = { who = FRA value = -20 }
+				badboy = 5
+                ENG = { country_event = 1000017 }
+		}
+
+		ai_will_do = { 
+		factor = 1
+	    modifier = {
+	 	factor = 0
+	 	OR = {
+		NOT = { year = 1938 }
+		NOT = { month = 9 }
+		is_our_vassal = CZH
+		alliance_with = CZH
+	    }
+	}
+		}
+    }
+	occupation_of_czechoslovakia = {
+        potential = {
+        	OR = {
+			    tag = GER
+        		tag = PRU
+        	}
+        	exists = CZH
+        	NOT = {
+        		year = 1950
+        		has_global_flag = occupation_of_czechoslovakia_done
+        	}
+        	has_global_flag = munich_conference_held
+        	year = 1939
+        }
+
+        allow = {
+        	prestige = 50
+            government = fascist_dictatorship
+        }
+
+        effect = {
+        	set_global_flag = occupation_of_czechoslovakia_done
+    		inherit = CZH
+			950 = { secede_province = HUN }
+			release = SLV
+    		diplomatic_influence = {
+                who = SLV
+                value = 200
+            }
+            relation = {
+                who = SLV
+                value = 200
+            }
+            create_alliance = SLV
+            create_vassal = SLV
+    		badboy = 15
+			SLV = { prestige = -10000 }
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+	 	        factor = 0
+	 	        OR = {
+		        NOT = { month = 2 }
+		        is_our_vassal = CZH
+		        alliance_with = CZH
+	                 }
+	                       }
+			              }
+        }
+     }
+}

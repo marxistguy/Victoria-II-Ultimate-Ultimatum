@@ -1,0 +1,40 @@
+political_decisions = {
+		
+		rgo_change_mining = {
+			picture = "mining"
+				potential = {
+					ai = no
+					has_country_flag = shown_decisions
+					NOT = { has_country_modifier = rgo_changed }
+					ai = no
+				}	
+				allow = {
+					NOT = { war = yes }
+					NOT = { has_country_flag = rgo_changed_flag }
+				}
+				effect = {
+					country_event = { 
+						id = 199936
+					}
+				}
+		}
+		
+		rgo_change_agriculture = {
+			picture = "agriculture"
+				potential = {
+					ai = no
+					has_country_flag = shown_decisions
+					NOT = { has_country_modifier = rgo_changed }
+					ai = no
+				}	
+				allow = {
+					NOT = { war = yes }
+					NOT = { has_country_flag = rgo_changed_flag }
+				}
+				effect = {
+					country_event = {
+						id = 199937
+					}
+				}
+		}
+}

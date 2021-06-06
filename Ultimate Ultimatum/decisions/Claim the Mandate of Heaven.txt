@@ -1,0 +1,29 @@
+political_decisions = {
+	claim_the_mandate_of_heaven = {
+		picture = claimmandateofheaven
+		potential = {
+			OR = {
+				tag = CHI
+				tag = QNG
+			}
+			NOT = {
+				exist = MNG
+				has_country_flag = mandate_of_heaven_done
+				year = 1714
+			}
+		}
+
+		allow = {
+			owns = 1612
+			war = no
+		}
+		
+		effect = {
+			prestige = 0.5
+			set_country_flag = mandate_of_heaven_done
+			country_event = { id=55555 days=0 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}

@@ -1,0 +1,41 @@
+political_decisions = {
+
+
+	InvadePrussia = {
+	
+		potential = {
+			tag = FRA
+			has_global_flag = napoleon
+                     
+                     
+			NOT = {
+			war_with = PRU
+
+year = 1820  }
+				}
+
+
+allow = {
+government = presidential_dictatorship
+year = 1800
+NOT = {
+year = 1814
+has_country_flag = invade_PRU
+} 
+
+		}
+
+
+		effect = {
+		set_country_flag = invade_PRU
+		war = {
+   target = PRU 
+   call_ally = yes
+attacker_goal = {
+casus_belli = conquest
+}
+}
+
+			}
+		}
+}

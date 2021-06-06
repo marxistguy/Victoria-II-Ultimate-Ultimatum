@@ -1,0 +1,30 @@
+political_decisions = {
+           
+        SVI_form_DAI = {
+		picture = "das_zivilgesetzbuch"
+		fire_only_once = yes
+
+                 tag = SVI
+		
+
+              
+
+                potential = {
+                   tag = SVI
+	           owns = 1369
+                   year = 1963
+
+                     NOT = {
+			    exists = DAI
+			}
+                }
+
+          effect = {
+		
+		change_tag = DAI
+		capital = 1369
+		prestige = 5
+		money = 10000
+		}
+	}
+}
