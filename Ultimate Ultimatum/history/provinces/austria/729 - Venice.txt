@@ -1,0 +1,42 @@
+owner = VEN
+controller = VEN
+add_core = VEN
+add_core = KNI
+1800.1.1 = {
+	owner = AUS
+	controller = AUS
+		}
+1809.1.1 = {
+	controller = KNI
+	owner = KNI
+}
+1815.1.1 = {
+	owner = AUS
+	controller = AUS
+		}
+1870.1.1 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = AUS
+	remove_core = KUK
+		}
+trade_goods = fish
+life_rating = 35
+naval_base = 1
+#state_building = {
+#	level = 1
+#	building = glass_factory
+#	upgrade = yes
+#}
+1861.1.1 = {
+	state_building = {
+	level = 1
+	building = glass_factory
+	upgrade = yes
+	}
+}
+2020.1.1 = {
+	owner = VEN
+	controller = VEN
+		}

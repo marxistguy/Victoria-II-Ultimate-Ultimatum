@@ -1,0 +1,20 @@
+owner = FAN
+controller = FAN
+add_core = FAN
+trade_goods = coffee
+life_rating = 35
+
+1903.1.1 = {
+		owner = FRA
+		controller = FRA
+		colonial = 2
+		}
+
+
+
+add_core = CTD
+1960.1.1 = {
+	owner = CTD
+	controller = CTD
+	colonial = 0
+		}

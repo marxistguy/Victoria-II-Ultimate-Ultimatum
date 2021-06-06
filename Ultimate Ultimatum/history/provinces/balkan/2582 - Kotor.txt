@@ -1,0 +1,30 @@
+owner = MON
+controller = MON
+add_core = MON
+add_core = YUG
+1830.1.1 = {
+	owner = AUS
+controller = AUS
+add_core = AUS
+		}
+1867.3.30 = {
+owner = KUK
+controller = KUK 
+add_core = KUK}
+1920.6.28 = { 
+		controller = YUG
+		owner = YUG
+		}
+add_core = CRO
+trade_goods = fish
+life_rating = 35
+
+
+#Soviet Collapse
+1992.5.1 = {
+	owner = MON
+	controller = MON
+	add_core = MON
+		}
+
+

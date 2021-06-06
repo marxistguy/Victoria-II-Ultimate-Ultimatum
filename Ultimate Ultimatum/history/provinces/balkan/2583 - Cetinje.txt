@@ -1,0 +1,19 @@
+owner = MON
+controller = MON
+add_core = MON
+add_core = YUG
+1920.6.28 = { 
+		controller = YUG
+		owner = YUG
+		}
+trade_goods = fruit
+life_rating = 35
+
+
+#Soviet Collapse
+1992.5.1 = {
+	owner = MON
+	controller = MON
+		}
+
+

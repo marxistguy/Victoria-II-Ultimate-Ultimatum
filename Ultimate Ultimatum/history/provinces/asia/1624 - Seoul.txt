@@ -1,0 +1,62 @@
+owner = KOR
+controller = KOR
+add_core = KOR
+2020.1.1 = {
+	owner = KOR
+	controller = KOR
+		}
+2000.1.1 = { railroad = 4 }
+1960.1.1 = {
+remove_core = NKA
+	state_building = {
+		level = 3
+		building = glass_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 4
+		building = ammunition_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = small_arms_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 2
+		building = paper_mill
+		upgrade = yes
+	}
+}
+1910.1.1 = {
+	owner = JAP
+	controller = JAP
+		}
+
+
+
+1945.1.1 = {
+	owner = KOR
+	controller = KOR
+	colonial = 0
+		}
+1946.1.1 = {
+	owner = USA
+	controller = USA
+	add_core = SKA
+		}
+1950.1.1 = {
+	owner = SKA
+	controller = SKA
+	add_core = NKA
+#state_building = {
+#	level = 1
+#	building = glass_factory
+#	upgrade = yes
+#}
+		}
+
+
+trade_goods = grain
+life_rating = 35

@@ -1,0 +1,32 @@
+owner = SOK
+controller = SOK
+add_core = SOK
+
+1903.1.1 = {
+		owner = ENG
+		controller = ENG
+		colonial = 2
+		}
+
+trade_goods = grain
+life_rating = 35
+1903.2.2 = {
+	add_core = NGA
+		}
+1914.7.28 = {
+	owner = GER
+	controller = GER
+		}
+
+1919.1.1 = {
+		owner = ENG
+		controller = ENG
+		colonial = 2
+		}
+
+1960.1.1 = {
+	owner = NGA
+	controller = NGA
+	colonial = 0
+
+		}

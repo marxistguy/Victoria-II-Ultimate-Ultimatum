@@ -1,0 +1,26 @@
+owner = TRI
+controller = TRI
+add_core = TRI
+add_core = LYB
+1914.7.28 = {
+	owner = ITA
+	controller = ITA
+	colonial = 2
+		}
+1946.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 0
+		}
+1950.1.1 = {
+	owner = LYB
+	controller = LYB
+		}
+
+trade_goods = fruit
+life_rating = 25
+1861.1.1 = {
+	owner = TUR
+	controller = TUR
+	colonial = 0
+}

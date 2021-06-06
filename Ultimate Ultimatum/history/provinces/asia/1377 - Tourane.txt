@@ -1,0 +1,22 @@
+owner = DAI
+controller = DAI
+add_core = DAI
+1910.1.1 = {
+		owner = FRA
+		controller = FRA
+		colonial = 2
+		}
+
+1946.1.1 = {
+		owner = SVI
+		controller = SVI
+		add_core = SVI
+		colonial = 0
+		}
+1967.1.1 = {
+owner = DAI
+controlled = DAI
+remove_core = SVI }
+
+trade_goods = tobacco
+life_rating = 30

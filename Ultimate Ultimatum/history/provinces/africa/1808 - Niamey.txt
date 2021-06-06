@@ -1,0 +1,19 @@
+owner = DND
+controller = DND
+add_core = DND
+trade_goods = grain
+life_rating = 15
+
+1903.1.1 = {
+		owner = FRA
+		controller = FRA
+		colonial = 2
+		}
+1845.1.1 = {
+	add_core = NGR
+		}
+1960.1.1 = {
+	owner = NGR
+	controller = NGR
+	colonial = 0
+		}

@@ -1,0 +1,21 @@
+
+
+1936.1.1 = {
+	owner = FRA
+	controller = FRA
+	add_core = THA
+	add_core = LAO
+	colonial = 0
+		}
+
+owner = SIA
+controller = SIA
+add_core = SIA
+trade_goods = grain
+life_rating = 30
+
+1945.1.1 = {
+	owner = LAO
+	controller = LAO
+	colonial = 0
+		}

@@ -1,0 +1,20 @@
+owner = MLI
+controller = MLI
+add_core = MLI
+trade_goods = cattle
+life_rating = 30
+
+1753.1.1  = {
+remove_core = MLI
+}
+1859.1.1 = {
+owner = FRA
+controller = FRA
+colonial = 2
+}
+add_core = SNL
+1960.1.1 = {
+	owner = SNL
+	controller = SNL
+	colonial = 0
+		}
