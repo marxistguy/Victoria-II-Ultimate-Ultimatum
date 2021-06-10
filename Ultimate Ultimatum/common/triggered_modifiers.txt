@@ -53,7 +53,7 @@ substate_nation = {
 	
 	prestige = -2
 	max_loan_modifier = -1.0
-	min_tax = 0.4
+	min_tax = 0.5
 	max_military_spending = -0.25
 	min_tariff = 1.2
 	tax_efficiency = 0.5
