@@ -1,5 +1,7 @@
 capital = 300
 primary_culture = english
+culture = scottish
+culture = welsh
 religion = protestant
 government = absolute_monarchy
 plurality = 0
