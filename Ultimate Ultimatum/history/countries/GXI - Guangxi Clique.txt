@@ -49,4 +49,12 @@ school_reforms = no_schools
 
 	#Military Reforms
 	foreign_training = yes_foreign_training
+	
+	#Technologies
+
+standing_army = 1
+late_medieval_warfare = 1
+early_military_revolution = 1
+30_years_war_era = 1
+military_revolution = 1
 }

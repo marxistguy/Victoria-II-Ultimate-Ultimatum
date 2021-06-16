@@ -9,9 +9,9 @@ literacy = 0.80
 ruling_party = HAW_conservative
 upper_house = {
 	fascist = 0
-	liberal = 28
-	conservative = 59
-	reactionary = 13
+	liberal = 0
+	conservative = 82
+	reactionary = 18
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
@@ -52,6 +52,19 @@ school_reforms = no_schools
 	foreign_weapons = yes_foreign_weapons
 
 	#Technologies
-	practical_steam_engine = 1
-	muzzle_loaded_rifles = 1
+
+protectionist_policies = 1
+pure_artisan_production = 1
+business_regulations = 1
+heavy_market_regulations = 1
+early_agricultural_reforms_tech = 1
+no_standard = 1
+coin_minting = 1
+private_bank_coin_minting = 1
+early_muskets = 1
+field_artillery = 1
+flintlock_muskets = 1
+bayonets = 1
+enfilading_tactics = 1
+late_muskets = 1
 }

@@ -1,42 +1,39 @@
 capital = 1920
 primary_culture = fon
+culture = african_minor
+culture = yoruba
+culture = fulbe
 religion = animist
-government = tribal_monarchy
-plurality = 0.0
+government = absolute_monarchy
+plurality = 1
 nationalvalue = nv_order
-literacy = 0.04
-non_state_culture_literacy = 0.03
+literacy = 0
+prestige = 1
+schools = traditional_academic
+oob = "DAH.txt"
 
-# Starting Consciousness
-consciousness = 0
-nonstate_consciousness = 0
-
+ruling_party = DAH_reactionary_84
+upper_house = {
+fascist = 0
+reactionary = 40
+conservative = 60
+socialist = 0
+communist = 0
+liberal = 0
+anarcho_liberal = 0
+}
 slavery = yes_slavery
-upper_house_composition = appointed
 vote_franschise = none_voting
+upper_house_composition = party_appointed
+voting_system = first_past_the_post
 public_meetings = no_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
-voting_system = jefferson_method
 political_parties = underground_parties
-
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
-health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
+health_care = no_health_care
 school_reforms = no_schools
-
-oob = "DAH_oob.txt"
-
-ruling_party = SOK_conservative
-upper_house = {
-	fascist = 0
-	liberal = 16
-	conservative = 63
-	reactionary = 21
-	anarcho_liberal = 0
-	socialist = 0
-	communist = 0
-}
