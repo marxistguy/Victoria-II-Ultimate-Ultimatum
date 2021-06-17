@@ -1000,7 +1000,7 @@ bolt_action_rifle_armament = {
 }
 #modern_divisional_structure
 interwar_infantry = {
-	limit = { pre_war_small_arms = 1 }
+	limit = { modern_divisional_structure = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -1036,7 +1036,7 @@ interwar_infantry = {
 	}
 }
 interwar_cavalry = {
-	limit = { pre_war_small_arms = 1 }
+	limit = { modern_divisional_structure = 1 }
 	chance = {
 		base = 2
 		modifier = {

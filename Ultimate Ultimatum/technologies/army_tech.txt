@@ -1944,7 +1944,6 @@ pre_war_small_arms = {
 	year = 1909
 	cost = 26400
 	unciv_military = yes
-	unit = 2
 	combat_width = -2
     army_base = {
                 default_organisation = 2.5
@@ -2352,7 +2351,7 @@ modern_divisional_structure = {
 	year = 1923
 	cost = 30000
 	unciv_military = yes
-
+	unit = 2
 	combat_width = -5
 	
 		ai_chance = {
