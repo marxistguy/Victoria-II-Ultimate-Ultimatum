@@ -39,13 +39,131 @@ upper_house = {
 	communist = 0
 }
 
+
+			
 # Technologies
 post_renaissance_tech = 1
 birth_of_science_tech = 1
 scientific_revolution_tech = 1 #until this for 1700
 late_medieval_warfare = 1
+				 
+							
+				   
+					 
 early_military_revolution = 1
+			
+						
+					
+					   
+					   
+					  
+				
+				 
 flintlock_muskets = 1 #Until this for 1700
+						  
+						
+					  
+			   
+								
+						   
+											   
+					
+					  
+						
+					  
+					 
+					  
+					  
+							 
+											   
+							  
+						   
+						   
+						 
+													
+
+				  
+						
+				   
+				  
+				  
+						
+					   
+							  
+							   
+				  
+						   
+						
+						
+						 
+						   
+										  
+							   
+							  
+				  
+					 
+						  
+				  
+							   
+								 
+						  
+						 
+										   
+					 
+				  
+						 
+					
+									   
+							   
+						   
+					
+						  
+									 
+				  
+												  
+
+			   
+				
+				 
+						 
+						  
+						
+							 
+						  
+						   
+				  
+						
+						
+							
+						  
+								   
+												
+							  
+							  
+								
+						 
+						   
+					
+										
+					
+						  
+			   
+		  
+				
+						 
+					   
+						   
+										
+						
+				
+				 
+					
+						 
+											 
+
+			 
+				 
+				
 late_renaissance = 1
 mannerism = 1
 early_baroque = 1
@@ -56,13 +174,87 @@ inquisitions_tech = 1
 jesuit_movements_tech = 1 #Until this for 1700
 late_renaissance_philosophies = 1
 age_of_rationalism = 1
+				 
+					 
+				
+						 
+						 
+				
 early_modern_philosphies = 1 #Until this for 1700
+			   
+			   
+					   
+			   
+					   
+		  
+						  
+								 
+			  
+								  
+			
+				 
+			  
+					  
+							  
+									  
+						 
+							
+					   
+						
+					  
+						  
+					
+													
+
+					 
+			
+				   
+					  
+				  
+				  
+					  
+						 
+							  
+					 
+					   
+			 
+					   
+					
+					 
+											 
+			
+			 
+					  
+							  
+								 
+						
+				 
+										  
+					 
+					 
+						
+									  
+						 
+					
+				 
+														 
+					   
+								  
+						  
+					 
+						  
+						 
+								   
+  
+
 
 # Inventions
 
 #Starting Consciousness
 consciousness = 2
 nonstate_consciousness = 0
+
+
 1861.1.1 = {
 	oob = "/1861/KRA_oob.txt"
 }
@@ -122,26 +314,163 @@ agricultural_revolution_tech = 1
 dawn_of_industrial_revolution_tech = 1 # Until this for 1800
 first_industrial_revolution_tech = 1 
 
+			
+			  
+				 
 late_medieval_warfare = 1
+				 
+							
+				   
+					 
 early_military_revolution = 1
 flintlock_muskets = 1 #Until this for 1700
+						
+					
 military_revolution = 1
+					   
+					  
+				
+				 
+										  
+						  
+						
 era_of_mass_armies = 1
+			   
+								
+						   
+											   
+					
+					  
 early_modern_warfare = 1 #Until this for 1800
+					  
+					 
+					  
+					  
+							 
+											   
 napoleonic_warfare = 1 
+						   
+						   
+						 
+													
+						
+					  
+								  
+					  
+							
+								
+											
 
 late_renaissance = 1
 mannerism = 1
+				   
+				  
+				  
+						
+					   
+							  
+							   
+				  
 early_baroque = 1
+						
+						
+						 
+						   
 high_baroque = 1 #Until this for 1700
 rococo = 1
+							  
+				  
+					 
+						  
+				  
+							   
+								 
+						  
+						 
+										   
+					 
+				  
+						 
+					
 neoclassicism = 1 #Until this for 1800
 early_romanticistic_culture = 1
+						   
+					
+						  
+									 
+				  
+												  
+						 
+						
+								
+			
+												 
 
+			   
+				
+				 
+						 
+						  
+						
+							 
+						  
+						   
+				  
+						
+						
+							
+						  
+								   
+												
+							  
+							  
+								
+						 
+						   
+					
+										
+					
+						  
+			   
+		  
+				
+						 
+					   
+						   
+										
+						
+				
+				 
+					
+						 
+											 
+					
+						 
+							  
+					
+									
+											
+ 
+			 
+				 
+				
+					
+								 
 late_reformation = 1
 counter_reformation = 1
+			 
+					  
+				 
 inquisitions_tech = 1
+				
 jesuit_movements_tech = 1 #Until this for 1700
+						 
+				
+												 
+			   
+			   
+					   
+			   
 the_great_awakening = 1
 downfall_of_the_old_church = 1 #Until this for 1800
 anti_clericalism = 1
@@ -151,8 +480,68 @@ age_of_rationalism = 1
 early_modern_philosphies = 1 #Until this for 1700
 enlightenment = 1
 counter_enligthenment = 1 #Until this for 1800
+					  
+							  
+									  
+						 
+							
 revolutionary_ideas = 1
+						
+					  
+						  
+					
+													
+					
+								 
 early_romanticism = 1
+					 
+									
+
+					 
+			
+				   
+					  
+				  
+				  
+					  
+						 
+							  
+					 
+					   
+			 
+					   
+					
+					 
+											 
+			
+			 
+					  
+							  
+								 
+						
+				 
+										  
+					 
+					 
+						
+									  
+						 
+					
+				 
+														 
+					   
+								  
+						  
+					 
+						  
+						 
+								   
+						 
+						 
+							 
+					 
+				  
+								   
 
 #Inventions
 	work_specialization = yes
@@ -208,3 +597,4 @@ early_romanticism = 1
 	advanced_ore_grinding_processes = yes
 	thomas_steel = yes
 }
+

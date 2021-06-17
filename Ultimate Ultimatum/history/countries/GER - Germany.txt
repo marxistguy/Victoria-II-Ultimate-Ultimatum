@@ -484,14 +484,16 @@ schools = army_tech_school
 
 1935.3.16 = { decision = violate_versailles }
 
+1938.3.15 = { set_global_flag = nazi_austrian_anschluss }
+
+1938.9.30 = { set_global_flag = munich_conference_held }
+
 1936.1.1 = {
 
 
         oob = "/1936/GER_oob.txt"
-
-
         decision = WW2scenariostarter 
-	decision = molotov_ribbentrop_pact 
+		decision = molotov_ribbentrop_pact 
         decision = construct_the_walhalla
 
 prestige = 300
@@ -905,12 +907,6 @@ borosilicate_glass = 1
 advanced_limited_access_roads = 1
 natural_gas_power_station = 1 #until this for 1937
 }
-
-1938.3.15 = { set_global_flag = nazi_austrian_anschluss }
-
-1938.9.30 = { set_global_flag = munich_conference_held }
-	
-1939.1.1 = { oob = "/1939/GER_oob.txt" }
 
 1945.1.1 = {
         capital = 575

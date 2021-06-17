@@ -53,6 +53,19 @@ school_reforms = no_schools
 	foreign_officers = yes_foreign_officers
 
 	#Technologies
-	muzzle_loaded_rifles = 1
-	military_plans = 1
+
+standing_army = 1
+late_medieval_warfare = 1
+early_military_revolution = 1
+30_years_war_era = 1
+military_revolution = 1
+early_muskets = 1
+field_artillery = 1
+flintlock_muskets = 1
+bayonets = 1
+enfilading_tactics = 1
+late_muskets = 1
+army_direct_command = 1
+early_century_plans = 1
+officer_corps = 1
 }

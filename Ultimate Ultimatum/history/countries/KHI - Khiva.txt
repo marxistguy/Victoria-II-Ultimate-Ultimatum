@@ -11,9 +11,9 @@ non_state_culture_literacy = 0.03
 ruling_party = KHI_conservative
 upper_house = {
 	fascist = 0
-	liberal = 16
-	conservative = 78
-	reactionary = 6
+	liberal = 0
+	conservative = 93
+	reactionary = 7
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
@@ -52,5 +52,11 @@ oob = "KHI_oob.txt"
 	foreign_weapons = yes_foreign_weapons
 	
 	#Technologies
-	muzzle_loaded_rifles = 1
+
+early_muskets = 1
+field_artillery = 1
+flintlock_muskets = 1
+bayonets = 1
+enfilading_tactics = 1
+late_muskets = 1
 }

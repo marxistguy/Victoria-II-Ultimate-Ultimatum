@@ -1,56 +1,37 @@
-capital = 1202
-primary_culture = kirgiz
-religion = sunni
+capital = 1933
+primary_culture = african_minor
+culture = fulbe
+religion = animist
 government = absolute_monarchy
-plurality = 0.0
+plurality = 1
 nationalvalue = nv_order
-literacy = 0.03
-non_state_culture_literacy = 0.03
+literacy = 0
+prestige = 1
+schools = traditional_academic
+oob = "KNR.txt"
 
-ruling_party = KOK_conservative
+ruling_party = KNR_reactionary_84
 upper_house = {
-	fascist = 0
-	liberal = 10
-	conservative = 68
-	reactionary = 22
-	anarcho_liberal = 0
-	socialist = 0
-	communist = 0
+fascist = 0
+reactionary = 40
+conservative = 60
+socialist = 0
+communist = 0
+liberal = 0
+anarcho_liberal = 0
 }
-
-# Starting Consciousness
-consciousness = 0
-nonstate_consciousness = 0
-
-
-
-slavery = no_slavery
-upper_house_composition = appointed
+slavery = yes_slavery
 vote_franschise = none_voting
+upper_house_composition = party_appointed
+voting_system = first_past_the_post
 public_meetings = no_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
-voting_system = jefferson_method
 political_parties = underground_parties
-
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
-health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
+health_care = no_health_care
 school_reforms = no_schools
-1836.1.1 = {
-oob = "KOK_oob.txt"
-		}
-1861.1.1 = {
-	oob = "/1861/KOK_oob.txt"
-	literacy = 0.06
-	non_state_culture_literacy = 0.06
-
-	#Military Reforms
-	foreign_weapons = yes_foreign_weapons
-	
-	#Technologies
-	muzzle_loaded_rifles = 1
-}
