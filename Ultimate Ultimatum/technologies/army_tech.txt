@@ -2883,7 +2883,7 @@ main_field_operating_base = {
 		}
 	}
 }
- _weaponry = {
+diplomatic_negotiations = {
 	area = military_science
 	year = 1945
 	cost = 34400
