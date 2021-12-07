@@ -1,0 +1,38 @@
+owner = AUS
+controller = AUS
+add_core = AUS
+add_core = GER
+add_core = REH
+trade_goods = fruit
+
+
+1677.11.16 = { controller = FRA }
+1679.2.5 = { owner = FRA }
+1697.9.20 = { 
+owner = AUS
+controller = AUS
+}
+1713.11.17 = { controller = FRA }
+1714.3.7 = { controller = AUS }
+1744.11.30 = { controller = FRA }
+1748.4.24 = { controller = AUS }
+1805.12.26 = {
+owner = BAD
+controller = BAD
+add_core = BAD
+remove_core = AUS
+}
+1806.8.6 = { remove_core = REH }
+1861.1.1 = { railroad = 3 }
+1871.1.1 = { 
+owner = GER		
+controller = GER
+}
+1945.12.12 = { 
+owner = FRA
+controller = FRA
+}
+1950.1.1 = { 
+owner = GER
+controller = GER
+}

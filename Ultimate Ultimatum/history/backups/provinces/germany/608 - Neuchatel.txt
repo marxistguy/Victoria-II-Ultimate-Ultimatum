@@ -1,0 +1,13 @@
+owner = SWI
+controller = SWI
+add_core = REH
+add_core = NCT
+trade_goods = coal
+life_rating = 40
+
+1814.9.12 = { add_core = SWI }
+1806.8.6 = { remove_core = REH }
+1857.1.1 = {
+owner = SWI
+controller = SWI
+}

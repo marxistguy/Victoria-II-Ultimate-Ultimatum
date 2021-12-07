@@ -1,0 +1,28 @@
+owner = MJZ
+controller = MJZ
+add_core = MJZ
+add_core = CHI
+add_core = QNG
+1620.1.1 = {
+owner = QNG
+controller = QNG
+remove_core = MJZ
+}
+1640.1.1 = {
+add_core = CHI
+add_core = QNG
+}
+1836.1.1 = {
+owner = MCK
+controller = MCK
+}
+
+1945.1.1 = {
+	owner = CHI
+	controller = CHI
+		}
+
+add_core = MGL
+add_core = MCK
+trade_goods = timber
+life_rating = 32

@@ -1,0 +1,41 @@
+owner = TUR
+controller = TUR
+add_core = AUS
+1700.1.1 = {
+	controller = AUS
+	owner = AUS
+		}
+1809.10.14 = {
+owner = FRA
+controller = FRA
+}
+1815.6.9 = {
+owner = AUS
+controller = AUS
+}
+add_core = CRO
+add_core = HUN
+1867.3.30 = {
+owner = KUK
+controller = KUK 
+add_core = KUK}
+1919.6.28 = { 
+		controller = HUN
+		owner = HUN
+		}
+add_core = YUG
+1920.6.28 = { 
+		controller = YUG
+		owner = YUG
+		}
+trade_goods = fruit
+life_rating = 35
+
+
+#Soviet Collapse
+1992.5.1 = {
+	owner = CRO
+	controller = CRO
+		}
+
+

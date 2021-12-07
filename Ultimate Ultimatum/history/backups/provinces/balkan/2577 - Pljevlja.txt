@@ -1,0 +1,24 @@
+owner = TUR
+controller = TUR
+add_core = TUR
+add_core = MON
+add_core = YUG
+1914.7.28 = {
+	owner = MON
+	controller = MON
+		}
+1920.6.28 = { 
+		controller = YUG
+		owner = YUG
+		}
+trade_goods = iron
+life_rating = 35
+
+
+#Soviet Collapse
+1992.5.1 = {
+	owner = MON
+	controller = MON
+		}
+
+

@@ -1,0 +1,44 @@
+trade_goods = timber
+life_rating = 32
+owner = MNG
+controller = MNG
+add_core = MNG
+add_core = CHI
+add_core = GNG
+1620.1.1 = {
+add_core = QNG
+}
+1650.1.1 = {
+owner = QNG
+controller = QNG
+remove_core = MNG
+}
+1911.10.10 = {
+owner = CHI
+controller = CHI
+}
+1922.1.1 = {
+owner = GNG
+controller = GNG
+}
+1928.12.29 = {
+owner = NCN
+controller = NCN
+add_core = NCN
+}
+
+
+1950.1.1 = {
+	owner = CHI
+	controller = CHI
+	naval_base = 4
+	state_building = {
+		level = 1
+		building = steamer_shipyard 
+		upgrade = yes
+		}
+
+fort = 1
+1861.1.1 = { 
+	naval_base = 1 
+}

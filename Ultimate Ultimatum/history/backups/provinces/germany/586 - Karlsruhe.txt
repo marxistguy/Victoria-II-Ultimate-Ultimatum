@@ -1,0 +1,30 @@
+life_rating = 35
+add_core = BAD
+add_core = GER
+add_core = REH
+trade_goods = fruit
+
+
+1604.1.1 = { 
+owner = BAD
+controller = BAD
+}
+1806.8.6 = { remove_core = REH }
+#state_building = {
+#	level = 1
+#	building = lumber_mill
+#	upgrade = yes
+#}
+1861.1.1 = { railroad = 3 }
+1871.1.1 = {
+owner = GER
+controller = GER
+}
+1945.12.12 = { 
+owner = FRA
+controller = FRA
+}
+1950.1.1 = { 
+owner = GER
+controller = GER
+}

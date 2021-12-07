@@ -1,0 +1,20 @@
+owner = KTA
+controller = KTA
+add_core = KTA
+trade_goods = grain
+life_rating = 15
+1910.1.1 = {
+	owner = NET
+	controller = NET
+	colonial = 2
+		}
+
+1935.1.1 = {
+	add_core= IDO
+		}
+1949.12.27 = {
+	owner = IDO
+	controller = IDO
+	add_core = IDO
+	colonial = 0
+		}

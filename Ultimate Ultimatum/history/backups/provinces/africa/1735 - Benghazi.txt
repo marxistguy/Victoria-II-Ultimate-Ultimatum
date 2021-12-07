@@ -1,0 +1,22 @@
+owner = TUR
+controller = TUR
+add_core = TUR
+add_core = LYB
+1914.7.28 = {
+	owner = ITA
+	controller = ITA
+	remove_core = TUR
+	colonial = 2
+		}
+1946.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 0
+		}
+1950.1.1 = {
+	owner = LYB
+	controller = LYB
+		}
+
+trade_goods = fruit
+life_rating = 35

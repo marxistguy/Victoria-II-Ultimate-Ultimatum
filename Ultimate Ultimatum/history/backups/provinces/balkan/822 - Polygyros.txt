@@ -1,0 +1,17 @@
+owner = TUR
+controller = TUR
+add_core = TUR
+add_core = GRE
+1914.7.28 = { 
+		controller = GRE
+		owner = GRE
+		}
+1946.1.1 = {
+owner = PEG
+controller = PEG
+}
+1950.1.1 = {
+owner = GRE
+controller = GRE }
+trade_goods = tobacco
+life_rating = 35

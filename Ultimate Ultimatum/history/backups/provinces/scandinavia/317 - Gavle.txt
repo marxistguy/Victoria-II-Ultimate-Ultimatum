@@ -1,0 +1,29 @@
+owner = SWE
+controller = SWE
+add_core = SWE
+add_core = SCA
+trade_goods = timber
+life_rating = 35
+1830.1.1 = {
+	owner = SWN
+	controller = SWN
+	add_core = SWN
+		}
+
+1861.1.1 = {
+	owner = SWN 
+	controller = SWN
+	state_building = {
+		level = 1
+		building = lumber_mill
+		upgrade = yes
+	} 
+}
+1861.1.1 = { railroad = 1 }
+
+1905.1.1 = { 
+		controller = SWE
+		owner = SWE
+		add_core = SWE
+		remove_core = SWN
+		}

@@ -1,0 +1,34 @@
+owner = MNG
+controller = MNG
+add_core = MNG
+add_core = CHI
+add_core = TAI
+1620.1.1 = {
+add_core = QNG
+}
+1650.1.1 = {
+owner = QNG
+controller = QNG
+remove_core = MNG
+}
+
+1910.1.1 = {
+	owner = JAP	
+	controller = JAP
+	}
+
+trade_goods = tea
+life_rating = 32
+1895.4.17 = {
+owner = JAP
+controller = JAP
+		}
+
+1945.1.1 = {
+	owner = NCN	
+	controller = NCN
+		}
+2023.1.1 = {
+	owner = CHI	
+	controller = CHI
+		}

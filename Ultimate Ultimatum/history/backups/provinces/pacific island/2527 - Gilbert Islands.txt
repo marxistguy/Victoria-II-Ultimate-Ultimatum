@@ -1,0 +1,11 @@
+1910.1.1 = {
+	owner = ENG
+	controller = ENG
+		}
+trade_goods = fish
+life_rating = 15
+
+1979.7.12 = {
+owner = KRB
+controller = KRB
+add_core = KRB }

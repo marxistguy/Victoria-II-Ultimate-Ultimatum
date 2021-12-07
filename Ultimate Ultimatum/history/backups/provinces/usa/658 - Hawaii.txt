@@ -1,0 +1,16 @@
+owner = HAW
+controller = HAW
+add_core = HAW
+trade_goods = fish
+life_rating = 35
+1867.1.1 = {
+	colonial = 0
+	owner = USA
+	controller = USA
+	add_core = USA
+		}
+2023.1.1 = {
+	colonial = 0
+	owner = HAW
+	controller = HAW
+		}

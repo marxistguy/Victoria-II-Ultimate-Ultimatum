@@ -1,0 +1,12 @@
+owner = YEM
+controller = YEM
+add_core = YEM
+
+2023.1.1 = {
+	owner = UAR
+	controller = UAR
+	add_core = UAR
+	colonial = 0
+		}
+trade_goods = grain
+life_rating = 35

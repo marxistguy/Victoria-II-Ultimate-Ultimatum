@@ -1,0 +1,20 @@
+owner = SPA
+controller = SPA
+colonial = 2
+1810.1.1 = {
+owner = ECU
+controller = ECU
+add_core = ECU
+add_core = PEU
+colonial = 0
+		}
+1790.1.1 = {
+	add_core = GCO
+		}
+1914.1.1 = {
+	owner = PEU
+	controller = PEU
+	}	 
+
+trade_goods = timber
+life_rating = 30

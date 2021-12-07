@@ -1,0 +1,34 @@
+owner = VEN
+controller = VEN
+add_core = VEN
+add_core = KNI
+1800.1.1 = {
+	owner = AUS
+	controller = AUS
+		}
+1809.1.1 = {
+	controller = KNI
+	owner = KNI
+}
+1815.1.1 = {
+	owner = AUS
+	controller = AUS
+		}
+1815.1.1 = {
+	owner = AUS
+	controller = AUS
+		}
+1867.3.30 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = AUS
+	remove_core = KUK
+		}
+trade_goods = silk
+life_rating = 35
+1861.1.1 = { railroad = 3 }
+2020.1.1 = {
+	owner = VEN
+	controller = VEN
+		}

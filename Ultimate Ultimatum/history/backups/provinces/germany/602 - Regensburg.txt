@@ -1,0 +1,31 @@
+life_rating = 35
+add_core = GER
+add_core = REH
+add_core = RGN
+trade_goods = coal
+
+
+1604.1.1 = { 
+owner = RGN
+controller = RGN
+}
+#1803 Principality of Regensburg
+1806.8.6 = { remove_core = REH }
+1810.5.22 = { 
+owner = BAV
+controller = BAV
+add_core = BAV
+remove_core = RGN
+}
+1871.1.1 = { 
+owner = GER		
+controller = GER
+}
+1945.12.12 = { 
+owner = USA
+controller = USA
+}
+1950.1.1 = { 
+owner = GER
+controller = GER
+}

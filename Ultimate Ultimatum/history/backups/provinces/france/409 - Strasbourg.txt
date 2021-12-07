@@ -1,0 +1,26 @@
+owner = ALS
+controller = ALS
+add_core = ALS
+add_core = REH
+
+1670.1.1 = {
+owner = FRA
+controller = FRA
+add_core = FRA
+remove_core = REH
+		}
+add_core = GER
+trade_goods = grain
+life_rating = 33
+1861.1.1 = { railroad = 3 }
+1871.1.1 = {
+	owner = GER
+	controller = GER
+		}
+1918.1.1 = {
+		owner = FRA
+	controller = FRA
+		}
+1936.1.1 = {
+		fort = 6
+		}

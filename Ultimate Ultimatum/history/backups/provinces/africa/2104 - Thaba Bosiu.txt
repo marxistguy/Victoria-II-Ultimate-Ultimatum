@@ -1,0 +1,36 @@
+owner = MUT
+controller = MUT
+add_core = MUT
+trade_goods = coal
+life_rating = 35
+
+1700.1.1 = {
+	owner = NET
+controller = NET
+	}
+1806.1.1 = {
+owner = ENG
+controller = ENG
+add_core = SAF
+		}
+add_core = LES
+
+1910.1.1 = {
+		owner = SAF
+		controller = SAF
+		colonial = 0
+		}
+
+
+
+
+trade_goods = coal
+life_rating = 35
+colonial = 2
+
+1960.1.1 = {
+		owner = LES
+		controller = LES
+		colonial = 0
+		remove_core = SAF
+		}

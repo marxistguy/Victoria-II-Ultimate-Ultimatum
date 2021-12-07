@@ -1,0 +1,18 @@
+owner = TUR
+controller = TUR
+add_core = EGY
+1810.1.1 = {
+owner = EGY
+controller = EGY
+		}
+1869.11.17 = {
+owner = ENG
+controller = ENG
+		}
+1956.12.22 = {
+owner = EGY
+controller = EGY
+		}
+trade_goods = cotton
+life_rating = 35
+1861.1.1 = { railroad = 2 }

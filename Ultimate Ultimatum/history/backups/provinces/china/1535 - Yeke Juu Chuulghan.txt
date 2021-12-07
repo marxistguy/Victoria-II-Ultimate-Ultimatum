@@ -1,0 +1,38 @@
+owner = MGL
+controller = MGL
+add_core = MGL
+1604.1.1 = {
+owner = MGL
+controller = MGL
+}
+
+1635.1.1 = {
+owner = QNG
+controller = QNG
+add_core = QNG
+add_core = CHI
+}
+1836.1.1 = {
+owner = MGL
+controller = MGL
+}
+1923.1.1 = {
+owner = XBI
+controller = XBI
+add_core = XBI
+}
+1928.12.29 = {
+owner = NCN
+controller = NCN
+}
+
+
+1950.1.1 = {
+	owner = CHI
+	controller = CHI
+	add_core = CHI
+		}
+
+add_core = MGL
+trade_goods = timber
+life_rating = 32

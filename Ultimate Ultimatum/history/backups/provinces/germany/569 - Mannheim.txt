@@ -1,0 +1,31 @@
+life_rating = 35
+add_core = GER
+add_core = REH
+add_core = PLT
+trade_goods = grain
+
+
+1604.1.1 = { 
+owner = PLT
+controller = PLT
+}
+1803.2.25 = {
+owner = BAD
+controller = BAD
+add_core = BAD
+remove_core = PLT
+}
+1806.8.6 = { remove_core = REH }
+1861.1.1 = { railroad = 3 }
+1871.1.1 = { 
+owner = GER	
+controller = GER
+}
+1945.12.12 = { 
+owner = USA
+controller = USA
+}
+1950.1.1 = { 
+owner = GER
+controller = GER
+}

@@ -1,0 +1,19 @@
+owner = DEN
+controller = DEN
+add_core = SCA
+add_core = NOR
+
+1830.1.1 = {
+	owner = SWN
+	controller = SWN
+	add_core = SWN
+		}
+
+1905.1.1 = { 
+		controller = NOR
+		owner = NOR
+		remove_core = SWE
+		remove_core = SWN
+		}
+trade_goods = timber
+life_rating = 35

@@ -1737,7 +1737,7 @@ international_stock_exchange = {
 	year = 1937
 	cost = 32800
 
-        activate_building = international_stock_exchange
+    activate_building = international_stock_exchange
 	tax_eff = 3
         loan_interest = -0.025
 	administrative_efficiency = 0.025

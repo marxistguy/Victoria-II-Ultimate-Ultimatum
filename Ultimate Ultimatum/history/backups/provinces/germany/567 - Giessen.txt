@@ -1,0 +1,31 @@
+life_rating = 35
+add_core = GER
+add_core = HES
+add_core = REH
+trade_goods = cattle
+
+
+1604.1.1 = { 
+owner = HES
+controller = HES
+}
+1806.8.6 = { remove_core = REH }
+1861.1.1 = { railroad = 3 }
+1870.1.1 = { 
+owner = NGF	
+controller = NGF
+add_core = NGF
+}
+1871.1.1 = { 
+owner = GER	
+controller = GER
+remove_core = NGF
+}
+1945.12.12 = { 
+owner = USA
+controller = USA
+}
+1950.1.1 = { 
+owner = GER
+controller = GER
+}

@@ -1,0 +1,59 @@
+life_rating = 35
+add_core = EFT
+add_core = GER
+add_core = REH
+trade_goods = iron
+
+
+1604.1.1 = { 
+owner = EFT
+controller = EFT
+}
+1664.10.12 = {
+owner = MNZ
+controller = MNZ
+add_core = MNZ
+remove_core = EFT
+}
+1802.6.1 = {
+owner = PRU
+controller = PRU
+add_core = PRU
+remove_core = MNZ
+}
+1806.8.6 = { remove_core = REH }
+1806.10.16 = {
+owner = FRA
+controller = FRA
+}
+1815.6.9 = {
+owner = PRU
+controller = PRU
+}
+1806.8.6 = { remove_core = REH }
+1870.1.1 = { 
+owner = NGF	
+controller = NGF
+add_core = NGF
+}
+1871.1.1 = { 
+owner = GER	
+controller = GER
+remove_core = NGF
+}
+#End of WW2
+1945.7.1 = {
+owner = RUS
+controller = RUS
+}
+1950.1.1 = {
+owner = DDR
+controller = DDR
+add_core = DDR
+}
+#Fall of Berlin Wall - Reunification
+1990.10.3 = {
+owner = GER
+controller = GER
+remove_core = DDR
+}

@@ -1,0 +1,25 @@
+owner = TUR
+controller = TUR
+add_core = TUR
+add_core = BUL
+add_core = SER
+1914.7.28 = { 
+		controller = SER
+		owner = SER
+		}
+1919.6.28 = { 
+		controller = BUL
+		owner = BUL
+	add_core = MAC
+		}
+add_core = YUG
+1920.6.28 = { 
+		controller = YUG
+		owner = YUG
+		}
+1992.1.1 = {
+	controller = MAC
+	owner = MAC
+		}
+trade_goods = timber
+life_rating = 35

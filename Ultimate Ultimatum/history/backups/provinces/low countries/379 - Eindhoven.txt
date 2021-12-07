@@ -1,0 +1,20 @@
+owner = SPA
+controller = SPA
+add_core = REH
+add_core = NET
+trade_goods = coal
+life_rating = 35
+
+1629.1.1 = {
+owner = NET
+controller = NET
+}
+1806.8.6 = { remove_core = REH }
+1810.7.9 = {
+owner = FRA
+controller = FRA
+}
+1813.10.19 = {
+owner = NET
+controller = NET
+}

@@ -1,0 +1,23 @@
+owner = TUR
+controller = TUR
+add_core = SER
+add_core = YUG
+1830.1.1 = {
+	owner = SER
+controller = SER
+		}
+1920.6.28 = { 
+		controller = YUG
+		owner = YUG
+		}
+trade_goods = coal
+life_rating = 35
+
+
+#Soviet Collapse
+1992.5.1 = {
+	owner = SER
+	controller = SER
+		}
+
+

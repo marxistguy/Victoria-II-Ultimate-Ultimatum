@@ -1,0 +1,44 @@
+life_rating = 35
+add_core = GER
+add_core = HAM
+add_core = REH
+naval_base = 1
+trade_goods = fruit
+
+
+1604.1.1 = { 
+owner = HAM
+controller = HAM
+}
+1626.1.1 = { fort = 1 }
+1806.8.6 = { remove_core = REH }
+1811.1.1 = {
+owner = FRA	
+controller = FRA
+owner = FRA
+}
+1815.6.9 = { 
+owner = HAM	
+controller = HAM
+}
+1861.1.1 = { railroad = 3 }
+1870.1.1 = { 
+owner = NGF	
+controller = NGF
+add_core = NGF
+naval_base = 3
+}
+1871.1.1 = { 
+owner = GER	
+controller = GER
+remove_core = NGF
+}
+1936.1.1 = { naval_base = 6 }
+1945.12.12 = { 
+owner = ENG
+controller = ENG
+}
+1950.1.1 = { 
+owner = GER
+controller = GER
+}

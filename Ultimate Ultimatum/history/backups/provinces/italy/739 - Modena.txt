@@ -1,0 +1,35 @@
+owner = MOD
+controller = MOD
+add_core = MOD
+add_core = ITA
+add_core = KNI
+add_core = REH
+trade_goods = iron
+life_rating = 35
+#state_building = {
+#	level = 1
+#	building = canned_food_factory
+#	upgrade = yes
+#}
+1800.1.1 = {
+	controller = CIS
+	owner = CIS
+	add_core = CIS
+}
+1802.1.26 = {
+	remove_core = CIS
+}
+1809.1.1 = {
+	controller = KNI
+	owner = KNI
+}
+1836.1.1 = {
+	owner = MOD
+	controller = MOD
+}
+1861.1.1 = {
+	controller = ITA
+	owner = ITA
+	add_core = ITA
+}
+1861.1.1 = { railroad = 3 }

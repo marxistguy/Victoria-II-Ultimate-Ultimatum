@@ -1,0 +1,46 @@
+owner = MNG
+controller = MNG
+add_core = MNG
+add_core = CHI
+colonial = 0
+1620.1.1 = {
+add_core = QNG
+}
+1644.1.1 = {
+owner = QNG
+controller = QNG
+}
+1650.1.1 = {
+remove_core = MNG
+}
+1911.10.10 = {
+owner = CHI
+controller = CHI
+add_core = CHI
+}
+1923.1.1 = {
+owner = ZHI
+controller = ZHI
+add_core = ZHI
+}
+1928.12.29 = {
+owner = NCN
+controller = NCN
+add_core = NCN
+}
+
+1930.1.1 = {
+	owner = SXI	
+	controller = SXI
+	add_Core = NCN
+		}
+
+1945.1.1 = {
+	owner = CHI
+	controller = CHI
+		}
+
+
+trade_goods = tea
+life_rating = 32
+fort = 1

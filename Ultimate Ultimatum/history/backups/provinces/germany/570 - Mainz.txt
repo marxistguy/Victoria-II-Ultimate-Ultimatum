@@ -1,0 +1,41 @@
+life_rating = 35
+add_core = GER
+add_core = REH
+add_core = MNZ
+trade_goods = sulphur
+
+
+1604.1.1 = { 
+owner = MNZ
+controller = MNZ
+}
+1797.10.18 = {
+owner = FRA
+controller = FRA
+}
+1806.8.6 = { remove_core = REH }
+1815.6.9 = { 
+owner = HES
+controller = HES
+add_core = HES
+remove_core = MNZ
+}
+1861.1.1 = { railroad = 3 }
+1870.1.1 = { 
+owner = NGF	
+controller = NGF
+add_core = NGF
+}
+1871.1.1 = { 
+owner = GER	
+controller = GER
+remove_core = NGF
+}
+1945.7.1 = {
+owner = FRA
+controller = FRA
+}
+1950.1.1 = {
+owner = GER
+controller = GER
+}

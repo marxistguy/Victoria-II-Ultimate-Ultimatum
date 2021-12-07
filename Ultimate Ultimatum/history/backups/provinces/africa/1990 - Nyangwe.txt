@@ -1,0 +1,20 @@
+trade_goods = fruit
+life_rating = 10
+
+
+1903.1.1 = {
+		owner = BEL
+		controller = BEL
+		colonial = 2
+		add_core = CNG
+		}
+
+
+1960.1.1 = {
+		owner = CNG
+		controller = CNG
+		add_core = CNG
+		colonial = 0
+		}
+
+

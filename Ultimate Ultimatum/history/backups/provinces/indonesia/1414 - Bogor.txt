@@ -1,0 +1,25 @@
+owner = BNT
+controller = BNT
+add_core = BNT
+1836.1.1 = {
+	owner = NET
+	controller = NET
+	remove_core = BNT
+	colonial = 2
+		}
+
+
+
+1935.1.1 = {
+	add_core= IDO
+		}
+1945.8.17 = {
+	owner = IDO
+	controller = IDO
+	add_core = IDO
+	colonial = 0
+		}
+
+add_core = JAV
+trade_goods = coffee
+life_rating = 30

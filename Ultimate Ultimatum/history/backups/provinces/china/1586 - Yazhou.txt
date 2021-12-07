@@ -1,0 +1,37 @@
+owner = TIB
+controller = TIB
+add_core = TIB
+1720.1.1 = {
+owner = QNG
+controller = QNG
+add_core = QNG
+}
+1910.1.1 = {
+	owner = CHI	
+	controller = CHI
+	}
+
+1923.1.1 = {
+owner = HUI
+controller = HUI
+add_core = HUI
+}
+1928.12.29 = {
+owner = NCN
+controller = NCN
+add_core = NCN
+}
+
+
+1950.1.1 = {
+	owner = CHI
+	controller = CHI
+		}
+
+
+
+
+
+
+trade_goods = timber
+life_rating = 32

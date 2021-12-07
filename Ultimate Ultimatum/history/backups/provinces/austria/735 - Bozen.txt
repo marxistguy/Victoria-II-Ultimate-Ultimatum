@@ -1,0 +1,16 @@
+owner = AUS
+controller = AUS
+add_core = AUS
+add_core = KNI
+trade_goods = grain
+life_rating = 35
+1867.3.30 = {
+owner = KUK
+controller = KUK 
+add_core = KUK}
+1918.1.1 = {
+owner = ITA
+controller = ITA 
+add_core = ITA
+remove_core = AUS
+remove_core = KUK }

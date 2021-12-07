@@ -1,0 +1,34 @@
+	owner = MUG
+	controller = MUG
+	add_core = BGL
+
+1800.1.1 = {
+	owner = ENG #hello
+	controller = ENG #hello
+	colonial = 2
+}
+
+
+#Decolonisation
+1947.8.14 = {
+	owner = PAK
+	controller = PAK
+	colonial = 0
+		}
+1971.12.16 = {
+	owner = BGL
+	controller = BGL
+	add_core = BGL
+		}
+
+
+
+
+add_core = HND
+1880.1.1 = {
+owner = ENG #hello
+controller = ENG #hello
+colonial = 2
+		}
+trade_goods = dye
+life_rating = 32

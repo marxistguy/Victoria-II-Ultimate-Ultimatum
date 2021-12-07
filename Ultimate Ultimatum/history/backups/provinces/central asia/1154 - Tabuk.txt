@@ -1,0 +1,35 @@
+owner = TUR
+controller = TUR
+add_core = TUR
+1810.1.1 = {
+owner = EGY
+controller = EGY
+		}
+1861.1.1 = {
+owner = TUR
+controller = TUR
+		}
+add_core = HDJ
+
+1910.1.1 = {
+	owner = TUR
+	controller = TUR
+		}
+
+1919.1.1 = {
+	controller = SAU 
+	owner = SAU
+	add_core = SAU
+	remove_core = TUR
+	colonial = 0
+	}
+
+2023.1.1 = {
+	owner = UAR
+	controller = UAR
+	add_core = UAR
+	colonial = 0
+		}
+
+trade_goods = wool
+life_rating = 35

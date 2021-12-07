@@ -1,0 +1,19 @@
+owner = SWE
+controller = SWE
+add_core = SWE
+add_core = SCA
+1830.1.1 = {
+	owner = SWN
+	controller = SWN
+	add_core = SWN
+		}
+
+1905.1.1 = { 
+		controller = SWE
+		owner = SWE
+		add_core = SWE
+		remove_core = SWN
+		}
+
+trade_goods = iron
+life_rating = 35

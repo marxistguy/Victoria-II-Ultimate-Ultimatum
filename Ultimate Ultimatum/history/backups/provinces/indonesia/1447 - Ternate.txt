@@ -1,0 +1,22 @@
+owner = MLK
+controller = MLK
+add_core = MLK
+
+1836.1.1 = {
+	owner = NET
+	controller = NET
+	colonial = 2
+		}
+
+
+1935.1.1 = {
+	add_core= IDO
+		}
+1949.12.27 = {
+	owner = IDO
+	controller = IDO
+	add_core = IDO
+	colonial = 0
+		}
+trade_goods = fish
+life_rating = 30
