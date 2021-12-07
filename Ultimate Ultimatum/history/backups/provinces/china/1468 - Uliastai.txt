@@ -1,0 +1,17 @@
+owner = MGL
+controller = MGL
+add_core = MGL
+1635.1.1 = {
+owner = QNG
+controller = QNG
+}
+1836.1.1 = {
+owner = MGL
+controller = MGL
+}
+add_core = MGL
+trade_goods = grain
+life_rating = 32
+1910.1.1 = {
+	remove_core = CHI
+		}

@@ -1,0 +1,20 @@
+owner = KNG
+controller = KNG
+add_core = KNG
+trade_goods = cattle
+life_rating = 15
+
+1903.1.1 = {
+		owner = FRA
+		controller = FRA
+		colonial = 2
+		}
+
+
+
+add_core = CTD
+1960.1.1 = {
+	owner = CTD
+	controller = CTD
+	colonial = 0
+		}

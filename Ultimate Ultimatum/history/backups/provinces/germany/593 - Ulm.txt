@@ -1,0 +1,37 @@
+life_rating = 35
+add_core = GER
+add_core = REH
+add_core = ULM
+trade_goods = grain
+
+
+1604.1.1 = { 
+owner = ULM
+controller = ULM
+}
+1803.2.25 = {
+owner = BAV
+controller = BAV
+add_core = BAV
+remove_core = ULM
+}
+1806.8.6 = { remove_core = REH }
+1810.1.1 = {
+owner = WUR
+controller = WUR
+add_core = WUR
+remove_core = BAV
+}
+1861.1.1 = { railroad = 3 }
+1871.1.1 = { 
+owner = GER		
+controller = GER
+}
+1945.12.12 = { 
+owner = FRA
+controller = FRA
+}
+1950.1.1 = { 
+owner = GER
+controller = GER
+}

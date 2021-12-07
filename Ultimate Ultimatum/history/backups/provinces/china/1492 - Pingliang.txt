@@ -1,0 +1,36 @@
+owner = MNG
+controller = MNG
+add_core = MNG
+add_core = CHI
+1620.1.1 = {
+add_core = QNG
+
+}
+1650.1.1 = {
+owner = QNG
+controller = QNG
+remove_core = MNG
+}
+
+1910.1.1 = {
+	owner = CHI	
+	controller = CHI
+	add_core = QNG
+		}
+
+1923.1.1 = {
+owner = XBI
+controller = XBI
+add_core = XBI
+}
+1928.12.29 = {
+owner = NCN
+controller = NCN
+}
+1946.1.1 = {
+	owner = CHI
+	controller = CHI
+		}
+
+trade_goods = grain
+life_rating = 32

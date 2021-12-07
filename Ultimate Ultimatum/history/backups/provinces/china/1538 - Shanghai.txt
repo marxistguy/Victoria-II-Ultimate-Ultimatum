@@ -1,0 +1,57 @@
+owner = MNG
+controller = MNG
+add_core = MNG
+add_core = CHI
+1620.1.1 = {
+add_core = QNG
+}
+1650.1.1 = {
+owner = QNG
+controller = QNG
+remove_core = MNG
+}
+1911.10.10 = {
+owner = CHI
+controller = CHI
+}
+1923.1.1 = {
+owner = HUI
+controller = HUI
+add_core = HUI
+}
+1928.12.29 = {
+	owner = NCN	
+	controller = NCN
+	add_Core = NCN
+	state_building = {
+		level = 1
+		building = ammunition_factory
+		upgrade = yes
+	}
+	state_building = {
+		level = 1
+		building = canned_food_factory
+		upgrade = yes
+	}
+}
+1938.1.1 = {
+owner = JAP
+controller = JAP
+}
+1946.1.1 = {
+owner = NCN
+controller = NCN
+add_core = NCN
+}
+
+1950.1.1 = {
+	owner = CHI
+	controller = CHI
+		}
+
+2000.1.1 = {
+	naval_base = 5
+		}
+
+trade_goods = tea
+life_rating = 32

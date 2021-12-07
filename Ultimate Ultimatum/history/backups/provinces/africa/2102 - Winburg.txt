@@ -1,0 +1,19 @@
+owner = MUT
+controller = MUT
+add_core = MUT
+trade_goods = wool
+life_rating = 35
+
+1848.2.3 = {
+owner = ORA
+controller = ORA
+add_core = ORA
+add_core = SAF
+}
+
+1910.1.1 = {
+		owner = SAF
+		controller = SAF
+		}
+trade_goods = coal
+life_rating = 35

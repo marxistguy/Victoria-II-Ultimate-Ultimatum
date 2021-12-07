@@ -1,0 +1,52 @@
+life_rating = 35
+add_core = BAV
+add_core = GER
+add_core = REH
+trade_goods = coal
+
+
+1604.1.1 = { 
+owner = BAV
+controller = BAV
+}
+1806.8.6 = { remove_core = REH }
+#state_building = {
+#	level = 1
+#	building = glass_factory
+#	upgrade = yes
+#}
+#state_building = {
+#	level = 1
+#	building = winery
+#	upgrade = yes
+#}
+1861.1.1 = {
+railroad = 2
+state_building = {
+level = 1
+building = fabric_factory
+upgrade = yes
+}
+state_building = {
+level = 1
+building = glass_factory
+upgrade = yes
+}
+state_building = {
+level = 1
+building = liquor_distillery
+upgrade = yes
+}
+}
+1871.1.1 = { 
+owner = GER		
+controller = GER
+}
+1945.12.12 = { 
+owner = USA
+controller = USA
+}
+1950.1.1 = { 
+owner = GER
+controller = GER
+}

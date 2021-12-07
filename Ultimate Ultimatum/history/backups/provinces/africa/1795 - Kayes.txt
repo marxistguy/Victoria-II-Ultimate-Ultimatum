@@ -1,0 +1,19 @@
+owner = MLI
+controller = MLI
+add_core = MLI
+trade_goods = fruit
+life_rating = 20
+
+1859.1.1 = {
+owner = FRA
+controller = FRA
+colonial = 2
+}
+1935.1.1 = {
+	add_core = MLI
+		}
+1960.1.1 = {
+	owner = MLI
+	controller = MLI
+	colonial = 0
+		}

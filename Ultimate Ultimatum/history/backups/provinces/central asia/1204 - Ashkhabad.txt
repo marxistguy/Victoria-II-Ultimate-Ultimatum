@@ -1,0 +1,17 @@
+trade_goods = opium
+life_rating = 35
+1861.1.1 = {
+	owner = RUS
+	controller = RUS
+	colonial = 2
+}
+1917.1.1 = {
+	add_core = TRM
+		}
+1992.1.1 = {
+	owner = TRM
+	controller = TRM
+	colonial = 0
+		}
+
+

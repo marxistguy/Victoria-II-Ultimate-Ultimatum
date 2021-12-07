@@ -382,16 +382,16 @@ electric_furnace = 1 #until this for 1913
 
 
 1923.1.1 = {
-government = democracy 
+government = absolute_monarchy
 capital = 876
-ruling_party = TUR_liberal
+ruling_party = SAU_conservative
 prestige = 0
 }
 
 upper_house = {
 	fascist = 5
-	liberal = 60
-	conservative = 10
+	liberal = 10
+	conservative = 60
 	reactionary = 5
 	anarcho_liberal = 5
 	socialist = 10

@@ -1,0 +1,18 @@
+owner = TUR
+controller = TUR
+add_core = AUS
+1700.1.1 = {
+	controller = AUS
+	owner = AUS
+		}
+1867.3.30 = {
+owner = KUK
+controller = KUK 
+add_core = KUK}
+add_core = HUN
+1919.6.28 = { 
+		controller = HUN
+		owner = HUN
+		}
+trade_goods = cattle
+life_rating = 35

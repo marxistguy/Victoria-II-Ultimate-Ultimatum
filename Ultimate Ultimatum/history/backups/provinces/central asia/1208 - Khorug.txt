@@ -1,0 +1,24 @@
+owner = MUG
+controller = MUG
+
+1818.1.1 = {
+owner = BUK
+controller = BUK
+		}
+add_core = BUK
+1880.1.1 = {
+owner = RUS
+controller = RUS
+		}
+trade_goods = cattle
+life_rating = 35
+
+1917.1.1 = {
+	add_core = TAJ
+		}
+1992.1.1 = {
+	owner = TAJ
+	controller = TAJ
+	colonial = 0
+		}
+

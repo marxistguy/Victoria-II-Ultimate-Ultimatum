@@ -1,0 +1,31 @@
+owner = TRI
+controller = TRI
+add_core = LYB
+
+#There will be blood
+1910.1.1 = {
+	trade_goods = oil
+		}
+1914.7.28 = {
+	owner = ITA
+	controller = ITA
+	colonial = 2
+		}
+1946.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 0
+		}
+1950.1.1 = {
+	owner = LYB
+	controller = LYB
+		}
+
+add_core = TRI
+trade_goods = fruit
+life_rating = 35
+1861.1.1 = {
+	owner = TUR
+	controller = TUR
+	colonial = 0
+}

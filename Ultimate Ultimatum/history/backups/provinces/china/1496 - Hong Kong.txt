@@ -1,0 +1,44 @@
+owner = MNG
+controller = MNG
+add_core = MNG
+add_core = CHI
+add_core = GNG
+1620.1.1 = {
+add_core = QNG
+}
+1650.1.1 = {
+owner = QNG
+controller = QNG
+remove_core = MNG
+}
+
+1937.1.1 = {
+	owner = JAP	
+	controller = JAP
+	add_core = NCN
+		}
+1945.1.1 = {
+	owner = ENG	
+	controller = ENG
+	naval_base = 4
+	}
+1997.1.1 = {
+remove_core = CHI
+remove_core = NCN
+	owner = HKG
+controller = HKG
+	remove_core = ENG
+		}
+
+trade_goods = tea
+life_rating = 32
+1861.1.1 = {
+	owner = ENG
+	controller = ENG
+	add_core = HKG
+	colonial = 2
+}
+1861.1.1 = { 
+	fort = 1
+	naval_base = 1
+}

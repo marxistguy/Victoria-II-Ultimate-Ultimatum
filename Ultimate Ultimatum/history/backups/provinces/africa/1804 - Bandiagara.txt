@@ -1,0 +1,23 @@
+owner = TBK
+controller = TBK
+trade_goods = cattle
+life_rating = 32
+
+1660.1.1  = {
+owner = SEG
+controller = SEG
+add_core = SEG
+}
+1903.1.1 = {
+		owner = FRA
+		controller = FRA
+		colonial = 2
+		}
+1935.1.1 = {
+	add_core = MLI
+		}
+1960.1.1 = {
+	owner = MLI
+	controller = MLI
+	colonial = 0
+		}

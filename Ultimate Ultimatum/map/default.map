@@ -25,7 +25,7 @@ sea_starts = {
 	3313 3314 3315 3316 3317
 }
     
-definitions = "../mod/Ultimate Ultimatum v.1.0 beta/map/definition.csv"
+definitions = "../mod/Ultimate Ultimatum v1.0 beta/map/definition.csv"
 provinces = "provinces.bmp"
 positions = "positions.txt"
 terrain = "terrain.bmp"

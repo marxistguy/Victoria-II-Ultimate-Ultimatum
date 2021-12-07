@@ -1,0 +1,43 @@
+owner = PLC
+controller = PLC
+add_core = PLC
+add_core = GER
+add_core = PZN
+trade_goods = grain
+life_rating = 40
+
+1793.1.23 = {
+owner = PRU
+controller = PRU
+add_core = PRU
+}
+1807.6.9 = {
+owner = POL
+controller = POL
+add_core = POL
+}
+1815.6.9 = {
+owner = PRU
+controller = PRU
+}
+1861.1.1 = {
+state_building = {
+	level = 1
+	building = fertilizer_factory
+	upgrade = yes
+}
+}
+1870.1.1 = { 
+owner = NGF	
+controller = NGF
+add_core = NGF
+}
+1871.1.1 = { 
+owner = GER	
+controller = GER
+remove_core = NGF
+}
+1919.1.1 = { 
+owner = POL
+controller = POL
+}

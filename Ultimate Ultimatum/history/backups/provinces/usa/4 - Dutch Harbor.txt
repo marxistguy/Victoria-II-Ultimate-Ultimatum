@@ -1,0 +1,27 @@
+owner = ALT
+controller = ALT
+add_core = ALT
+1836.1.1 = {
+owner = RUS
+controller = RUS
+add_core = LSK
+remove_core = ALT
+colonial = 2
+		}
+trade_goods = fish
+life_rating = 20
+
+1867.1.1 = {
+	owner = USA
+	controller = USA
+	add_core = USA
+		}
+1950.1.1 = {
+	colonial = 0
+		}
+
+2023.1.1 = {
+	owner = LSK
+	controller = LSK
+	add_core = LSK
+		}

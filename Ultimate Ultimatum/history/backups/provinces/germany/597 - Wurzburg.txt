@@ -1,0 +1,42 @@
+life_rating = 35
+add_core = GER
+add_core = REH
+add_core = WUZ
+trade_goods = fruit
+
+
+1604.1.1 = { 
+owner = WUZ
+controller = WUZ
+}
+1803.3.24 = {
+owner = BAV
+controller = BAV
+add_core = BAV
+remove_core = WUZ
+}
+1805.12.26 = {
+owner = WUZ
+controller = WUZ
+remove_core = BAV
+}
+1806.8.6 = { remove_core = REH }
+1815.6.9 = {
+owner = BAV
+controller = BAV
+add_core = BAV
+remove_core = WUZ
+}
+1861.1.1 = { railroad = 3 }
+1871.1.1 = { 
+owner = GER		
+controller = GER
+}
+1945.12.12 = { 
+owner = USA
+controller = USA
+}
+1950.1.1 = { 
+owner = GER
+controller = GER
+}

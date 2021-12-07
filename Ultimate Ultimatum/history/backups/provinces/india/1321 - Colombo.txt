@@ -1,0 +1,29 @@
+owner = POR
+controller = POR
+1700.1.1 = {
+owner = NET
+controller = NET
+}
+1800.1.1 = {
+owner = ENG
+controller = ENG
+}
+
+#Rubber discovered!
+1880.1.1 = {
+	trade_goods = rubber
+		}
+
+#Decolonisation
+1947.1.1 = {
+	owner = HND
+	controller = HND
+	colonial = 0
+		}
+
+
+
+add_core = HND
+trade_goods = spices
+life_rating = 32
+colonial = 2

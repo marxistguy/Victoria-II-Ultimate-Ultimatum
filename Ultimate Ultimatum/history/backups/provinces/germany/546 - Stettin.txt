@@ -1,0 +1,69 @@
+life_rating = 35
+add_core = GER
+add_core = REH
+add_core = PMR
+naval_base = 1
+trade_goods = fish
+
+
+1604.1.1 = { 
+owner = PMR
+controller = PMR
+}
+1637.3.10 = { add_core = BDB }
+1701.1.18 = {
+add_core = PRU
+remove_core = BDB
+}
+1720.1.21 = {
+owner = PRU
+controller = PRU
+}
+1806.8.6 = { remove_core = REH }
+1806.10.29 = { controller = FRA }
+1813.12.5 = { controller = PRU }
+1861.1.1 = {
+railroad = 3
+state_building = {
+level = 1
+building = canned_food_factory
+upgrade = yes
+}
+state_building = {
+level = 1
+building = regular_clothes_factory
+upgrade = yes
+}
+}
+1870.1.1 = { 
+owner = NGF	
+controller = NGF
+add_core = NGF
+naval_base = 3
+}
+1871.1.1 = { 
+owner = GER	
+controller = GER
+remove_core = NGF
+}
+1936.1.1 = { naval_base = 6 }
+1939.1.1 = {
+state_building = {
+level = 1
+building = steel_factory
+upgrade = yes
+}
+state_building = {
+level = 5
+building = synthetic_oil_factory
+upgrade = yes
+}
+}
+#End of WW2
+1945.4.26 = { controller = RUS }
+1945.7.5 = {
+owner = POL
+controller = POL
+add_core = POL
+remove_core = GER
+}

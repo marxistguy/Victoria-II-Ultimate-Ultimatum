@@ -1,0 +1,28 @@
+trade_goods = fish
+life_rating = 25
+owner = XIN
+controller = XIN
+add_core = XIN
+1750.1.1 = {
+owner = QNG
+controller = QNG
+}
+1836.1.1 = {
+owner = XIN
+controller = XIN
+}
+1864.10.7 = {
+	owner = RUS
+	controller = RUS
+	add_core = RUS
+	remove_core = XIN
+	colonial = 2
+}
+
+1917.1.1 = {
+	add_core = KAZ
+		}
+1992.1.1 = {
+	owner = KAZ
+	controller = KAZ
+		}

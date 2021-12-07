@@ -1,0 +1,15 @@
+owner = NET
+controller = NET
+add_core = NET
+trade_goods = fish
+life_rating = 35
+
+1806.8.6 = { remove_core = REH }
+1810.7.9 = {
+owner = FRA
+controller = FRA
+}
+1813.10.19 = {
+owner = NET
+controller = NET
+}

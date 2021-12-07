@@ -1,0 +1,21 @@
+add_core = COL
+trade_goods = fish
+life_rating = 35
+1867.1.1 = {
+	owner = USA
+	controller = USA
+		}
+#add_core = USA
+1861.1.1 = {
+owner = USA
+controller = USA
+add_core = USA
+remove_core = COL
+}
+2022.3.7 = {
+owner = DES
+controller = DES
+add_core = USA
+remove_core = COL
+}
+

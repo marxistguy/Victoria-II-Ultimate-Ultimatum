@@ -1,0 +1,27 @@
+owner = DAI
+controller = DAI
+add_core = DAI
+
+#Rubber discovered!
+1880.1.1 = {
+	trade_goods = rubber
+		}
+1870.1.1 = {
+		owner = FRA
+		controller = FRA
+		colonial = 2
+		}
+
+1946.1.1 = {
+		owner = SVI
+		controller = SVI
+		add_core = SVI
+		colonial = 0
+		}
+1967.1.1 = {
+owner = DAI
+controlled = DAI
+remove_core = SVI }
+
+trade_goods = tropical_wood
+life_rating = 30
