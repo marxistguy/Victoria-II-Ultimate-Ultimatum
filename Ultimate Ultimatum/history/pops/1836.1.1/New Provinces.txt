@@ -1,0 +1,86 @@
+#Ortelsburg
+3318 = {
+    aristocrats = {
+        culture = north_german
+        religion = protestant
+        size = 1200
+    }
+
+    clergymen = {
+        culture = north_german
+        religion = protestant
+        size = 330
+    }
+
+    artisans = {
+        culture = north_german
+        religion = protestant
+        size = 1040
+    }
+
+    soldiers = {
+        culture = north_german
+        religion = protestant
+        size = 2200
+    }
+
+    farmers = {
+        culture = north_german
+        religion = protestant
+        size = 18814
+    }
+
+    labourers = {
+        culture = north_german
+        religion = protestant
+        size = 1516
+    }
+
+    clergymen = {
+        culture = polish
+        religion = protestant
+        size = 195
+    }
+
+    artisans = {
+        culture = polish
+        religion = protestant
+        size = 1080
+    }
+
+    soldiers = {
+        culture = polish
+        religion = protestant
+        size = 600
+    }
+
+    farmers = {
+        culture = polish
+        religion = protestant
+        size = 9025
+    }
+
+    clergymen = {
+        culture = polish
+        religion = protestant
+        size = 45
+    }
+
+    artisans = {
+        culture = polish
+        religion = protestant
+        size = 150
+    }
+
+    soldiers = {
+        culture = polish
+        religion = protestant
+        size = 300
+    }
+
+    farmers = {
+        culture = polish
+        religion = protestant
+        size = 2075
+    }
+}
