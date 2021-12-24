@@ -310,7 +310,7 @@ PRU_684 = { 684 685 689 2584 } #Upper Silesia
 
 PRU_690 = { 690 691 694 } #Westpreuﬂen
 
-PRU_695 = { 695 696 697 693 } #Ostpreuﬂen
+PRU_695 = { 695 696 697 693 3318 } #Ostpreuﬂen
 
 PRU_701 = { 701 699 700 } #Posen
 

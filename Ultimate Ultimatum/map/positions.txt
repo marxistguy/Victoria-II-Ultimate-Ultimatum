@@ -30121,25 +30121,15 @@
 
 # Elbing
 693 = {
-    unit = {
-        x = 3108.000000
-        y = 1711.000000
-    }
-
     text_position = {
-        x = 3106.800049
-        y = 1706.900024
+        x = 3106.200000
+        y = 1713.250000
     }
 
     text_scale = 2.300000
-    building_construction = {
-        x = 3111.399902
-        y = 1717.000000
-    }
-
-    military_construction = {
-        x = 3104.000000
-        y = 1705.000000
+    unit = {
+        x = 3106.450000
+        y = 1715.300000
     }
 
     factory = {
@@ -30147,10 +30137,20 @@
         y = 1702.000000
     }
 
+    building_construction = {
+        x = 3107.250000
+        y = 1710.700000
+    }
+
+    military_construction = {
+        x = 3109.200000
+        y = 1716.650000
+    }
+
     building_position = {
         fort = {
-            x = 3115.100098
-            y = 1719.500000
+            x = 3107.150000
+            y = 1717.850000
         }
 
         naval_base = {
@@ -30202,17 +30202,27 @@
 
 # Königsberg
 695 = {
-    unit = {
-        x = 3133.000000
-        y = 1728.000000
-    }
-
     text_position = {
-        x = 3133.300049
-        y = 1725.000000
+        x = 3141.280000
+        y = 1726.120000
     }
 
-    text_scale = 2.400000
+    text_scale = 3.400000
+    unit = {
+        x = 3138.580000
+        y = 1728.280000
+    }
+
+    city = {
+        x = 3124.420000
+        y = 1729.600000
+    }
+
+    factory = {
+        x = 3127.399902
+        y = 1729.900024
+    }
+
     building_construction = {
         x = 3142.000000
         y = 1732.000000
@@ -30221,11 +30231,6 @@
     military_construction = {
         x = 3128.000000
         y = 1723.099976
-    }
-
-    factory = {
-        x = 3127.399902
-        y = 1729.900024
     }
 
     building_position = {
@@ -30241,14 +30246,6 @@
 
     }
 
-    spawn_railway_track = {
-        {
-            x = 3115.000000
-            y = 1720.000000
-        }
-
-    }
-
     building_rotation = {
         naval_base = 1.483530
     }
@@ -30257,36 +30254,37 @@
 
 # Allenstein
 696 = {
-    unit = {
-        x = 3135.000000
-        y = 1709.000000
-    }
-
     text_position = {
-        x = 3133.899902
-        y = 1704.599976
+        x = 3125.550000
+        y = 1713.700000
     }
 
+    text_rotation = 5.508463
     text_scale = 2.500000
+    unit = {
+        x = 3127.050000
+        y = 1715.350000
+    }
+
+    factory = {
+        x = 3124.300000
+        y = 1712.250000
+    }
+
     building_construction = {
         x = 3145.000000
         y = 1710.000000
     }
 
     military_construction = {
-        x = 3125.000000
-        y = 1710.000000
-    }
-
-    factory = {
-        x = 3147.000000
-        y = 1717.000000
+        x = 3131.750000
+        y = 1713.500000
     }
 
     building_position = {
         fort = {
-            x = 3146.000000
-            y = 1703.000000
+            x = 3131.750000
+            y = 1713.500000
         }
 
     }
@@ -30296,31 +30294,36 @@
 # Gumbinnen
 697 = {
     text_position = {
-        x = 3153.300049
-        y = 1724.500000
+        x = 3116.296970
+        y = 1705.393939
     }
 
-    text_rotation = 0.523599
+    text_rotation = 5.967764
     text_scale = 2.300000
-    building_construction = {
-        x = 3156.800049
-        y = 1724.500000
-    }
-
-    military_construction = {
-        x = 3150.800049
-        y = 1724.400024
+    unit = {
+        x = 3116.250000
+        y = 1713.613636
     }
 
     factory = {
-        x = 3153.199951
-        y = 1733.000000
+        x = 3113.572727
+        y = 1710.701515
+    }
+
+    building_construction = {
+        x = 3116.400000
+        y = 1707.963333
+    }
+
+    military_construction = {
+        x = 3122.520000
+        y = 1700.596667
     }
 
     building_position = {
         fort = {
-            x = 3159.899902
-            y = 1731.099976
+            x = 3119.678788
+            y = 1710.936364
         }
 
     }
@@ -123125,6 +123128,32 @@
     unit = {
         x = 3181.883333
         y = 1889.208333
+    }
+
+}
+
+# Ortelsburg
+3318 = {
+    text_position = {
+        x = 3142.650000
+        y = 1704.500000
+    }
+
+    text_rotation = 0.201317
+    text_scale = 2.799999
+    unit = {
+        x = 3144.613636
+        y = 1707.690909
+    }
+
+    city = {
+        x = 3142.159091
+        y = 1711.700000
+    }
+
+    building_construction = {
+        x = 3132.700000
+        y = 1704.000000
     }
 
 }
